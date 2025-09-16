@@ -16,37 +16,73 @@ def load_transformation_mappings():
             'physical': ['region', 'area', 'land', 'environment'],
             'social': ['functional domain', 'community', 'group', 'organization'],
             'conceptual': ['conceptual domain', 'knowledge domain', 'intellectual area'],
-            'psychic': ['mode of awareness', 'consciousness', 'mental state']
+            'psychic': ['mode of awareness', 'consciousness', 'mental state'],
+            'network': ['network topology', 'neural space', 'computational domain'],
+            'cell': ['cellular environment', 'intracellular space', 'cell membrane boundary'],
+            'os': ['system space', 'kernel space', 'user space', 'runtime environment'],
+            'llm': ['model space', 'attention domain', 'transformer architecture'],
+            'github': ['enterprise', 'organization', 'repository ecosystem'],
+            'azure': ['tenant', 'subscription', 'resource group', 'cloud environment']
         },
         'organization': {
             'physical': ['building', 'settlement', 'structure', 'development'],
             'social': ['institution', 'group', 'community', 'network'],
             'conceptual': ['conceptual framework', 'knowledge system', 'theory'],
-            'psychic': ['structured awareness', 'organized thinking', 'mental framework']
+            'psychic': ['structured awareness', 'organized thinking', 'mental framework'],
+            'network': ['network architecture', 'neural network', 'topology structure'],
+            'cell': ['organelle structure', 'cellular organization', 'compartmentalization'],
+            'os': ['system architecture', 'kernel structure', 'process hierarchy'],
+            'llm': ['model structure', 'transformer blocks', 'attention mechanisms'],
+            'github': ['repositories', 'organizations', 'teams', 'enterprises'],
+            'azure': ['tenant architecture', 'organizational hierarchy', 'subscription structure']
         },
         'elements': {
             'physical': ['materials', 'rooms', 'spaces', 'buildings'],
             'social': ['members', 'participants', 'roles', 'positions'],
             'conceptual': ['concepts', 'ideas', 'methods', 'approaches'],
-            'psychic': ['perceptions', 'impressions', 'insights', 'experiences']
+            'psychic': ['perceptions', 'impressions', 'insights', 'experiences'],
+            'network': ['nodes', 'neurons', 'connections', 'weights'],
+            'cell': ['organelles', 'proteins', 'molecules', 'cellular components'],
+            'os': ['processes', 'threads', 'system calls', 'drivers'],
+            'llm': ['tokens', 'embeddings', 'parameters', 'attention heads'],
+            'github': ['commits', 'issues', 'pull requests', 'workflows'],
+            'azure': ['resources', 'services', 'applications', 'virtual machines']
         },
         'frameworks': {
             'physical': ['cities', 'towns', 'infrastructure', 'urban areas'],
             'social': ['institutions', 'organizations', 'systems', 'procedures'],
             'conceptual': ['paradigms', 'schools of thought', 'theoretical systems'],
-            'psychic': ['modes of awareness', 'mental structures', 'psychological patterns']
+            'psychic': ['modes of awareness', 'mental structures', 'psychological patterns'],
+            'network': ['network protocols', 'neural architectures', 'layer structures'],
+            'cell': ['metabolic pathways', 'cellular systems', 'organellar networks'],
+            'os': ['operating systems', 'distributed systems', 'kernel subsystems'],
+            'llm': ['transformer architectures', 'training pipelines', 'model families'],
+            'github': ['GitHub Actions', 'workflows', 'CI/CD pipelines', 'project structures'],
+            'azure': ['Azure services', 'cloud architectures', 'management groups']
         },
         'resources': {
             'physical': ['land', 'fertility', 'agriculture', 'natural resources'],
             'social': ['social resources', 'human resources', 'relationships'],
             'conceptual': ['creative resources', 'intellectual resources', 'knowledge'],
-            'psychic': ['psychic resources', 'mental energy', 'awareness']
+            'psychic': ['psychic resources', 'mental energy', 'awareness'],
+            'network': ['bandwidth', 'computational power', 'training data', 'memory'],
+            'cell': ['ATP', 'nutrients', 'genetic material', 'enzymes'],
+            'os': ['CPU time', 'memory', 'storage', 'system resources'],
+            'llm': ['training data', 'computational resources', 'model parameters', 'context'],
+            'github': ['code repositories', 'documentation', 'contributors', 'compute minutes'],
+            'azure': ['compute resources', 'storage', 'networking', 'identity services']
         },
         'relationships': {
             'physical': ['roads', 'connections', 'networks', 'proximity'],
             'social': ['communications', 'interactions', 'connections'],
             'conceptual': ['conceptual links', 'logical connections', 'associations'],
-            'psychic': ['associative relationships', 'mental connections', 'psychological links']
+            'psychic': ['associative relationships', 'mental connections', 'psychological links'],
+            'network': ['connections', 'synapses', 'data flows', 'network links'],
+            'cell': ['molecular interactions', 'signal transduction', 'transport pathways'],
+            'os': ['inter-process communication', 'system calls', 'network protocols'],
+            'llm': ['attention patterns', 'token relationships', 'model connections'],
+            'github': ['collaborations', 'forks', 'dependencies', 'workflow triggers'],
+            'azure': ['service connections', 'network links', 'identity mappings', 'resource dependencies']
         }
     }
 

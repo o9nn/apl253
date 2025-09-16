@@ -137,6 +137,54 @@ def identify_transformation_patterns(examples):
             'frameworks': ['modes of awareness', 'mental structures', 'psychological patterns'],
             'resources': ['psychic resources', 'mental energy', 'awareness'],
             'relationships': ['associative relationships', 'mental connections', 'psychological links']
+        },
+        'Network': {
+            'domain': ['network topology', 'neural space', 'computational domain'],
+            'organization': ['network architecture', 'neural network', 'topology structure'],
+            'elements': ['nodes', 'neurons', 'connections', 'weights'],
+            'frameworks': ['network protocols', 'neural architectures', 'layer structures'],
+            'resources': ['bandwidth', 'computational power', 'training data', 'memory'],
+            'relationships': ['connections', 'synapses', 'data flows', 'network links']
+        },
+        'Cell': {
+            'domain': ['cellular environment', 'intracellular space', 'cell membrane boundary'],
+            'organization': ['organelle structure', 'cellular organization', 'compartmentalization'],
+            'elements': ['organelles', 'proteins', 'molecules', 'cellular components'],
+            'frameworks': ['metabolic pathways', 'cellular systems', 'organellar networks'],
+            'resources': ['ATP', 'nutrients', 'genetic material', 'enzymes'],
+            'relationships': ['molecular interactions', 'signal transduction', 'transport pathways']
+        },
+        'OS': {
+            'domain': ['system space', 'kernel space', 'user space', 'runtime environment'],
+            'organization': ['system architecture', 'kernel structure', 'process hierarchy'],
+            'elements': ['processes', 'threads', 'system calls', 'drivers'],
+            'frameworks': ['operating systems', 'distributed systems', 'kernel subsystems'],
+            'resources': ['CPU time', 'memory', 'storage', 'system resources'],
+            'relationships': ['inter-process communication', 'system calls', 'network protocols']
+        },
+        'LLM': {
+            'domain': ['model space', 'attention domain', 'transformer architecture'],
+            'organization': ['model structure', 'transformer blocks', 'attention mechanisms'],
+            'elements': ['tokens', 'embeddings', 'parameters', 'attention heads'],
+            'frameworks': ['transformer architectures', 'training pipelines', 'model families'],
+            'resources': ['training data', 'computational resources', 'model parameters', 'context'],
+            'relationships': ['attention patterns', 'token relationships', 'model connections']
+        },
+        'GitHub': {
+            'domain': ['enterprise', 'organization', 'repository ecosystem'],
+            'organization': ['repositories', 'organizations', 'teams', 'enterprises'],
+            'elements': ['commits', 'issues', 'pull requests', 'workflows'],
+            'frameworks': ['GitHub Actions', 'workflows', 'CI/CD pipelines', 'project structures'],
+            'resources': ['code repositories', 'documentation', 'contributors', 'compute minutes'],
+            'relationships': ['collaborations', 'forks', 'dependencies', 'workflow triggers']
+        },
+        'Azure': {
+            'domain': ['tenant', 'subscription', 'resource group', 'cloud environment'],
+            'organization': ['tenant architecture', 'organizational hierarchy', 'subscription structure'],
+            'elements': ['resources', 'services', 'applications', 'virtual machines'],
+            'frameworks': ['Azure services', 'cloud architectures', 'management groups'],
+            'resources': ['compute resources', 'storage', 'networking', 'identity services'],
+            'relationships': ['service connections', 'network links', 'identity mappings', 'resource dependencies']
         }
     }
     

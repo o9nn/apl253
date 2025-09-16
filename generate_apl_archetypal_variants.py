@@ -17,49 +17,91 @@ def load_apl_transformation_mappings():
             'physical': ['regions', 'areas', 'territories', 'zones'],
             'social': ['communities', 'groups', 'networks', 'organizations'],
             'conceptual': ['domains', 'fields', 'disciplines', 'areas'],
-            'psychic': ['states', 'modes', 'realms', 'dimensions']
+            'psychic': ['states', 'modes', 'realms', 'dimensions'],
+            'network': ['network segments', 'topologies', 'domains', 'clusters'],
+            'cell': ['cellular regions', 'membrane zones', 'organellar territories', 'cellular domains'],
+            'os': ['memory regions', 'address spaces', 'system areas', 'kernel zones'],
+            'llm': ['model layers', 'attention regions', 'parameter spaces', 'feature domains'],
+            'github': ['organizations', 'enterprise regions', 'repository networks', 'team territories'],
+            'azure': ['tenants', 'subscriptions', 'regions', 'resource groups']
         },
         'towns': {
             'archetypal': 'settlements',
             'physical': ['towns', 'cities', 'villages', 'communities'],
             'social': ['organizations', 'institutions', 'groups', 'collectives'],
             'conceptual': ['systems', 'frameworks', 'structures', 'paradigms'],
-            'psychic': ['patterns', 'structures', 'formations', 'configurations']
+            'psychic': ['patterns', 'structures', 'formations', 'configurations'],
+            'network': ['network clusters', 'node groups', 'subnet communities', 'protocol families'],
+            'cell': ['organelle clusters', 'molecular complexes', 'cellular compartments', 'metabolic centers'],
+            'os': ['process groups', 'service clusters', 'system modules', 'kernel subsystems'],
+            'llm': ['model architectures', 'transformer blocks', 'layer groups', 'attention families'],
+            'github': ['repositories', 'project collections', 'workflow groups', 'action families'],
+            'azure': ['resource groups', 'service clusters', 'application groups', 'management hierarchies']
         },
         'buildings': {
             'archetypal': 'structures',
             'physical': ['buildings', 'structures', 'constructions', 'facilities'],
             'social': ['institutions', 'organizations', 'groups', 'entities'],
             'conceptual': ['concepts', 'ideas', 'frameworks', 'models'],
-            'psychic': ['patterns', 'forms', 'structures', 'configurations']
+            'psychic': ['patterns', 'forms', 'structures', 'configurations'],
+            'network': ['nodes', 'routers', 'switches', 'servers'],
+            'cell': ['organelles', 'protein complexes', 'molecular machines', 'cellular structures'],
+            'os': ['processes', 'services', 'modules', 'drivers'],
+            'llm': ['models', 'neural networks', 'transformer units', 'attention blocks'],
+            'github': ['repositories', 'projects', 'workflows', 'actions'],
+            'azure': ['resources', 'services', 'applications', 'components']
         },
         'streets': {
             'archetypal': 'pathways',
             'physical': ['streets', 'roads', 'paths', 'thoroughfares'],
             'social': ['connections', 'relationships', 'networks', 'communications'],
             'conceptual': ['links', 'associations', 'connections', 'relationships'],
-            'psychic': ['flows', 'currents', 'streams', 'channels']
+            'psychic': ['flows', 'currents', 'streams', 'channels'],
+            'network': ['connections', 'links', 'channels', 'pipelines'],
+            'cell': ['transport pathways', 'signaling cascades', 'molecular channels', 'membrane passages'],
+            'os': ['inter-process communication', 'system buses', 'network protocols', 'data pipelines'],
+            'llm': ['attention connections', 'data flows', 'information pathways', 'token streams'],
+            'github': ['collaborations', 'forks', 'pull requests', 'workflow triggers'],
+            'azure': ['network connections', 'service links', 'data pipelines', 'communication channels']
         },
         'spaces': {
             'archetypal': 'spaces',
             'physical': ['spaces', 'areas', 'places', 'locations'],
             'social': ['environments', 'contexts', 'settings', 'domains'],
             'conceptual': ['realms', 'spheres', 'domains', 'territories'],
-            'psychic': ['states', 'conditions', 'modes', 'dimensions']
+            'psychic': ['states', 'conditions', 'modes', 'dimensions'],
+            'network': ['address spaces', 'data spaces', 'memory pools', 'buffer zones'],
+            'cell': ['cytoplasm', 'nucleoplasm', 'organellar spaces', 'membrane environments'],
+            'os': ['memory spaces', 'virtual environments', 'execution contexts', 'namespace domains'],
+            'llm': ['embedding spaces', 'attention spaces', 'feature dimensions', 'representation realms'],
+            'github': ['workspaces', 'repository environments', 'action contexts', 'collaboration spaces'],
+            'azure': ['compute environments', 'storage spaces', 'network domains', 'security contexts']
         },
         'people': {
             'archetypal': 'agents',
             'physical': ['people', 'inhabitants', 'users', 'occupants'],
             'social': ['members', 'participants', 'actors', 'agents'],
             'conceptual': ['elements', 'components', 'factors', 'variables'],
-            'psychic': ['aspects', 'facets', 'elements', 'dimensions']
+            'psychic': ['aspects', 'facets', 'elements', 'dimensions'],
+            'network': ['nodes', 'endpoints', 'devices', 'clients'],
+            'cell': ['molecules', 'proteins', 'enzymes', 'cellular actors'],
+            'os': ['processes', 'threads', 'users', 'system actors'],
+            'llm': ['tokens', 'parameters', 'embeddings', 'model components'],
+            'github': ['contributors', 'maintainers', 'collaborators', 'developers'],
+            'azure': ['users', 'service principals', 'managed identities', 'resource actors']
         },
         'activities': {
             'archetypal': 'processes',
             'physical': ['activities', 'functions', 'uses', 'operations'],
             'social': ['interactions', 'communications', 'exchanges', 'processes'],
             'conceptual': ['operations', 'processes', 'functions', 'activities'],
-            'psychic': ['experiences', 'processes', 'activities', 'functions']
+            'psychic': ['experiences', 'processes', 'activities', 'functions'],
+            'network': ['data flows', 'computations', 'transmissions', 'processing'],
+            'cell': ['metabolism', 'protein synthesis', 'cellular processes', 'reactions'],
+            'os': ['system calls', 'process execution', 'operations', 'scheduling'],
+            'llm': ['inference', 'training', 'attention', 'generation'],
+            'github': ['commits', 'merges', 'deployments', 'workflows'],
+            'azure': ['provisioning', 'scaling', 'monitoring', 'deployments']
         }
     }
 
