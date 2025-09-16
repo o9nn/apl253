@@ -185,6 +185,54 @@ def identify_transformation_patterns(examples):
             'frameworks': ['Azure services', 'cloud architectures', 'management groups'],
             'resources': ['compute resources', 'storage', 'networking', 'identity services'],
             'relationships': ['service connections', 'network links', 'identity mappings', 'resource dependencies']
+        },
+        'PatternLanguage': {
+            'domain': ['pattern language', 'design space', 'pattern domain', 'architectural vocabulary'],
+            'organization': ['pattern hierarchy', 'language structure', 'pattern systems', 'design grammar'],
+            'elements': ['patterns', 'design patterns', 'architectural elements', 'language primitives'],
+            'frameworks': ['pattern libraries', 'design methodologies', 'architectural frameworks', 'pattern catalogs'],
+            'resources': ['design knowledge', 'pattern expertise', 'architectural wisdom', 'design principles'],
+            'relationships': ['pattern connections', 'design relationships', 'architectural links', 'pattern sequences']
+        },
+        'Ontology': {
+            'domain': ['ontological space', 'knowledge domain', 'conceptual universe', 'semantic realm'],
+            'organization': ['ontological structure', 'taxonomy', 'classification system', 'semantic hierarchy'],
+            'elements': ['concepts', 'entities', 'classes', 'instances', 'semantic units'],
+            'frameworks': ['ontological models', 'knowledge frameworks', 'semantic networks', 'classification schemes'],
+            'resources': ['semantic knowledge', 'conceptual resources', 'definitional content', 'meaning structures'],
+            'relationships': ['semantic relations', 'conceptual links', 'ontological connections', 'is-a relationships']
+        },
+        'Introspection': {
+            'domain': ['reflective space', 'self-awareness domain', 'introspective realm', 'metacognitive field'],
+            'organization': ['reflective structure', 'self-examination framework', 'introspective methodology'],
+            'elements': ['thoughts', 'reflections', 'self-observations', 'metacognitive insights', 'inner experiences'],
+            'frameworks': ['introspective practices', 'reflection methodologies', 'self-awareness systems'],
+            'resources': ['self-knowledge', 'reflective capacity', 'introspective skills', 'metacognitive abilities'],
+            'relationships': ['self-referential loops', 'reflective connections', 'introspective associations']
+        },
+        'Hypergraph': {
+            'domain': ['hypergraph space', 'higher-order network', 'multidimensional graph domain'],
+            'organization': ['hypergraph structure', 'hyperedge organization', 'multi-relational architecture'],
+            'elements': ['vertices', 'hyperedges', 'nodes', 'hyperlinks', 'multi-dimensional connections'],
+            'frameworks': ['hypergraph models', 'higher-order networks', 'multi-relational systems'],
+            'resources': ['connectivity patterns', 'hyperedge capacity', 'structural complexity', 'relational richness'],
+            'relationships': ['hyperedge connections', 'multi-way relations', 'higher-order associations']
+        },
+        'Autognosis': {
+            'domain': ['self-knowing realm', 'auto-generative space', 'self-creating domain', 'autonomous field'],
+            'organization': ['self-organizing structure', 'auto-generative system', 'self-creating architecture'],
+            'elements': ['self-aware agents', 'auto-generative processes', 'self-creating entities', 'autonomous units'],
+            'frameworks': ['self-organizing systems', 'auto-generative frameworks', 'self-creating methodologies'],
+            'resources': ['self-knowledge', 'auto-generative potential', 'self-creating energy', 'autonomous capacity'],
+            'relationships': ['self-referential connections', 'auto-generative links', 'self-creating associations']
+        },
+        'Transformation': {
+            'domain': ['transformation space', 'metamorphic realm', 'change domain', 'evolutionary field'],
+            'organization': ['transformation architecture', 'change structure', 'metamorphic organization'],
+            'elements': ['transformers', 'change agents', 'metamorphic processes', 'evolutionary mechanisms'],
+            'frameworks': ['transformation methodologies', 'change frameworks', 'metamorphic systems'],
+            'resources': ['transformative energy', 'change potential', 'metamorphic capacity', 'evolutionary force'],
+            'relationships': ['transformation chains', 'change connections', 'metamorphic links', 'evolutionary relationships']
         }
     }
     

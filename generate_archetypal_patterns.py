@@ -22,7 +22,13 @@ def load_transformation_mappings():
             'os': ['system space', 'kernel space', 'user space', 'runtime environment'],
             'llm': ['model space', 'attention domain', 'transformer architecture'],
             'github': ['enterprise', 'organization', 'repository ecosystem'],
-            'azure': ['tenant', 'subscription', 'resource group', 'cloud environment']
+            'azure': ['tenant', 'subscription', 'resource group', 'cloud environment'],
+            'patternlanguage': ['pattern language', 'design space', 'pattern domain', 'architectural vocabulary'],
+            'ontology': ['ontological space', 'knowledge domain', 'conceptual universe', 'semantic realm'],
+            'introspection': ['reflective space', 'self-awareness domain', 'introspective realm', 'metacognitive field'],
+            'hypergraph': ['hypergraph space', 'higher-order network', 'multidimensional graph domain'],
+            'autognosis': ['self-knowing realm', 'auto-generative space', 'self-creating domain', 'autonomous field'],
+            'transformation': ['transformation space', 'metamorphic realm', 'change domain', 'evolutionary field']
         },
         'organization': {
             'physical': ['building', 'settlement', 'structure', 'development'],
@@ -34,7 +40,13 @@ def load_transformation_mappings():
             'os': ['system architecture', 'kernel structure', 'process hierarchy'],
             'llm': ['model structure', 'transformer blocks', 'attention mechanisms'],
             'github': ['repositories', 'organizations', 'teams', 'enterprises'],
-            'azure': ['tenant architecture', 'organizational hierarchy', 'subscription structure']
+            'azure': ['tenant architecture', 'organizational hierarchy', 'subscription structure'],
+            'patternlanguage': ['pattern hierarchy', 'language structure', 'pattern systems', 'design grammar'],
+            'ontology': ['ontological structure', 'taxonomy', 'classification system', 'semantic hierarchy'],
+            'introspection': ['reflective structure', 'self-examination framework', 'introspective methodology'],
+            'hypergraph': ['hypergraph structure', 'hyperedge organization', 'multi-relational architecture'],
+            'autognosis': ['self-organizing structure', 'auto-generative system', 'self-creating architecture'],
+            'transformation': ['transformation architecture', 'change structure', 'metamorphic organization']
         },
         'elements': {
             'physical': ['materials', 'rooms', 'spaces', 'buildings'],
@@ -46,7 +58,13 @@ def load_transformation_mappings():
             'os': ['processes', 'threads', 'system calls', 'drivers'],
             'llm': ['tokens', 'embeddings', 'parameters', 'attention heads'],
             'github': ['commits', 'issues', 'pull requests', 'workflows'],
-            'azure': ['resources', 'services', 'applications', 'virtual machines']
+            'azure': ['resources', 'services', 'applications', 'virtual machines'],
+            'patternlanguage': ['patterns', 'design patterns', 'architectural elements', 'language primitives'],
+            'ontology': ['concepts', 'entities', 'classes', 'instances', 'semantic units'],
+            'introspection': ['thoughts', 'reflections', 'self-observations', 'metacognitive insights', 'inner experiences'],
+            'hypergraph': ['vertices', 'hyperedges', 'nodes', 'hyperlinks', 'multi-dimensional connections'],
+            'autognosis': ['self-aware agents', 'auto-generative processes', 'self-creating entities', 'autonomous units'],
+            'transformation': ['transformers', 'change agents', 'metamorphic processes', 'evolutionary mechanisms']
         },
         'frameworks': {
             'physical': ['cities', 'towns', 'infrastructure', 'urban areas'],
@@ -58,7 +76,13 @@ def load_transformation_mappings():
             'os': ['operating systems', 'distributed systems', 'kernel subsystems'],
             'llm': ['transformer architectures', 'training pipelines', 'model families'],
             'github': ['GitHub Actions', 'workflows', 'CI/CD pipelines', 'project structures'],
-            'azure': ['Azure services', 'cloud architectures', 'management groups']
+            'azure': ['Azure services', 'cloud architectures', 'management groups'],
+            'patternlanguage': ['pattern libraries', 'design methodologies', 'architectural frameworks', 'pattern catalogs'],
+            'ontology': ['ontological models', 'knowledge frameworks', 'semantic networks', 'classification schemes'],
+            'introspection': ['introspective practices', 'reflection methodologies', 'self-awareness systems'],
+            'hypergraph': ['hypergraph models', 'higher-order networks', 'multi-relational systems'],
+            'autognosis': ['self-organizing systems', 'auto-generative frameworks', 'self-creating methodologies'],
+            'transformation': ['transformation methodologies', 'change frameworks', 'metamorphic systems']
         },
         'resources': {
             'physical': ['land', 'fertility', 'agriculture', 'natural resources'],
@@ -70,7 +94,13 @@ def load_transformation_mappings():
             'os': ['CPU time', 'memory', 'storage', 'system resources'],
             'llm': ['training data', 'computational resources', 'model parameters', 'context'],
             'github': ['code repositories', 'documentation', 'contributors', 'compute minutes'],
-            'azure': ['compute resources', 'storage', 'networking', 'identity services']
+            'azure': ['compute resources', 'storage', 'networking', 'identity services'],
+            'patternlanguage': ['design knowledge', 'pattern expertise', 'architectural wisdom', 'design principles'],
+            'ontology': ['semantic knowledge', 'conceptual resources', 'definitional content', 'meaning structures'],
+            'introspection': ['self-knowledge', 'reflective capacity', 'introspective skills', 'metacognitive abilities'],
+            'hypergraph': ['connectivity patterns', 'hyperedge capacity', 'structural complexity', 'relational richness'],
+            'autognosis': ['self-knowledge', 'auto-generative potential', 'self-creating energy', 'autonomous capacity'],
+            'transformation': ['transformative energy', 'change potential', 'metamorphic capacity', 'evolutionary force']
         },
         'relationships': {
             'physical': ['roads', 'connections', 'networks', 'proximity'],
@@ -82,7 +112,13 @@ def load_transformation_mappings():
             'os': ['inter-process communication', 'system calls', 'network protocols'],
             'llm': ['attention patterns', 'token relationships', 'model connections'],
             'github': ['collaborations', 'forks', 'dependencies', 'workflow triggers'],
-            'azure': ['service connections', 'network links', 'identity mappings', 'resource dependencies']
+            'azure': ['service connections', 'network links', 'identity mappings', 'resource dependencies'],
+            'patternlanguage': ['pattern connections', 'design relationships', 'architectural links', 'pattern sequences'],
+            'ontology': ['semantic relations', 'conceptual links', 'ontological connections', 'is-a relationships'],
+            'introspection': ['self-referential loops', 'reflective connections', 'introspective associations'],
+            'hypergraph': ['hyperedge connections', 'multi-way relations', 'higher-order associations'],
+            'autognosis': ['self-referential connections', 'auto-generative links', 'self-creating associations'],
+            'transformation': ['transformation chains', 'change connections', 'metamorphic links', 'evolutionary relationships']
         }
     }
 
