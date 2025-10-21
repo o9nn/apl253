@@ -35,6 +35,10 @@ The Pattern Language has been converted to OpenCog's Atomese format for knowledg
   - `meta_pattern.scm` - Meta-pattern
   - `categories.scm` - Categories with InheritanceLinks
   - `sequences.scm` - Sequences with MemberLinks
+  - **Enhanced Features:**
+    - `pattern_language_enhanced.scm` - Enhanced with diagrams, details, and connections
+    - `relationship_types.scm` - Pattern relationship types (complement, conflict, alternative)
+    - `patterns/` - Individual .scm files for modular loading
 
 The Atomese format enables:
 - Pattern matching and reasoning in OpenCog
@@ -42,16 +46,30 @@ The Atomese format enables:
 - Knowledge graph navigation and inference
 - Integration with AI/AGI systems
 
-See `opencog_atomese/README.md` for usage examples and pattern matching queries.
+See `opencog_atomese/README.md` for usage examples and `opencog_atomese/ENHANCEMENTS.md` for enhanced features documentation.
 
 ### Generating Atomese Files
 
 ```bash
+# Generate base Atomese files
 python3 generate_opencog_atomese.py
+
+# Generate enhanced features
+python3 generate_enhanced_atomese.py
 ```
 
 ### Testing Atomese Files
 
 ```bash
+# Test base files
 python3 test_opencog_atomese.py
+
+# Test enhanced features
+python3 test_enhanced_atomese.py
+```
+
+### Demo Enhanced Features
+
+```bash
+python3 demo_enhanced_atomese.py
 ```
