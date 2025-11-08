@@ -549,8 +549,194 @@ including pattern generation, domain transformation, validation, and queries.
     success_count! = #{t | t ∈ results! ∧ 
                           ¬(t.transformed_text contains "{{")}
     
-    /* Should be 102 patterns × 4 domains = 408 transformations */
-    #results! = 408
+    /* Should be 253 patterns × 4 domains = 1012 transformations */
+    #results! = 1012
+
+═══════════════════════════════════════════════════════════════════════════════
+ SECTION 6: PATTERN HIERARCHY NAVIGATION OPERATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+┌─ GetBroaderPatterns ──────────────────────────────────────────────────────┐
+│ Retrieve all broader (higher-level) patterns for a given pattern           │
+└───────────────────────────────────────────────────────────────────────────┘
+  GetBroaderPatterns
+    ΞArchetypalRegistry
+    pattern_id?: String
+    broader_patterns!: seq ArchetypalPattern
+    found!: 𝔹
+  where
+    /* Pattern must exist in registry */
+    pattern_id? ∈ dom archetypal_registry.patterns
+    
+    /* Look up the pattern */
+    found! ⟺ pattern_id? ∈ dom archetypal_registry.patterns
+    
+    found! ⇒
+      let source_pattern == archetypal_registry.patterns(pattern_id?) •
+        broader_patterns! = ⟨bp | 
+          bp_id ∈ source_pattern.broader_patterns,
+          bp_id ∈ dom archetypal_registry.patterns,
+          bp = archetypal_registry.patterns(bp_id)⟩
+    
+    ¬found! ⇒
+      broader_patterns! = ⟨⟩
+
+
+┌─ GetNarrowerPatterns ─────────────────────────────────────────────────────┐
+│ Retrieve all narrower (lower-level) patterns for a given pattern           │
+└───────────────────────────────────────────────────────────────────────────┘
+  GetNarrowerPatterns
+    ΞArchetypalRegistry
+    pattern_id?: String
+    narrower_patterns!: seq ArchetypalPattern
+    found!: 𝔹
+  where
+    /* Pattern must exist in registry */
+    pattern_id? ∈ dom archetypal_registry.patterns
+    
+    /* Look up the pattern */
+    found! ⟺ pattern_id? ∈ dom archetypal_registry.patterns
+    
+    found! ⇒
+      let source_pattern == archetypal_registry.patterns(pattern_id?) •
+        narrower_patterns! = ⟨np | 
+          np_id ∈ source_pattern.narrower_patterns,
+          np_id ∈ dom archetypal_registry.patterns,
+          np = archetypal_registry.patterns(np_id)⟩
+    
+    ¬found! ⇒
+      narrower_patterns! = ⟨⟩
+
+
+┌─ TraversePatternHierarchy ────────────────────────────────────────────────┐
+│ Traverse the pattern hierarchy starting from a given pattern, visiting     │
+│ all patterns reachable through broader or narrower relationships           │
+└───────────────────────────────────────────────────────────────────────────┘
+  TraversePatternHierarchy
+    ΞArchetypalRegistry
+    start_pattern_id?: String
+    direction?: {broader, narrower, both}
+    max_depth?: ℕ
+    visited_patterns!: seq ArchetypalPattern
+    traversal_depth!: ℕ
+  where
+    /* Starting pattern must exist */
+    start_pattern_id? ∈ dom archetypal_registry.patterns
+    
+    /* Max depth must be reasonable */
+    max_depth? > 0 ∧ max_depth? ≤ 253
+    
+    /* Traverse based on direction */
+    direction? = broader ⇒
+      visited_patterns! = BreadthFirstTraversal(
+        start_pattern_id?, 
+        λ p • p.broader_patterns,
+        max_depth?)
+    
+    direction? = narrower ⇒
+      visited_patterns! = BreadthFirstTraversal(
+        start_pattern_id?,
+        λ p • p.narrower_patterns,
+        max_depth?)
+    
+    direction? = both ⇒
+      visited_patterns! = BreadthFirstTraversal(
+        start_pattern_id?,
+        λ p • p.broader_patterns ⊕ p.narrower_patterns,
+        max_depth?)
+    
+    /* Calculate actual traversal depth */
+    traversal_depth! = MaxDistanceFromStart(visited_patterns!)
+
+
+┌─ FindPatternPath ─────────────────────────────────────────────────────────┐
+│ Find the shortest path between two patterns in the hierarchy               │
+└───────────────────────────────────────────────────────────────────────────┘
+  FindPatternPath
+    ΞArchetypalRegistry
+    start_pattern_id?: String
+    target_pattern_id?: String
+    path!: seq String
+    distance!: ℕ
+    found!: 𝔹
+  where
+    /* Both patterns must exist */
+    start_pattern_id? ∈ dom archetypal_registry.patterns ∧
+    target_pattern_id? ∈ dom archetypal_registry.patterns
+    
+    /* Find shortest path using bidirectional search */
+    found! ⟺ 
+      ∃ connecting_path: seq String •
+        connecting_path(0) = start_pattern_id? ∧
+        connecting_path(#connecting_path - 1) = target_pattern_id? ∧
+        ∀ i: 0..(#connecting_path - 2) •
+          let current == archetypal_registry.patterns(connecting_path(i)),
+              next == connecting_path(i + 1) •
+            next ∈ current.broader_patterns ∪ current.narrower_patterns
+    
+    found! ⇒
+      path! = ShortestPath(start_pattern_id?, target_pattern_id?) ∧
+      distance! = #path! - 1
+    
+    ¬found! ⇒
+      path! = ⟨⟩ ∧
+      distance! = 0
+
+
+┌─ GetPatternLineage ───────────────────────────────────────────────────────┐
+│ Get the complete lineage from a pattern to the root pattern                │
+└───────────────────────────────────────────────────────────────────────────┘
+  GetPatternLineage
+    ΞArchetypalRegistry
+    pattern_id?: String
+    lineage!: seq ArchetypalPattern
+    depth!: ℕ
+  where
+    /* Pattern must exist */
+    pattern_id? ∈ dom archetypal_registry.patterns
+    
+    /* Recursively follow broader patterns to root */
+    lineage! = ⟨p | 
+      p = TraceToRoot(pattern_id?, archetypal_registry.patterns)⟩
+    
+    /* First element should be the root pattern (12610010) */
+    #lineage! > 0 ⇒ lineage!(0).pattern_id = "12610010"
+    
+    /* Last element should be the starting pattern */
+    #lineage! > 0 ⇒ 
+      lineage!(#lineage! - 1).pattern_id = pattern_id?
+    
+    /* Depth is number of levels from root */
+    depth! = #lineage! - 1
+
+
+┌─ ValidatePatternRelationships ────────────────────────────────────────────┐
+│ Validate that all pattern relationships are consistent and bidirectional   │
+└───────────────────────────────────────────────────────────────────────────┘
+  ValidatePatternRelationships
+    ΞArchetypalRegistry
+    inconsistencies!: seq String
+    is_valid!: 𝔹
+  where
+    /* Check bidirectional consistency */
+    inconsistencies! = ⟨error_msg |
+      pid ∈ dom archetypal_registry.patterns,
+      let p == archetypal_registry.patterns(pid) •
+        (∃ bp ∈ p.broader_patterns •
+          bp ∈ dom archetypal_registry.patterns ∧
+          let broader == archetypal_registry.patterns(bp) •
+            pid ∉ broader.narrower_patterns ∧
+            error_msg = "Pattern " ⌢ pid ⌢ " has broader " ⌢ bp ⌢
+                       " but is not in its narrower patterns") ∨
+        (∃ np ∈ p.narrower_patterns •
+          np ∈ dom archetypal_registry.patterns ∧
+          let narrower == archetypal_registry.patterns(np) •
+            pid ∉ narrower.broader_patterns ∧
+            error_msg = "Pattern " ⌢ pid ⌢ " has narrower " ⌢ np ⌢
+                       " but is not in its broader patterns")⟩
+    
+    /* Valid if no inconsistencies found */
+    is_valid! ⟺ inconsistencies! = ⟨⟩
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  END OF OPERATIONS SPECIFICATION

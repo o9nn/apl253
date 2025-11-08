@@ -90,12 +90,14 @@ contexts.
 ═══════════════════════════════════════════════════════════════════════════════
 
 ┌─ ArchetypalRegistry ──────────────────────────────────────────────────────┐
-│ Registry for all archetypal patterns with their domain mappings            │
+│ Registry for all archetypal patterns with their domain mappings and        │
+│ hierarchical relationships. Contains all 253 patterns from the UIA system. │
 └───────────────────────────────────────────────────────────────────────────┘
   ArchetypalRegistry
     patterns: String ⇶ ArchetypalPattern
     placeholder_registry: PlaceholderName ⇶ PlaceholderDefinition
     loaded_archetypes: ℙ String
+    relationship_graph: String ⇶ (ℙ String × ℙ String)
   where
     /* All patterns indexed by their pattern_id */
     ∀ pid ∈ dom patterns • patterns(pid).pattern_id = pid
@@ -103,8 +105,8 @@ contexts.
     /* All pattern IDs are valid UIA identifiers */
     ∀ pid ∈ dom patterns • #pid ≥ 8
     
-    /* Total of 102 archetypal patterns */
-    #(dom patterns) = 102
+    /* Total of 253 archetypal patterns */
+    #(dom patterns) = 253
     
     /* All patterns are well-formed */
     ∀ pid ∈ dom patterns • ValidArchetypalPattern(patterns(pid))
@@ -119,6 +121,30 @@ contexts.
     
     /* Loaded archetypes must be subset of available patterns */
     loaded_archetypes ⊆ dom patterns
+    
+    /* Relationship graph must be consistent with pattern relationships */
+    ∀ pid ∈ dom patterns •
+      let p = patterns(pid) in
+      relationship_graph(pid) = 
+        ({bp | bp ∈ p.broader_patterns}, 
+         {np | np ∈ p.narrower_patterns})
+    
+    /* All relationships must be bidirectional */
+    ∀ pid ∈ dom patterns •
+      let p = patterns(pid) in
+      (∀ bp ∈ p.broader_patterns • 
+        bp ∈ dom patterns ⇒ 
+          pid ∈ patterns(bp).narrower_patterns) ∧
+      (∀ np ∈ p.narrower_patterns •
+        np ∈ dom patterns ⇒
+          pid ∈ patterns(np).broader_patterns)
+    
+    /* First pattern (12610010) has no broader patterns */
+    "12610010" ∈ dom patterns ⇒
+      patterns("12610010").broader_patterns = ⟨⟩
+    
+    /* Relationship graph is acyclic (no pattern can be ancestor of itself) */
+    ∀ pid ∈ dom patterns • ¬IsAncestorOf(pid, pid, relationship_graph)
 
 
 ┌─ DomainMappingCache ──────────────────────────────────────────────────────┐

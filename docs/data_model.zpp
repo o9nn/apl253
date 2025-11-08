@@ -220,7 +220,9 @@ including APL patterns, archetypal patterns, and domain transformation structure
 
 ┌─ ArchetypalPattern ───────────────────────────────────────────────────────┐
 │ A generalized pattern template using placeholder syntax {{name}} that      │
-│ can be transformed into domain-specific variants                           │
+│ can be transformed into domain-specific variants. Patterns are organized   │
+│ hierarchically with broader (higher-level) and narrower (lower-level)      │
+│ relationships forming a connected network.                                  │
 └───────────────────────────────────────────────────────────────────────────┘
   ArchetypalPattern
     pattern_id: String
@@ -230,26 +232,36 @@ including APL patterns, archetypal patterns, and domain transformation structure
     placeholders: seq PlaceholderName
     domain_mappings: PlaceholderName ⇶ DomainMapping
     source_file: String
+    broader_patterns: seq String
+    narrower_patterns: seq String
   where
     /* Pattern ID must be a valid UIA pattern number */
     ∃ digits: seq Char | pattern_id = ⟨digits⟩ ∧ #pattern_id ≥ 8
     
-    /* Archetypal pattern must contain at least one placeholder */
-    ∃ ph: PlaceholderName | ph ∈ placeholders
+    /* Archetypal pattern or template must be present */
+    archetypal_pattern ≠ "" ∨ original_template ≠ ""
+    
+    /* If archetypal pattern exists, it should contain placeholders */
+    archetypal_pattern ≠ "" ⇒ 
+      (placeholders ≠ ⟨⟩ ∧
+       ∀ ph ∈ placeholders • archetypal_pattern contains ("{{" ⌢ ph ⌢ "}}"))
     
     /* All placeholders used in pattern must have domain mappings */
     ∀ ph: PlaceholderName | ph ∈ placeholders ⇒ ph ∈ dom domain_mappings
     
-    /* Archetypal pattern must contain placeholder syntax */
-    ∀ ph ∈ placeholders • 
-      archetypal_pattern contains ("{{" ⌢ ph ⌢ "}}")
-    
-    /* Original template should be the archetypal pattern with placeholders resolved */
-    original_template ≠ ""
-    
     /* Domain mappings must be consistent across all placeholders */
     ∀ ph ∈ dom domain_mappings • 
       domain_mappings(ph).placeholder = ph
+    
+    /* Pattern relationships must reference valid pattern IDs */
+    ∀ pid ∈ broader_patterns ∪ narrower_patterns •
+      ∃ digits: seq Char | pid = ⟨digits⟩ ∧ #pid ≥ 8
+    
+    /* Broader patterns should have smaller pattern numbers (earlier in sequence) */
+    ∀ bp ∈ broader_patterns • bp < pattern_id
+    
+    /* Narrower patterns should have larger pattern numbers (later in sequence) */
+    ∀ np ∈ narrower_patterns • np > pattern_id
 
 
 ┌─ PlaceholderDefinition ───────────────────────────────────────────────────┐
@@ -269,7 +281,9 @@ including APL patterns, archetypal patterns, and domain transformation structure
 
 
 ┌─ ArchetypalPatternCollection ────────────────────────────────────────────┐
-│ Complete collection of all archetypal patterns with metadata               │
+│ Complete collection of all archetypal patterns with metadata and           │
+│ hierarchical relationships. Contains all 253 patterns from the UIA         │
+│ pattern language system.                                                    │
 └───────────────────────────────────────────────────────────────────────────┘
   ArchetypalPatternCollection
     title: String
@@ -283,6 +297,9 @@ including APL patterns, archetypal patterns, and domain transformation structure
     /* Number of patterns must match count */
     #patterns = total_patterns
     
+    /* All 253 patterns from UIA system */
+    total_patterns = 253
+    
     /* Format must describe placeholder syntax */
     format contains "{{"
     
@@ -294,8 +311,26 @@ including APL patterns, archetypal patterns, and domain transformation structure
     ∀ pd: PlaceholderDefinition | pd ∈ placeholder_definitions ⇒
       ∃ p: ArchetypalPattern | p ∈ patterns ∧ pd.placeholder ∈ p.placeholders
     
-    /* Total of 102 archetypal patterns */
-    total_patterns = 102
+    /* Pattern relationship network must be consistent */
+    ∀ p: ArchetypalPattern | p ∈ patterns ⇒
+      (∀ bp ∈ p.broader_patterns •
+        ∃ broader: ArchetypalPattern | 
+          broader ∈ patterns ∧ broader.pattern_id = bp ∧
+          p.pattern_id ∈ broader.narrower_patterns) ∧
+      (∀ np ∈ p.narrower_patterns •
+        ∃ narrower: ArchetypalPattern |
+          narrower ∈ patterns ∧ narrower.pattern_id = np ∧
+          p.pattern_id ∈ narrower.broader_patterns)
+    
+    /* First pattern (12610010) should have no broader patterns */
+    ∃ first: ArchetypalPattern | 
+      first ∈ patterns ∧ first.pattern_id = "12610010" ⇒
+        first.broader_patterns = ⟨⟩
+    
+    /* Last patterns may have no narrower patterns (leaf nodes) */
+    ∃ leaves: ℙ ArchetypalPattern | 
+      leaves ⊆ patterns ∧
+      (∀ leaf ∈ leaves • leaf.narrower_patterns = ⟨⟩)
 
 ═══════════════════════════════════════════════════════════════════════════════
  SECTION 4: DOMAIN TRANSFORMATION STRUCTURES
@@ -351,7 +386,8 @@ including APL patterns, archetypal patterns, and domain transformation structure
 
 
 ┌─ ValidArchetypalPattern ──────────────────────────────────────────────────┐
-│ Predicate determining if an ArchetypalPattern is well-formed               │
+│ Predicate determining if an ArchetypalPattern is well-formed with proper   │
+│ hierarchical relationships                                                  │
 └───────────────────────────────────────────────────────────────────────────┘
   ValidArchetypalPattern: ArchetypalPattern → 𝔹
   
@@ -359,11 +395,14 @@ including APL patterns, archetypal patterns, and domain transformation structure
     ValidArchetypalPattern(ap) ⟺
       ap.pattern_id ≠ "" ∧
       ap.name ≠ "" ∧
-      ap.archetypal_pattern ≠ "" ∧
-      ap.placeholders ≠ ⟨⟩ ∧
-      (∀ ph ∈ ap.placeholders • ph ∈ dom ap.domain_mappings) ∧
-      (∀ ph ∈ ap.placeholders • 
-        ap.archetypal_pattern contains ("{{" ⌢ ph ⌢ "}}"))
+      (ap.archetypal_pattern ≠ "" ∨ ap.original_template ≠ "") ∧
+      (ap.archetypal_pattern ≠ "" ⇒
+        (ap.placeholders ≠ ⟨⟩ ∧
+         ∀ ph ∈ ap.placeholders • ph ∈ dom ap.domain_mappings ∧
+         ∀ ph ∈ ap.placeholders • 
+           ap.archetypal_pattern contains ("{{" ⌢ ph ⌢ "}}"))) ∧
+      (∀ bp ∈ ap.broader_patterns • bp < ap.pattern_id) ∧
+      (∀ np ∈ ap.narrower_patterns • np > ap.pattern_id)
 
 
 ┌─ CompleteDomainMapping ───────────────────────────────────────────────────┐
