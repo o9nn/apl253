@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "UIA Archetypal Patterns",
-    "description": "Archetypal patterns extracted from UIA templates with domain-specific placeholders",
-    "total_patterns": 102,
+    "description": "All 253 archetypal patterns with relationships",
+    "total_patterns": 253,
     "source_directory": "markdown/arc",
     "format": "generic {{domain-specific}} generic"
   },
@@ -78,7 +78,12 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610010.md"
+      "source_file": "arc_12610010.md",
+      "broader_patterns": [],
+      "narrower_patterns": [
+        "12610020",
+        "12610040"
+      ]
     },
     {
       "pattern_id": "12610020",
@@ -153,7 +158,16 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610020.md"
+      "source_file": "arc_12610020.md",
+      "broader_patterns": [
+        "12610010"
+      ],
+      "narrower_patterns": [
+        "12610070",
+        "12610060",
+        "12610040",
+        "12610030"
+      ]
     },
     {
       "pattern_id": "12610030",
@@ -230,7 +244,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610030.md"
+      "source_file": "arc_12610030.md",
+      "broader_patterns": [
+        "12610020"
+      ],
+      "narrower_patterns": [
+        "12610170",
+        "12610100",
+        "12610070",
+        "12610210",
+        "12610050",
+        "12610080",
+        "12610110",
+        "12610160",
+        "12610040"
+      ]
     },
     {
       "pattern_id": "12610040",
@@ -307,7 +335,15 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610040.md"
+      "source_file": "arc_12610040.md",
+      "broader_patterns": [
+        "12610010",
+        "12610020",
+        "12610030"
+      ],
+      "narrower_patterns": [
+        "12610070"
+      ]
     },
     {
       "pattern_id": "12610050",
@@ -382,7 +418,16 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610050.md"
+      "source_file": "arc_12610050.md",
+      "broader_patterns": [
+        "12610030"
+      ],
+      "narrower_patterns": [
+        "12610140",
+        "12610370",
+        "12610070",
+        "12610210"
+      ]
     },
     {
       "pattern_id": "12610060",
@@ -456,7 +501,15 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610060.md"
+      "source_file": "arc_12610060.md",
+      "broader_patterns": [
+        "12610020"
+      ],
+      "narrower_patterns": [
+        "12610260",
+        "12610070",
+        "12610120"
+      ]
     },
     {
       "pattern_id": "12610070",
@@ -530,7 +583,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610070.md"
+      "source_file": "arc_12610070.md",
+      "broader_patterns": [
+        "12610020",
+        "12610050",
+        "12610060",
+        "12610040",
+        "12610030"
+      ],
+      "narrower_patterns": [
+        "12610130",
+        "12610370",
+        "12610250",
+        "12611140",
+        "12610510"
+      ]
     },
     {
       "pattern_id": "12610080",
@@ -603,7 +670,22 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610080.md"
+      "source_file": "arc_12610080.md",
+      "broader_patterns": [
+        "12610030"
+      ],
+      "narrower_patterns": [
+        "12610100",
+        "12610130",
+        "12610140",
+        "12610370",
+        "12610190",
+        "12610120",
+        "12610090",
+        "12610110",
+        "12610310",
+        "12610290"
+      ]
     },
     {
       "pattern_id": "12610090",
@@ -675,7 +757,22 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610090.md"
+      "source_file": "arc_12610090.md",
+      "broader_patterns": [
+        "12610080"
+      ],
+      "narrower_patterns": [
+        "12610340",
+        "12610270",
+        "12610150",
+        "12610130",
+        "12610600",
+        "12610190",
+        "12610410",
+        "12610420",
+        "12611570",
+        "12610800"
+      ]
     },
     {
       "pattern_id": "12610100",
@@ -745,7 +842,23 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610100.md"
+      "source_file": "arc_12610100.md",
+      "broader_patterns": [
+        "12610080",
+        "12610030"
+      ],
+      "narrower_patterns": [
+        "12610580",
+        "12610330",
+        "12610320",
+        "12610210",
+        "12610110",
+        "12610160",
+        "12610310",
+        "12610280",
+        "12610910",
+        "12610630"
+      ]
     },
     {
       "pattern_id": "12610110",
@@ -818,7 +931,26 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610110.md"
+      "source_file": "arc_12610110.md",
+      "broader_patterns": [
+        "12610100",
+        "12610080",
+        "12610030"
+      ],
+      "narrower_patterns": [
+        "12610340",
+        "12610170",
+        "12610490",
+        "12610190",
+        "12610560",
+        "12610220",
+        "12610160",
+        "12610230",
+        "12610200",
+        "12610510",
+        "12610970",
+        "12610520"
+      ]
     },
     {
       "pattern_id": "12610120",
@@ -893,7 +1025,27 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610120.md"
+      "source_file": "arc_12610120.md",
+      "broader_patterns": [
+        "12610080",
+        "12610060"
+      ],
+      "narrower_patterns": [
+        "12610300",
+        "12610270",
+        "12610260",
+        "12610150",
+        "12610440",
+        "12610130",
+        "12610140",
+        "12610330",
+        "12610620",
+        "12610220",
+        "12610310",
+        "12610650",
+        "12610280",
+        "12610290"
+      ]
     },
     {
       "pattern_id": "12610130",
@@ -965,7 +1117,34 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610130.md"
+      "source_file": "arc_12610130.md",
+      "broader_patterns": [
+        "12610070",
+        "12610120",
+        "12610090",
+        "12610080"
+      ],
+      "narrower_patterns": [
+        "12610170",
+        "12610300",
+        "12610150",
+        "12610480",
+        "12610140",
+        "12610600",
+        "12610190",
+        "12610250",
+        "12610240",
+        "12610710",
+        "12610590",
+        "12610410",
+        "12610230",
+        "12610420",
+        "12610640",
+        "12610280",
+        "12610290",
+        "12610840",
+        "12610970"
+      ]
     },
     {
       "pattern_id": "12610140",
@@ -1035,7 +1214,35 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610140.md"
+      "source_file": "arc_12610140.md",
+      "broader_patterns": [
+        "12610130",
+        "12610120",
+        "12610080",
+        "12610050"
+      ],
+      "narrower_patterns": [
+        "12610300",
+        "12610270",
+        "12610260",
+        "12610150",
+        "12610480",
+        "12610370",
+        "12610490",
+        "12610600",
+        "12610530",
+        "12610220",
+        "12610350",
+        "12610400",
+        "12610410",
+        "12610230",
+        "12610360",
+        "12610890",
+        "12610650",
+        "12610880",
+        "12610610",
+        "12610700"
+      ]
     },
     {
       "pattern_id": "12610150",
@@ -1105,7 +1312,31 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610150.md"
+      "source_file": "arc_12610150.md",
+      "broader_patterns": [
+        "12610130",
+        "12610140",
+        "12610120",
+        "12610090"
+      ],
+      "narrower_patterns": [
+        "12610300",
+        "12610480",
+        "12610600",
+        "12610530",
+        "12610320",
+        "12610590",
+        "12610410",
+        "12610690",
+        "12610230",
+        "12610640",
+        "12610900",
+        "12610700",
+        "12611030",
+        "12610970",
+        "12610720",
+        "12610730"
+      ]
     },
     {
       "pattern_id": "12610160",
@@ -1175,7 +1406,17 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610160.md"
+      "source_file": "arc_12610160.md",
+      "broader_patterns": [
+        "12610100",
+        "12610110",
+        "12610030"
+      ],
+      "narrower_patterns": [
+        "12610340",
+        "12610170",
+        "12610200"
+      ]
     },
     {
       "pattern_id": "12610170",
@@ -1245,7 +1486,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610170.md"
+      "source_file": "arc_12610170.md",
+      "broader_patterns": [
+        "12610130",
+        "12610110",
+        "12610160",
+        "12610030"
+      ],
+      "narrower_patterns": [
+        "12610340",
+        "12610250",
+        "12610230",
+        "12610420",
+        "12610970"
+      ]
     },
     {
       "pattern_id": "12610180",
@@ -1318,7 +1572,18 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610180.md"
+      "source_file": "arc_12610180.md",
+      "broader_patterns": [],
+      "narrower_patterns": [
+        "12610570",
+        "12610430",
+        "12610400",
+        "12610860",
+        "12611570",
+        "12610840",
+        "12610850",
+        "12610830"
+      ]
     },
     {
       "pattern_id": "12610190",
@@ -1390,7 +1655,18 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610190.md"
+      "source_file": "arc_12610190.md",
+      "broader_patterns": [
+        "12610130",
+        "12610090",
+        "12610080",
+        "12610110"
+      ],
+      "narrower_patterns": [
+        "12610320",
+        "12610460",
+        "12610890"
+      ]
     },
     {
       "pattern_id": "12610200",
@@ -1460,7 +1736,16 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610200.md"
+      "source_file": "arc_12610200.md",
+      "broader_patterns": [
+        "12610110",
+        "12610160"
+      ],
+      "narrower_patterns": [
+        "12610340",
+        "12610920",
+        "12610230"
+      ]
     },
     {
       "pattern_id": "12610210",
@@ -1530,7 +1815,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610210.md"
+      "source_file": "arc_12610210.md",
+      "broader_patterns": [
+        "12610100",
+        "12610050",
+        "12610030"
+      ],
+      "narrower_patterns": [
+        "12610620",
+        "12610390",
+        "12610950",
+        "12610960",
+        "12610280",
+        "12610290",
+        "12610820"
+      ]
     },
     {
       "pattern_id": "12610220",
@@ -1602,7 +1901,17 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610220.md"
+      "source_file": "arc_12610220.md",
+      "broader_patterns": [
+        "12610140",
+        "12610120",
+        "12610110"
+      ],
+      "narrower_patterns": [
+        "12611030",
+        "12611020",
+        "12610970"
+      ]
     },
     {
       "pattern_id": "12610230",
@@ -1672,7 +1981,27 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610230.md"
+      "source_file": "arc_12610230.md",
+      "broader_patterns": [
+        "12610170",
+        "12610150",
+        "12610130",
+        "12610140",
+        "12610110",
+        "12610200"
+      ],
+      "narrower_patterns": [
+        "12610380",
+        "12610490",
+        "12610320",
+        "12610570",
+        "12610250",
+        "12610500",
+        "12610550",
+        "12610540",
+        "12610510",
+        "12610520"
+      ]
     },
     {
       "pattern_id": "12610240",
@@ -1744,7 +2073,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610240.md"
+      "source_file": "arc_12610240.md",
+      "broader_patterns": [
+        "12610130"
+      ],
+      "narrower_patterns": [
+        "12610250",
+        "12610590",
+        "12610660",
+        "12610640",
+        "12610280",
+        "12611340",
+        "12611760",
+        "12611710"
+      ]
     },
     {
       "pattern_id": "12610250",
@@ -1817,7 +2159,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610250.md"
+      "source_file": "arc_12610250.md",
+      "broader_patterns": [
+        "12610170",
+        "12610130",
+        "12610070",
+        "12610240",
+        "12610230"
+      ],
+      "narrower_patterns": [
+        "12610710",
+        "12610310",
+        "12610640",
+        "12611030"
+      ]
     },
     {
       "pattern_id": "12610260",
@@ -1887,7 +2242,35 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610260.md"
+      "source_file": "arc_12610260.md",
+      "broader_patterns": [
+        "12610140",
+        "12610120",
+        "12610060"
+      ],
+      "narrower_patterns": [
+        "12610270",
+        "12610440",
+        "12610470",
+        "12610570",
+        "12610790",
+        "12610350",
+        "12610400",
+        "12610660",
+        "12610410",
+        "12610750",
+        "12610650",
+        "12610860",
+        "12610700",
+        "12611540",
+        "12610840",
+        "12611560",
+        "12610850",
+        "12611550",
+        "12611530",
+        "12611870",
+        "12610830"
+      ]
     },
     {
       "pattern_id": "12610270",
@@ -1960,7 +2343,17 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610270.md"
+      "source_file": "arc_12610270.md",
+      "broader_patterns": [
+        "12610260",
+        "12610140",
+        "12610120",
+        "12610090"
+      ],
+      "narrower_patterns": [
+        "12611570",
+        "12611410"
+      ]
     },
     {
       "pattern_id": "12610280",
@@ -2030,7 +2423,23 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610280.md"
+      "source_file": "arc_12610280.md",
+      "broader_patterns": [
+        "12610130",
+        "12610100",
+        "12610210",
+        "12610120",
+        "12610240",
+        "12610320"
+      ],
+      "narrower_patterns": [
+        "12610300",
+        "12610320",
+        "12610710",
+        "12610310",
+        "12610590",
+        "12610290"
+      ]
     },
     {
       "pattern_id": "12610290",
@@ -2100,7 +2509,24 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610290.md"
+      "source_file": "arc_12610290.md",
+      "broader_patterns": [
+        "12610130",
+        "12610210",
+        "12610120",
+        "12610080",
+        "12610280"
+      ],
+      "narrower_patterns": [
+        "12610300",
+        "12610380",
+        "12610370",
+        "12610390",
+        "12610310",
+        "12611230",
+        "12610360",
+        "12610610"
+      ]
     },
     {
       "pattern_id": "12610300",
@@ -2170,7 +2596,37 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610300.md"
+      "source_file": "arc_12610300.md",
+      "broader_patterns": [
+        "12610150",
+        "12610130",
+        "12610140",
+        "12610120",
+        "12610280",
+        "12610290"
+      ],
+      "narrower_patterns": [
+        "12610340",
+        "12610440",
+        "12610330",
+        "12610470",
+        "12610430",
+        "12610310",
+        "12611200",
+        "12610410",
+        "12610360",
+        "12610650",
+        "12610880",
+        "12610900",
+        "12610610",
+        "12610910",
+        "12610870",
+        "12610840",
+        "12611000",
+        "12610850",
+        "12610930",
+        "12610520"
+      ]
     },
     {
       "pattern_id": "12610310",
@@ -2240,7 +2696,33 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610310.md"
+      "source_file": "arc_12610310.md",
+      "broader_patterns": [
+        "12610300",
+        "12610100",
+        "12610250",
+        "12610120",
+        "12610080",
+        "12610280",
+        "12610290"
+      ],
+      "narrower_patterns": [
+        "12610580",
+        "12610330",
+        "12610320",
+        "12610570",
+        "12610430",
+        "12611230",
+        "12611210",
+        "12610640",
+        "12611240",
+        "12610900",
+        "12610610",
+        "12610910",
+        "12611000",
+        "12610630",
+        "12610520"
+      ]
     },
     {
       "pattern_id": "12610320",
@@ -2310,7 +2792,29 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610320.md"
+      "source_file": "arc_12610320.md",
+      "broader_patterns": [
+        "12610150",
+        "12610100",
+        "12610190",
+        "12610310",
+        "12610230",
+        "12610280"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12610480",
+        "12610460",
+        "12611210",
+        "12610280",
+        "12610540",
+        "12611030",
+        "12610870",
+        "12611020",
+        "12610970",
+        "12611000",
+        "12610520"
+      ]
     },
     {
       "pattern_id": "12610330",
@@ -2380,7 +2884,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610330.md"
+      "source_file": "arc_12610330.md",
+      "broader_patterns": [
+        "12610300",
+        "12610100",
+        "12610120",
+        "12610310"
+      ],
+      "narrower_patterns": [
+        "12610440",
+        "12610580",
+        "12610880",
+        "12610900",
+        "12610910",
+        "12610630"
+      ]
     },
     {
       "pattern_id": "12610340",
@@ -2450,7 +2968,24 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610340.md"
+      "source_file": "arc_12610340.md",
+      "broader_patterns": [
+        "12610170",
+        "12610300",
+        "12610090",
+        "12610110",
+        "12610160",
+        "12610200"
+      ],
+      "narrower_patterns": [
+        "12610940",
+        "12610920",
+        "12610390",
+        "12611190",
+        "12610400",
+        "12610410",
+        "12611500"
+      ]
     },
     {
       "pattern_id": "12610350",
@@ -2522,7 +3057,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610350.md"
+      "source_file": "arc_12610350.md",
+      "broader_patterns": [
+        "12610260",
+        "12610140"
+      ],
+      "narrower_patterns": [
+        "12610370",
+        "12610400",
+        "12610410",
+        "12610780",
+        "12610750",
+        "12610770",
+        "12610760",
+        "12610680"
+      ]
     },
     {
       "pattern_id": "12610360",
@@ -2595,7 +3144,23 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610360.md"
+      "source_file": "arc_12610360.md",
+      "broader_patterns": [
+        "12610300",
+        "12610140",
+        "12610290"
+      ],
+      "narrower_patterns": [
+        "12610380",
+        "12610370",
+        "12610390",
+        "12611230",
+        "12611200",
+        "12610550",
+        "12611210",
+        "12610510",
+        "12611000"
+      ]
     },
     {
       "pattern_id": "12610370",
@@ -2671,7 +3236,38 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610370.md"
+      "source_file": "arc_12610370.md",
+      "broader_patterns": [
+        "12610140",
+        "12610070",
+        "12610080",
+        "12610050",
+        "12610350",
+        "12610360",
+        "12610290"
+      ],
+      "narrower_patterns": [
+        "12610380",
+        "12610480",
+        "12610490",
+        "12610530",
+        "12610670",
+        "12610390",
+        "12610790",
+        "12610980",
+        "12610710",
+        "12610780",
+        "12610750",
+        "12611570",
+        "12610770",
+        "12611780",
+        "12611030",
+        "12611750",
+        "12611020",
+        "12611110",
+        "12610760",
+        "12610680"
+      ]
     },
     {
       "pattern_id": "12610380",
@@ -2744,7 +3340,28 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610380.md"
+      "source_file": "arc_12610380.md",
+      "broader_patterns": [
+        "12610370",
+        "12610230",
+        "12610360",
+        "12610290"
+      ],
+      "narrower_patterns": [
+        "12610480",
+        "12610670",
+        "12610790",
+        "12610780",
+        "12610750",
+        "12610950",
+        "12610770",
+        "12611030",
+        "12611000",
+        "12611110",
+        "12610760",
+        "12611090",
+        "12610520"
+      ]
     },
     {
       "pattern_id": "12610390",
@@ -2816,7 +3433,25 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610390.md"
+      "source_file": "arc_12610390.md",
+      "broader_patterns": [
+        "12610340",
+        "12610370",
+        "12610210",
+        "12610360",
+        "12610290"
+      ],
+      "narrower_patterns": [
+        "12610670",
+        "12610790",
+        "12610750",
+        "12611580",
+        "12611770",
+        "12610970",
+        "12611000",
+        "12611180",
+        "12610680"
+      ]
     },
     {
       "pattern_id": "12610400",
@@ -2886,7 +3521,22 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610400.md"
+      "source_file": "arc_12610400.md",
+      "broader_patterns": [
+        "12610340",
+        "12610260",
+        "12610140",
+        "12610180",
+        "12610350"
+      ],
+      "narrower_patterns": [
+        "12610570",
+        "12610750",
+        "12610860",
+        "12611560",
+        "12611770",
+        "12611550"
+      ]
     },
     {
       "pattern_id": "12610410",
@@ -2956,7 +3606,41 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610410.md"
+      "source_file": "arc_12610410.md",
+      "broader_patterns": [
+        "12610340",
+        "12610300",
+        "12610260",
+        "12610150",
+        "12610130",
+        "12610140",
+        "12610090",
+        "12610350"
+      ],
+      "narrower_patterns": [
+        "12610480",
+        "12610490",
+        "12610600",
+        "12610530",
+        "12610670",
+        "12610570",
+        "12610710",
+        "12611470",
+        "12610420",
+        "12610880",
+        "12610800",
+        "12610610",
+        "12611030",
+        "12610910",
+        "12610810",
+        "12611750",
+        "12611020",
+        "12611150",
+        "12611110",
+        "12610820",
+        "12610930",
+        "12610720"
+      ]
     },
     {
       "pattern_id": "12610420",
@@ -3026,7 +3710,18 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610420.md"
+      "source_file": "arc_12610420.md",
+      "broader_patterns": [
+        "12610170",
+        "12610130",
+        "12610090",
+        "12610410"
+      ],
+      "narrower_patterns": [
+        "12610800",
+        "12611220",
+        "12611060"
+      ]
     },
     {
       "pattern_id": "12610430",
@@ -3096,7 +3791,24 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610430.md"
+      "source_file": "arc_12610430.md",
+      "broader_patterns": [
+        "12610300",
+        "12610180",
+        "12610310"
+      ],
+      "narrower_patterns": [
+        "12610450",
+        "12610480",
+        "12610570",
+        "12610590",
+        "12610950",
+        "12611510",
+        "12610810",
+        "12611000",
+        "12611650",
+        "12610830"
+      ]
     },
     {
       "pattern_id": "12610440",
@@ -3166,7 +3878,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610440.md"
+      "source_file": "arc_12610440.md",
+      "broader_patterns": [
+        "12610300",
+        "12610260",
+        "12610330",
+        "12610120"
+      ],
+      "narrower_patterns": [
+        "12610450",
+        "12611230",
+        "12611510",
+        "12610610",
+        "12611650",
+        "12610810"
+      ]
     },
     {
       "pattern_id": "12610450",
@@ -3236,7 +3962,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610450.md"
+      "source_file": "arc_12610450.md",
+      "broader_patterns": [
+        "12610440",
+        "12610430"
+      ],
+      "narrower_patterns": [
+        "12610470",
+        "12610690",
+        "12610810",
+        "12610870",
+        "12611650",
+        "12611600",
+        "12611220"
+      ]
     },
     {
       "pattern_id": "12610460",
@@ -3308,7 +4047,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610460.md"
+      "source_file": "arc_12610460.md",
+      "broader_patterns": [
+        "12610320",
+        "12610190"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12610890",
+        "12611010",
+        "12610870",
+        "12611000",
+        "12611650",
+        "12612120"
+      ]
     },
     {
       "pattern_id": "12610470",
@@ -3378,7 +4130,24 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610470.md"
+      "source_file": "arc_12610470.md",
+      "broader_patterns": [
+        "12610300",
+        "12610260",
+        "12610450"
+      ],
+      "narrower_patterns": [
+        "12610480",
+        "12610710",
+        "12610650",
+        "12611570",
+        "12611500",
+        "12610810",
+        "12611770",
+        "12611650",
+        "12610720",
+        "12610730"
+      ]
     },
     {
       "pattern_id": "12610480",
@@ -3448,7 +4217,23 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610480.md"
+      "source_file": "arc_12610480.md",
+      "broader_patterns": [
+        "12610150",
+        "12610380",
+        "12610130",
+        "12610140",
+        "12610370",
+        "12610470",
+        "12610320",
+        "12610430",
+        "12610410"
+      ],
+      "narrower_patterns": [
+        "12610790",
+        "12610750",
+        "12610970"
+      ]
     },
     {
       "pattern_id": "12610490",
@@ -3518,7 +4303,24 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610490.md"
+      "source_file": "arc_12610490.md",
+      "broader_patterns": [
+        "12610140",
+        "12610370",
+        "12610110",
+        "12610410",
+        "12610230"
+      ],
+      "narrower_patterns": [
+        "12610570",
+        "12610560",
+        "12610500",
+        "12611140",
+        "12611030",
+        "12610510",
+        "12611130",
+        "12610520"
+      ]
     },
     {
       "pattern_id": "12610500",
@@ -3588,7 +4390,14 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610500.md"
+      "source_file": "arc_12610500.md",
+      "broader_patterns": [
+        "12610490",
+        "12610230"
+      ],
+      "narrower_patterns": [
+        "12610510"
+      ]
     },
     {
       "pattern_id": "12610510",
@@ -3658,7 +4467,31 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610510.md"
+      "source_file": "arc_12610510.md",
+      "broader_patterns": [
+        "12610070",
+        "12610490",
+        "12610110",
+        "12610500",
+        "12610230",
+        "12610360"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12610670",
+        "12610570",
+        "12612470",
+        "12611700",
+        "12612450",
+        "12611140",
+        "12611640",
+        "12610740",
+        "12611030",
+        "12611020",
+        "12610680",
+        "12611400",
+        "12610520"
+      ]
     },
     {
       "pattern_id": "12610520",
@@ -3728,7 +4561,26 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610520.md"
+      "source_file": "arc_12610520.md",
+      "broader_patterns": [
+        "12610300",
+        "12610380",
+        "12610490",
+        "12610320",
+        "12610110",
+        "12610310",
+        "12610230",
+        "12610510"
+      ],
+      "narrower_patterns": [
+        "12610570",
+        "12610560",
+        "12611200",
+        "12610550",
+        "12611210",
+        "12610540",
+        "12611000"
+      ]
     },
     {
       "pattern_id": "12610530",
@@ -3798,7 +4650,24 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610530.md"
+      "source_file": "arc_12610530.md",
+      "broader_patterns": [
+        "12610150",
+        "12610140",
+        "12610370",
+        "12610410"
+      ],
+      "narrower_patterns": [
+        "12610920",
+        "12610980",
+        "12610660",
+        "12610690",
+        "12610950",
+        "12611100",
+        "12611030",
+        "12611020",
+        "12611120"
+      ]
     },
     {
       "pattern_id": "12610540",
@@ -3868,7 +4737,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610540.md"
+      "source_file": "arc_12610540.md",
+      "broader_patterns": [
+        "12610320",
+        "12610230",
+        "12610520"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12610920",
+        "12610550",
+        "12610610",
+        "12611740",
+        "12611030",
+        "12610930"
+      ]
     },
     {
       "pattern_id": "12610550",
@@ -3938,7 +4821,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610550.md"
+      "source_file": "arc_12610550.md",
+      "broader_patterns": [
+        "12610230",
+        "12610360",
+        "12610540",
+        "12610520"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12611190",
+        "12611210",
+        "12611250",
+        "12611000",
+        "12610930"
+      ]
     },
     {
       "pattern_id": "12610560",
@@ -4011,7 +4908,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610560.md"
+      "source_file": "arc_12610560.md",
+      "broader_patterns": [
+        "12610490",
+        "12610110",
+        "12610520"
+      ],
+      "narrower_patterns": [
+        "12610570",
+        "12611190",
+        "12610590",
+        "12611100",
+        "12611730",
+        "12610730"
+      ]
     },
     {
       "pattern_id": "12610570",
@@ -4081,7 +4991,30 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610570.md"
+      "source_file": "arc_12610570.md",
+      "broader_patterns": [
+        "12610260",
+        "12610490",
+        "12610180",
+        "12610560",
+        "12610430",
+        "12610310",
+        "12610400",
+        "12610410",
+        "12610230",
+        "12610510",
+        "12610520"
+      ],
+      "narrower_patterns": [
+        "12610860",
+        "12611640",
+        "12610840",
+        "12610850",
+        "12610680",
+        "12610720",
+        "12610730",
+        "12610700"
+      ]
     },
     {
       "pattern_id": "12610580",
@@ -4151,7 +5084,3982 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12610580.md"
+      "source_file": "arc_12610580.md",
+      "broader_patterns": [
+        "12610100",
+        "12610330",
+        "12610310"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12610690",
+        "12610610",
+        "12611000",
+        "12610930",
+        "12610630"
+      ]
+    },
+    {
+      "pattern_id": "12610590",
+      "name": "Low-intensity communication pathways",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610150",
+        "12610130",
+        "12610560",
+        "12610430",
+        "12610240",
+        "12610280"
+      ],
+      "narrower_patterns": [
+        "12610600",
+        "12610640",
+        "12610700",
+        "12611730",
+        "12611400"
+      ]
+    },
+    {
+      "pattern_id": "12610600",
+      "name": "Accessible non-linearity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610150",
+        "12610130",
+        "12610140",
+        "12610090",
+        "12610590",
+        "12610410"
+      ],
+      "narrower_patterns": [
+        "12610940",
+        "12610670",
+        "12610660",
+        "12610690",
+        "12611140",
+        "12610700",
+        "12610740",
+        "12611710",
+        "12610850",
+        "12611730",
+        "12610720",
+        "12611060"
+      ]
+    },
+    {
+      "pattern_id": "12610610",
+      "name": "Bounded common small-scale interaction domains",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610440",
+        "12610580",
+        "12610140",
+        "12610620",
+        "12610310",
+        "12610410",
+        "12610290",
+        "12610540"
+      ],
+      "narrower_patterns": [
+        "12610940",
+        "12611230",
+        "12610690",
+        "12610880",
+        "12611240",
+        "12611140",
+        "12611640",
+        "12611260",
+        "12611250",
+        "12610930",
+        "12611220",
+        "12610630",
+        "12611060"
+      ]
+    },
+    {
+      "pattern_id": "12610620",
+      "name": "Points of wider perspective",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610210",
+        "12610120"
+      ],
+      "narrower_patterns": [
+        "12610660",
+        "12611580",
+        "12611340",
+        "12610610",
+        "12611260",
+        "12611250"
+      ]
+    },
+    {
+      "pattern_id": "12610630",
+      "name": "Cyclic interrelation of complementary perspective in common domains",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610100",
+        "12610580",
+        "12610330",
+        "12610310",
+        "12610610"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12610690",
+        "12611240",
+        "12611260",
+        "12610930"
+      ]
+    },
+    {
+      "pattern_id": "12610640",
+      "name": "Access to patterns of active irrationality",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610150",
+        "12610130",
+        "12610250",
+        "12610240",
+        "12610310",
+        "12610590"
+      ],
+      "narrower_patterns": [
+        "12611190",
+        "12610710",
+        "12610660",
+        "12611260",
+        "12611000"
+      ]
+    },
+    {
+      "pattern_id": "12610650",
+      "name": "Context for emergence of new perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610260",
+        "12610140",
+        "12610470",
+        "12610120"
+      ],
+      "narrower_patterns": [
+        "12610950",
+        "12611390",
+        "12611290",
+        "12611360",
+        "12610910",
+        "12611730",
+        "12611110"
+      ]
+    },
+    {
+      "pattern_id": "12610660",
+      "name": "Context for transformative experience",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12610600",
+        "12610530",
+        "12610620",
+        "12610240",
+        "12610640"
+      ],
+      "narrower_patterns": [
+        "12611340",
+        "12610700",
+        "12611710"
+      ]
+    },
+    {
+      "pattern_id": "12610670",
+      "name": "Unstructured common domain",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610380",
+        "12610370",
+        "12610600",
+        "12610390",
+        "12610410",
+        "12610510"
+      ],
+      "narrower_patterns": [
+        "12610980",
+        "12610710",
+        "12610690",
+        "12611700",
+        "12610700",
+        "12611140",
+        "12611260",
+        "12610740",
+        "12611750",
+        "12611770",
+        "12610680",
+        "12611050",
+        "12610720",
+        "12611060",
+        "12610730"
+      ]
+    },
+    {
+      "pattern_id": "12610680",
+      "name": "Spontaneous relationship formation amongst emerging perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610370",
+        "12610670",
+        "12610570",
+        "12610390",
+        "12610350",
+        "12610510"
+      ],
+      "narrower_patterns": [
+        "12610710",
+        "12611370",
+        "12610860",
+        "12610740",
+        "12610730"
+      ]
+    },
+    {
+      "pattern_id": "12610690",
+      "name": "Common external context for inactivity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610150",
+        "12610580",
+        "12610450",
+        "12610600",
+        "12610530",
+        "12610670",
+        "12610610",
+        "12610630"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612440",
+        "12610920",
+        "12612410",
+        "12611190",
+        "12610710",
+        "12611200",
+        "12611210",
+        "12611240",
+        "12611290",
+        "12611260",
+        "12611630",
+        "12611250",
+        "12611150",
+        "12611000",
+        "12611600"
+      ]
+    },
+    {
+      "pattern_id": "12610700",
+      "name": "Context for acknowledgement of past perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12610150",
+        "12610140",
+        "12610600",
+        "12610670",
+        "12610570",
+        "12610590",
+        "12610660"
+      ],
+      "narrower_patterns": [
+        "12612410",
+        "12611710"
+      ]
+    },
+    {
+      "pattern_id": "12610710",
+      "name": "Access to contained irrationality",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610130",
+        "12610370",
+        "12610470",
+        "12610670",
+        "12610250",
+        "12610410",
+        "12610690",
+        "12610640",
+        "12610280",
+        "12610680"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12611720",
+        "12611500",
+        "12611260",
+        "12611740",
+        "12611440",
+        "12611050",
+        "12610720"
+      ]
+    },
+    {
+      "pattern_id": "12610720",
+      "name": "Competitive interaction opportunities transposed to a concrete level",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610150",
+        "12610600",
+        "12610470",
+        "12610670",
+        "12610570",
+        "12610710",
+        "12610410",
+        "12610840"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12612410",
+        "12610950",
+        "12611010",
+        "12611650",
+        "12611440"
+      ]
+    },
+    {
+      "pattern_id": "12610730",
+      "name": "Contexts for exploratory relationship formation challenging emerging perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610150",
+        "12610470",
+        "12610670",
+        "12610570",
+        "12610560",
+        "12610680"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12611610",
+        "12611720",
+        "12612030",
+        "12610860"
+      ]
+    },
+    {
+      "pattern_id": "12610740",
+      "name": "Interaction with coherent irrational perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610600",
+        "12610670",
+        "12610510",
+        "12610680"
+      ],
+      "narrower_patterns": [
+        "12610790",
+        "12610860",
+        "12611780"
+      ]
+    },
+    {
+      "pattern_id": "12610750",
+      "name": "Extended pattern of nuclear interaction",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12610380",
+        "12610480",
+        "12610370",
+        "12610390",
+        "12610350",
+        "12610400"
+      ],
+      "narrower_patterns": [
+        "12610790",
+        "12610780",
+        "12611470",
+        "12610950",
+        "12610860",
+        "12610770",
+        "12611290",
+        "12611410",
+        "12611360",
+        "12611540",
+        "12611560",
+        "12610760",
+        "12611550",
+        "12611530",
+        "12611070"
+      ]
+    },
+    {
+      "pattern_id": "12610760",
+      "name": "Minimal context interrelating mature and emerging perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610380",
+        "12610370",
+        "12610350",
+        "12610750"
+      ],
+      "narrower_patterns": [
+        "12610790",
+        "12611370",
+        "12610780",
+        "12611580",
+        "12611290",
+        "12611410",
+        "12611360",
+        "12611540",
+        "12611450",
+        "12611430",
+        "12611070"
+      ]
+    },
+    {
+      "pattern_id": "12610770",
+      "name": "Minimal context for complementary perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610380",
+        "12610370",
+        "12610350",
+        "12610750"
+      ],
+      "narrower_patterns": [
+        "12610790",
+        "12611580",
+        "12611410",
+        "12611360",
+        "12611070"
+      ]
+    },
+    {
+      "pattern_id": "12610780",
+      "name": "Minimal context for single perspective",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610380",
+        "12610370",
+        "12610350",
+        "12610750",
+        "12610760"
+      ],
+      "narrower_patterns": [
+        "12610790",
+        "12611830",
+        "12611580",
+        "12611880",
+        "12611890",
+        "12611800",
+        "12611390",
+        "12611540",
+        "12611550",
+        "12611440",
+        "12611070"
+      ]
+    },
+    {
+      "pattern_id": "12610790",
+      "name": "Perspective-adaptable contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12610380",
+        "12610480",
+        "12610370",
+        "12610390",
+        "12610780",
+        "12610750",
+        "12610770",
+        "12610740",
+        "12610760"
+      ],
+      "narrower_patterns": [
+        "12610950",
+        "12610860",
+        "12611570",
+        "12611110"
+      ]
+    },
+    {
+      "pattern_id": "12610800",
+      "name": "Integrated contexts for perspective dynamics",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610090",
+        "12610410",
+        "12610420"
+      ],
+      "narrower_patterns": [
+        "12611460",
+        "12611480",
+        "12611470",
+        "12610950",
+        "12611580",
+        "12610810",
+        "12611450",
+        "12610850",
+        "12611490",
+        "12610820",
+        "12611530",
+        "12611070",
+        "12610830"
+      ]
+    },
+    {
+      "pattern_id": "12610810",
+      "name": "Minimally-structured perspective control operations",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610440",
+        "12610450",
+        "12610470",
+        "12610430",
+        "12610410",
+        "12610800"
+      ],
+      "narrower_patterns": [
+        "12611460",
+        "12611480",
+        "12610950",
+        "12611580",
+        "12611010",
+        "12611500",
+        "12610840",
+        "12611020",
+        "12611490",
+        "12610820",
+        "12611530",
+        "12611070"
+      ]
+    },
+    {
+      "pattern_id": "12610820",
+      "name": "Minimal distance between related operational control contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610210",
+        "12610410",
+        "12610800",
+        "12610810"
+      ],
+      "narrower_patterns": [
+        "12611460",
+        "12611480",
+        "12610950",
+        "12611580",
+        "12611010",
+        "12611500",
+        "12611020",
+        "12611000",
+        "12611070"
+      ]
+    },
+    {
+      "pattern_id": "12610830",
+      "name": "Integration of perspective acquisition and perspective maintenance dynamics",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12610180",
+        "12610430",
+        "12610800"
+      ],
+      "narrower_patterns": [
+        "12611520",
+        "12611480",
+        "12611830",
+        "12611470",
+        "12611510",
+        "12611290",
+        "12610840",
+        "12611070"
+      ]
+    },
+    {
+      "pattern_id": "12610840",
+      "name": "Transitional contexts for perspective reorganization",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610260",
+        "12610130",
+        "12610180",
+        "12610570",
+        "12610810",
+        "12610830"
+      ],
+      "narrower_patterns": [
+        "12611470",
+        "12610950",
+        "12611570",
+        "12610720"
+      ]
+    },
+    {
+      "pattern_id": "12610850",
+      "name": "Perspective imitation contexts for developing perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610260",
+        "12610600",
+        "12610180",
+        "12610570",
+        "12610800"
+      ],
+      "narrower_patterns": [
+        "12610950",
+        "12610860",
+        "12611000",
+        "12611650"
+      ]
+    },
+    {
+      "pattern_id": "12610860",
+      "name": "Contexts for care of premature perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12610180",
+        "12610570",
+        "12610790",
+        "12610400",
+        "12610750",
+        "12610740",
+        "12610850",
+        "12610680",
+        "12610730"
+      ],
+      "narrower_patterns": [
+        "12610950",
+        "12612030",
+        "12611010",
+        "12611290"
+      ]
+    },
+    {
+      "pattern_id": "12610870",
+      "name": "Exchange contexts controlled by a single perspective",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610450",
+        "12610320",
+        "12610460"
+      ],
+      "narrower_patterns": [
+        "12612000",
+        "12610950",
+        "12610890",
+        "12610880",
+        "12611970",
+        "12611910",
+        "12611450",
+        "12610970",
+        "12611650",
+        "12610930",
+        "12611070"
+      ]
+    },
+    {
+      "pattern_id": "12610880",
+      "name": "Informal local perspective interface zones",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610140",
+        "12610330",
+        "12610410",
+        "12610610",
+        "12610870"
+      ],
+      "narrower_patterns": [
+        "12612510",
+        "12612440",
+        "12612430",
+        "12610940",
+        "12611230",
+        "12610950",
+        "12611240",
+        "12611500",
+        "12611250",
+        "12611650"
+      ]
+    },
+    {
+      "pattern_id": "12610890",
+      "name": "Local sources for perspective nourishment",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610140",
+        "12610190",
+        "12610460",
+        "12610870"
+      ],
+      "narrower_patterns": [
+        "12612000",
+        "12610950",
+        "12611970",
+        "12611910",
+        "12611100",
+        "12611650"
+      ]
+    },
+    {
+      "pattern_id": "12610900",
+      "name": "Unstructured context for perspective exchange",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610150",
+        "12610330",
+        "12610310"
+      ],
+      "narrower_patterns": [
+        "12610950",
+        "12611900",
+        "12610910",
+        "12611790",
+        "12611810"
+      ]
+    },
+    {
+      "pattern_id": "12610910",
+      "name": "Hospitable contexts for perspectives in transition",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610100",
+        "12610330",
+        "12610310",
+        "12610410",
+        "12610650",
+        "12610900"
+      ],
+      "narrower_patterns": [
+        "12610940",
+        "12611470",
+        "12610950",
+        "12611290",
+        "12611860"
+      ]
+    },
+    {
+      "pattern_id": "12610920",
+      "name": "Hospitable transit points",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610340",
+        "12610530",
+        "12610690",
+        "12610200",
+        "12610540"
+      ],
+      "narrower_patterns": [
+        "12612410",
+        "12611210",
+        "12611500",
+        "12610930"
+      ]
+    },
+    {
+      "pattern_id": "12610930",
+      "name": "Transit point location for sources of perspective nourishment",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610580",
+        "12610920",
+        "12610550",
+        "12610410",
+        "12610610",
+        "12610540",
+        "12610870",
+        "12610630"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12611240",
+        "12611440"
+      ]
+    },
+    {
+      "pattern_id": "12610940",
+      "name": "Hospitable common domains",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610340",
+        "12610600",
+        "12610880",
+        "12610610",
+        "12610910"
+      ],
+      "narrower_patterns": [
+        "12612410",
+        "12611880",
+        "12611010",
+        "12611500",
+        "12611000",
+        "12611600"
+      ]
+    },
+    {
+      "pattern_id": "12610950",
+      "name": "Complexification of perspective contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610380",
+        "12610530",
+        "12610210",
+        "12610790",
+        "12610430",
+        "12610750",
+        "12610890",
+        "12610650",
+        "12610880",
+        "12610860",
+        "12610800",
+        "12610900",
+        "12610910",
+        "12610810",
+        "12610870",
+        "12610840",
+        "12610850",
+        "12610820",
+        "12610720"
+      ],
+      "narrower_patterns": [
+        "12611080",
+        "12610980",
+        "12610990",
+        "12611200",
+        "12611160",
+        "12610960",
+        "12611010",
+        "12611100",
+        "12611450",
+        "12610970",
+        "12611000",
+        "12611090",
+        "12611220",
+        "12611050",
+        "12611070",
+        "12611040",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12610960",
+      "name": "Limitation on number of structural levels",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610210",
+        "12610950"
+      ],
+      "narrower_patterns": [
+        "12611270",
+        "12610980",
+        "12610990",
+        "12611160",
+        "12611170",
+        "12612130",
+        "12611710",
+        "12611180",
+        "12611050",
+        "12611040",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12610970",
+      "name": "Concealment of necessary monotonous perspective patterns",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610170",
+        "12610150",
+        "12610130",
+        "12610480",
+        "12610320",
+        "12610390",
+        "12610220",
+        "12610110",
+        "12610950",
+        "12610870"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12610980",
+        "12611580",
+        "12611100",
+        "12611030",
+        "12611350",
+        "12611020",
+        "12611660",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12610980",
+      "name": "Patterning of complex structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610370",
+        "12610530",
+        "12610670",
+        "12610950",
+        "12610960",
+        "12610970"
+      ],
+      "narrower_patterns": [
+        "12611190",
+        "12610990",
+        "12611200",
+        "12611320",
+        "12611010",
+        "12611140",
+        "12611100",
+        "12611030",
+        "12611020",
+        "12611150",
+        "12611000",
+        "12611040"
+      ]
+    },
+    {
+      "pattern_id": "12610990",
+      "name": "Focal centre of a complex structure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610980",
+        "12610950",
+        "12610960"
+      ],
+      "narrower_patterns": [
+        "12611160",
+        "12611290",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611000",
+      "name": "Arrangement of structures ot engender fruitful interfaces",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12610380",
+        "12610580",
+        "12610940",
+        "12610320",
+        "12610390",
+        "12610430",
+        "12610980",
+        "12610460",
+        "12610310",
+        "12610550",
+        "12610690",
+        "12610360",
+        "12610950",
+        "12610640",
+        "12610850",
+        "12610820",
+        "12610520"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12611190",
+        "12611230",
+        "12611210",
+        "12611580",
+        "12611010",
+        "12611240",
+        "12611670",
+        "12611640",
+        "12611020",
+        "12611400",
+        "12611660"
+      ]
+    },
+    {
+      "pattern_id": "12611010",
+      "name": "Protected low-density communication pathways",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610940",
+        "12610980",
+        "12610460",
+        "12610950",
+        "12610860",
+        "12610810",
+        "12611000",
+        "12610820",
+        "12610720"
+      ],
+      "narrower_patterns": [
+        "12612370",
+        "12611930",
+        "12611230",
+        "12611940",
+        "12611320",
+        "12611900",
+        "12611580",
+        "12611800",
+        "12611240",
+        "12611640",
+        "12611350",
+        "12611020",
+        "12611650",
+        "12611490"
+      ]
+    },
+    {
+      "pattern_id": "12611020",
+      "name": "Distinct pattern of entry points to complex structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610370",
+        "12610530",
+        "12610320",
+        "12610220",
+        "12610980",
+        "12610410",
+        "12611010",
+        "12610810",
+        "12610510",
+        "12610970",
+        "12611000",
+        "12610820"
+      ],
+      "narrower_patterns": [
+        "12611200",
+        "12612240",
+        "12611580",
+        "12611100",
+        "12611250",
+        "12611490",
+        "12611300",
+        "12611120",
+        "12611060"
+      ]
+    },
+    {
+      "pattern_id": "12611030",
+      "name": "Limitation on number of occupiable temporary sites",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610150",
+        "12610380",
+        "12610370",
+        "12610490",
+        "12610530",
+        "12610320",
+        "12610250",
+        "12610220",
+        "12610980",
+        "12610410",
+        "12610540",
+        "12610510",
+        "12610970"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12611710",
+        "12611730",
+        "12611060"
+      ]
+    },
+    {
+      "pattern_id": "12611040",
+      "name": "Structural development designed to counteract deficiencies in pattern harmony",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610980",
+        "12610950",
+        "12610960"
+      ],
+      "narrower_patterns": [
+        "12612140",
+        "12611720",
+        "12611140",
+        "12611100",
+        "12611690",
+        "12611710",
+        "12611110",
+        "12611090",
+        "12611050",
+        "12611070",
+        "12611060"
+      ]
+    },
+    {
+      "pattern_id": "12611050",
+      "name": "Orientation of structures to enhance receptivity to external insight",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610670",
+        "12610710",
+        "12610950",
+        "12610960",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12611610",
+        "12611140",
+        "12611100",
+        "12611280",
+        "12611110",
+        "12611070",
+        "12611060",
+        "12611620"
+      ]
+    },
+    {
+      "pattern_id": "12611060",
+      "name": "Functional enhancement of domains separating complementary structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610600",
+        "12610670",
+        "12610420",
+        "12610610",
+        "12611030",
+        "12611020",
+        "12611050",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12611080",
+        "12611200",
+        "12611210",
+        "12611720",
+        "12611910",
+        "12611140",
+        "12611740",
+        "12611630",
+        "12611250",
+        "12611150",
+        "12611730",
+        "12611180",
+        "12611090",
+        "12611600",
+        "12611220",
+        "12611590",
+        "12611070"
+      ]
+    },
+    {
+      "pattern_id": "12611070",
+      "name": "Organization of structures to enhance receptivity to external insight",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610780",
+        "12610750",
+        "12610950",
+        "12610800",
+        "12610770",
+        "12610810",
+        "12610870",
+        "12610820",
+        "12610760",
+        "12611050",
+        "12611060",
+        "12610830",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12611080",
+        "12611270",
+        "12611190",
+        "12611160",
+        "12611170",
+        "12611320",
+        "12611100",
+        "12611180",
+        "12611600",
+        "12611220",
+        "12611590",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611080",
+      "name": "Interconnected structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610950",
+        "12611070",
+        "12611060"
+      ],
+      "narrower_patterns": [
+        "12611190",
+        "12611630",
+        "12611150"
+      ]
+    },
+    {
+      "pattern_id": "12611090",
+      "name": "Organization of structure to enhance autonomy of sub-structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610380",
+        "12610950",
+        "12611060",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12611270",
+        "12611160",
+        "12611290",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611100",
+      "name": "Distinctiveness of main entry point to structure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610530",
+        "12610560",
+        "12610980",
+        "12610950",
+        "12610890",
+        "12611020",
+        "12610970",
+        "12611050",
+        "12611070",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12612420",
+        "12612490",
+        "12611270",
+        "12611200",
+        "12612240",
+        "12611250",
+        "12611110",
+        "12611300",
+        "12611120",
+        "12611330",
+        "12611130"
+      ]
+    },
+    {
+      "pattern_id": "12611110",
+      "name": "Blended integration of formal structure and informal context",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610380",
+        "12610370",
+        "12610790",
+        "12610410",
+        "12610650",
+        "12611100",
+        "12611050",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12611700",
+        "12611720",
+        "12611630",
+        "12611770",
+        "12611150",
+        "12611730",
+        "12611180",
+        "12611120",
+        "12611400"
+      ]
+    },
+    {
+      "pattern_id": "12611120",
+      "name": "Transition domain between structure and communication pathway",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610530",
+        "12611100",
+        "12611020",
+        "12611110"
+      ],
+      "narrower_patterns": [
+        "12611270",
+        "12611340",
+        "12611740",
+        "12611350",
+        "12611730",
+        "12611300",
+        "12611530",
+        "12611130"
+      ]
+    },
+    {
+      "pattern_id": "12611130",
+      "name": "Harmoniously structured entry point for external communication media",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610490",
+        "12611100",
+        "12611120"
+      ],
+      "narrower_patterns": [
+        "12611270",
+        "12611190",
+        "12611200",
+        "12612450",
+        "12611290",
+        "12611630",
+        "12611300",
+        "12611620",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611140",
+      "name": "Hierachy of perspectives favouring the broadest",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610070",
+        "12610600",
+        "12610490",
+        "12610670",
+        "12610980",
+        "12610610",
+        "12610510",
+        "12611050",
+        "12611060",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12611240",
+        "12611760",
+        "12611150",
+        "12611730",
+        "12611400"
+      ]
+    },
+    {
+      "pattern_id": "12611150",
+      "name": "Functional integration of unstructured internal domains",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611080",
+        "12610980",
+        "12610410",
+        "12610690",
+        "12611140",
+        "12611110",
+        "12611060"
+      ],
+      "narrower_patterns": [
+        "12611190",
+        "12611610",
+        "12612090",
+        "12611340",
+        "12611670",
+        "12611260",
+        "12611630",
+        "12611730",
+        "12611660"
+      ]
+    },
+    {
+      "pattern_id": "12611160",
+      "name": "Patterning integrative superstructure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610990",
+        "12610950",
+        "12610960",
+        "12611090",
+        "12611070"
+      ],
+      "narrower_patterns": [
+        "12611190",
+        "12611900",
+        "12611170",
+        "12612090",
+        "12611290",
+        "12612110",
+        "12611180",
+        "12611590",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611170",
+      "name": "Containment by integrative superstructure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611160",
+        "12610960",
+        "12611070"
+      ],
+      "narrower_patterns": [
+        "12612200",
+        "12611190",
+        "12612090",
+        "12612310",
+        "12611450",
+        "12611180",
+        "12611660"
+      ]
+    },
+    {
+      "pattern_id": "12611180",
+      "name": "Integration of non-linearity into integrative superstructure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610390",
+        "12611160",
+        "12611170",
+        "12610960",
+        "12611110",
+        "12611070",
+        "12611060"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12612200",
+        "12612460",
+        "12611610",
+        "12612450",
+        "12612090",
+        "12611580",
+        "12611670",
+        "12611630",
+        "12611770",
+        "12611400",
+        "12611660"
+      ]
+    },
+    {
+      "pattern_id": "12611190",
+      "name": "Partially contained interfaces",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610340",
+        "12611080",
+        "12610560",
+        "12610980",
+        "12611160",
+        "12610550",
+        "12610690",
+        "12611170",
+        "12610640",
+        "12611150",
+        "12611000",
+        "12611130",
+        "12611070"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612440",
+        "12611680",
+        "12612420",
+        "12612270",
+        "12611930",
+        "12611200",
+        "12611210",
+        "12612240",
+        "12611900",
+        "12611240",
+        "12611290",
+        "12611670",
+        "12612110",
+        "12611600",
+        "12611220",
+        "12611660",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611200",
+      "name": "Focus-oriented communication networks",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610300",
+        "12611190",
+        "12610980",
+        "12610690",
+        "12610360",
+        "12610950",
+        "12611100",
+        "12611020",
+        "12611130",
+        "12611060",
+        "12610520"
+      ],
+      "narrower_patterns": [
+        "12612410",
+        "12612470",
+        "12611700",
+        "12611210",
+        "12612450",
+        "12611340",
+        "12611240",
+        "12611740",
+        "12611260",
+        "12611710"
+      ]
+    },
+    {
+      "pattern_id": "12611210",
+      "name": "Hospitability of communication pathways",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610920",
+        "12610320",
+        "12611190",
+        "12610310",
+        "12611200",
+        "12610550",
+        "12610690",
+        "12610360",
+        "12611000",
+        "12611060",
+        "12610520"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12612410",
+        "12612470",
+        "12611230",
+        "12611240",
+        "12611260",
+        "12611640",
+        "12611250",
+        "12611650",
+        "12611220"
+      ]
+    },
+    {
+      "pattern_id": "12611220",
+      "name": "Direct relationship between structures and communication pathways",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610450",
+        "12611190",
+        "12611210",
+        "12610950",
+        "12610420",
+        "12610610",
+        "12611060",
+        "12611070"
+      ],
+      "narrower_patterns": [
+        "12612420",
+        "12611240",
+        "12611640",
+        "12611250",
+        "12611650",
+        "12611600",
+        "12611400",
+        "12611660"
+      ]
+    },
+    {
+      "pattern_id": "12611230",
+      "name": "Enhancing function of common domains",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610440",
+        "12610310",
+        "12611210",
+        "12610360",
+        "12610880",
+        "12611010",
+        "12610610",
+        "12610290",
+        "12611000"
+      ],
+      "narrower_patterns": [
+        "12611240",
+        "12611640",
+        "12611250",
+        "12611650",
+        "12611400",
+        "12611660"
+      ]
+    },
+    {
+      "pattern_id": "12611240",
+      "name": "Ensuring function of common domain interfaces",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611190",
+        "12610310",
+        "12611230",
+        "12611200",
+        "12610690",
+        "12611210",
+        "12610880",
+        "12611010",
+        "12610610",
+        "12611140",
+        "12611000",
+        "12610930",
+        "12611220",
+        "12610630"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12612410",
+        "12611500",
+        "12611260",
+        "12611740",
+        "12611630"
+      ]
+    },
+    {
+      "pattern_id": "12611250",
+      "name": "Integrating points of perspective into common domains",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610620",
+        "12611230",
+        "12610550",
+        "12610690",
+        "12611210",
+        "12610880",
+        "12610610",
+        "12611100",
+        "12611020",
+        "12611330",
+        "12611220",
+        "12611060"
+      ],
+      "narrower_patterns": [
+        "12612480",
+        "12611680",
+        "12612410",
+        "12612450",
+        "12611580",
+        "12611260",
+        "12611950",
+        "12611600"
+      ]
+    },
+    {
+      "pattern_id": "12611260",
+      "name": "Off-centering the focal point of a common domain",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610670",
+        "12610620",
+        "12610710",
+        "12611200",
+        "12610690",
+        "12611210",
+        "12610640",
+        "12611240",
+        "12610610",
+        "12611250",
+        "12611150",
+        "12610630"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12611710"
+      ]
+    },
+    {
+      "pattern_id": "12611270",
+      "name": "Nested levels of accessibility",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610960",
+        "12611100",
+        "12611120",
+        "12611090",
+        "12611130",
+        "12611070"
+      ],
+      "narrower_patterns": [
+        "12612330",
+        "12611520",
+        "12611460",
+        "12611310",
+        "12611380",
+        "12611420",
+        "12611290",
+        "12611360",
+        "12611410",
+        "12611280",
+        "12611850",
+        "12611300",
+        "12611440"
+      ]
+    },
+    {
+      "pattern_id": "12611280",
+      "name": "Orientation of domains to receive external insight",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611270",
+        "12611050"
+      ],
+      "narrower_patterns": [
+        "12612360",
+        "12611610",
+        "12611830",
+        "12611380",
+        "12611570",
+        "12611290",
+        "12611630",
+        "12611990",
+        "12611620"
+      ]
+    },
+    {
+      "pattern_id": "12611290",
+      "name": "Common domain at the focal point of a structure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611270",
+        "12611190",
+        "12610990",
+        "12611160",
+        "12610690",
+        "12610750",
+        "12610650",
+        "12610860",
+        "12611280",
+        "12610910",
+        "12610760",
+        "12611090",
+        "12611130",
+        "12610830"
+      ],
+      "narrower_patterns": [
+        "12612520",
+        "12611460",
+        "12611370",
+        "12611310",
+        "12611470",
+        "12611320",
+        "12611420",
+        "12611390",
+        "12611910",
+        "12611410",
+        "12611630",
+        "12611850",
+        "12611790",
+        "12611440",
+        "12611590",
+        "12611400",
+        "12611810"
+      ]
+    },
+    {
+      "pattern_id": "12611300",
+      "name": "Internal transition spaces enhancing structural entry points",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611270",
+        "12611100",
+        "12611020",
+        "12611120",
+        "12611130"
+      ],
+      "narrower_patterns": [
+        "12612520",
+        "12611680",
+        "12612420",
+        "12612370",
+        "12612020",
+        "12611310",
+        "12611940",
+        "12611800",
+        "12611340",
+        "12611420",
+        "12612010",
+        "12611910",
+        "12611350",
+        "12611490",
+        "12611590",
+        "12611400",
+        "12611660"
+      ]
+    },
+    {
+      "pattern_id": "12611310",
+      "name": "Organization of inter-domain dynamics",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611270",
+        "12611290",
+        "12611300"
+      ],
+      "narrower_patterns": [
+        "12611930",
+        "12611940",
+        "12611960",
+        "12612240",
+        "12611320",
+        "12611340",
+        "12611350",
+        "12611330",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611320",
+      "name": "Limiting length of communication pathways",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610980",
+        "12611310",
+        "12611010",
+        "12611290",
+        "12611070"
+      ],
+      "narrower_patterns": [
+        "12612220",
+        "12612370",
+        "12611370",
+        "12611940",
+        "12611970",
+        "12611340",
+        "12611800",
+        "12611980",
+        "12611910",
+        "12611630",
+        "12611350",
+        "12611790",
+        "12611330",
+        "12611590",
+        "12611660"
+      ]
+    },
+    {
+      "pattern_id": "12611330",
+      "name": "Integrating transition pathways between levels into a structure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611310",
+        "12611320",
+        "12611100"
+      ],
+      "narrower_patterns": [
+        "12611340",
+        "12611910",
+        "12611950",
+        "12611350",
+        "12611250",
+        "12612280"
+      ]
+    },
+    {
+      "pattern_id": "12611340",
+      "name": "Limiting exposure to harmonious perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610620",
+        "12610240",
+        "12611310",
+        "12610660",
+        "12611200",
+        "12611320",
+        "12611150",
+        "12611300",
+        "12611120",
+        "12611330"
+      ],
+      "narrower_patterns": [
+        "12612210",
+        "12612220",
+        "12611800",
+        "12611420",
+        "12611350",
+        "12611730"
+      ]
+    },
+    {
+      "pattern_id": "12611350",
+      "name": "Enhancing insight by varying levels of exposure to it",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611310",
+        "12611320",
+        "12611340",
+        "12611010",
+        "12610970",
+        "12611300",
+        "12611120",
+        "12611330"
+      ],
+      "narrower_patterns": [
+        "12612520",
+        "12612500",
+        "12612370",
+        "12611940",
+        "12611960",
+        "12611800",
+        "12611490"
+      ]
+    },
+    {
+      "pattern_id": "12611360",
+      "name": "Relative isolation of complementary perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611270",
+        "12610750",
+        "12610650",
+        "12610770",
+        "12610760"
+      ],
+      "narrower_patterns": [
+        "12611370",
+        "12611380",
+        "12611890",
+        "12611420",
+        "12611980",
+        "12611860",
+        "12611850",
+        "12611430",
+        "12611440",
+        "12611590",
+        "12611870"
+      ]
+    },
+    {
+      "pattern_id": "12611370",
+      "name": "Domain for developing perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611320",
+        "12611290",
+        "12611360",
+        "12610760",
+        "12610680"
+      ],
+      "narrower_patterns": [
+        "12611380",
+        "12612030",
+        "12611570",
+        "12611390",
+        "12611630",
+        "12611860",
+        "12611430",
+        "12611440"
+      ]
+    },
+    {
+      "pattern_id": "12611380",
+      "name": "Receptivity to emerging external insight",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611270",
+        "12611370",
+        "12611360",
+        "12611280"
+      ],
+      "narrower_patterns": [
+        "12612380",
+        "12612210",
+        "12611880",
+        "12611800",
+        "12611860",
+        "12611430",
+        "12611440",
+        "12611870"
+      ]
+    },
+    {
+      "pattern_id": "12611390",
+      "name": "Hospitable domain for perspective nourishment",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611370",
+        "12610780",
+        "12610650",
+        "12611290"
+      ],
+      "narrower_patterns": [
+        "12612000",
+        "12611470",
+        "12611420",
+        "12612010",
+        "12611840",
+        "12611910",
+        "12611820",
+        "12611630",
+        "12611790",
+        "12611990",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611400",
+      "name": "Relative isolation of structural interface with communication pathway",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611230",
+        "12610590",
+        "12611290",
+        "12611140",
+        "12610510",
+        "12611000",
+        "12611300",
+        "12611180",
+        "12611110",
+        "12611220"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12612430",
+        "12612410",
+        "12611610",
+        "12612470",
+        "12611930",
+        "12611420",
+        "12611690",
+        "12611630",
+        "12611560",
+        "12611730",
+        "12611660",
+        "12611550"
+      ]
+    },
+    {
+      "pattern_id": "12611410",
+      "name": "Relatively isolated context for each perspective",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610270",
+        "12611270",
+        "12610750",
+        "12610770",
+        "12611290",
+        "12610760"
+      ],
+      "narrower_patterns": [
+        "12611830",
+        "12612530",
+        "12611880",
+        "12611890",
+        "12611570",
+        "12611420",
+        "12611910",
+        "12611540",
+        "12611560",
+        "12611790",
+        "12611550",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611420",
+      "name": "Sequence of viewpoint loci within a structure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611270",
+        "12611340",
+        "12611390",
+        "12611290",
+        "12611410",
+        "12611360",
+        "12611300",
+        "12611400"
+      ],
+      "narrower_patterns": [
+        "12612510",
+        "12611520",
+        "12612410",
+        "12612020",
+        "12611940",
+        "12611960",
+        "12611800",
+        "12611500",
+        "12611630",
+        "12611790",
+        "12611850",
+        "12611810"
+      ]
+    },
+    {
+      "pattern_id": "12611430",
+      "name": "Interrelationship of contexts of developing perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611370",
+        "12611380",
+        "12611360",
+        "12610760"
+      ],
+      "narrower_patterns": [
+        "12611880",
+        "12611890",
+        "12611980",
+        "12611910",
+        "12611860",
+        "12611440",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611440",
+      "name": "Integrating coordinated exposure to irrationality into structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611270",
+        "12610710",
+        "12611370",
+        "12610780",
+        "12611380",
+        "12611290",
+        "12611360",
+        "12611430",
+        "12610930",
+        "12610720"
+      ],
+      "narrower_patterns": [
+        "12612380",
+        "12611890",
+        "12611910",
+        "12611780",
+        "12611770",
+        "12611730",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611450",
+      "name": "Domains for non-current elements and those in reserve",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610950",
+        "12611170",
+        "12610800",
+        "12610870",
+        "12610760"
+      ],
+      "narrower_patterns": [
+        "12612150",
+        "12611900",
+        "12611690",
+        "12611750",
+        "12611530",
+        "12611620"
+      ]
+    },
+    {
+      "pattern_id": "12611460",
+      "name": "Flexible domain organization",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611270",
+        "12610800",
+        "12611290",
+        "12610810",
+        "12610820"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612520",
+        "12611520",
+        "12611480",
+        "12611830",
+        "12611470",
+        "12611900",
+        "12611510",
+        "12611790",
+        "12611490",
+        "12611530",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611470",
+      "name": "Coordination of perspective nourishment",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611460",
+        "12610410",
+        "12610750",
+        "12610800",
+        "12611390",
+        "12611290",
+        "12610910",
+        "12610840",
+        "12610830"
+      ],
+      "narrower_patterns": [
+        "12611480",
+        "12611510",
+        "12611820"
+      ]
+    },
+    {
+      "pattern_id": "12611480",
+      "name": "Perspective interaction constraints",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611460",
+        "12611470",
+        "12610800",
+        "12610810",
+        "12610820",
+        "12610830"
+      ],
+      "narrower_patterns": [
+        "12611520",
+        "12611830",
+        "12611580",
+        "12611510"
+      ]
+    },
+    {
+      "pattern_id": "12611490",
+      "name": "Hospitable reception of external perspectives by structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611460",
+        "12611010",
+        "12610800",
+        "12610810",
+        "12611350",
+        "12611020",
+        "12611300"
+      ],
+      "narrower_patterns": [
+        "12611830",
+        "12611800",
+        "12611500",
+        "12611910",
+        "12611790",
+        "12611590",
+        "12611810"
+      ]
+    },
+    {
+      "pattern_id": "12611500",
+      "name": "Provision for temporary perspective inactivity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610340",
+        "12610940",
+        "12610920",
+        "12610470",
+        "12610710",
+        "12610880",
+        "12611420",
+        "12611240",
+        "12610810",
+        "12611490",
+        "12610820"
+      ],
+      "narrower_patterns": [
+        "12611800",
+        "12611910",
+        "12611640",
+        "12611760",
+        "12611790",
+        "12611650",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611510",
+      "name": "Small-scale perspective interaction contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610440",
+        "12611460",
+        "12610430",
+        "12611480",
+        "12611470",
+        "12610830"
+      ],
+      "narrower_patterns": [
+        "12612520",
+        "12612510",
+        "12611910",
+        "12611790",
+        "12611850",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611520",
+      "name": "Partially isolated contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611460",
+        "12611270",
+        "12611480",
+        "12611420",
+        "12610830"
+      ],
+      "narrower_patterns": [
+        "12611920",
+        "12611930",
+        "12611830",
+        "12611910",
+        "12611850",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611530",
+      "name": "Structures adaptable to changing number of embodied perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12611460",
+        "12610750",
+        "12610800",
+        "12610810",
+        "12611450",
+        "12611120"
+      ],
+      "narrower_patterns": [
+        "12611580",
+        "12611570",
+        "12611910",
+        "12611540",
+        "12611550",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611540",
+      "name": "Semi-autonomous contexts for maturing perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12610780",
+        "12610750",
+        "12611410",
+        "12610760",
+        "12611530"
+      ],
+      "narrower_patterns": [
+        "12611880",
+        "12611580",
+        "12611570",
+        "12611910",
+        "12611850",
+        "12611550",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611550",
+      "name": "Semi-autonomous contexts for perspectives of decreasing activity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12610400",
+        "12610780",
+        "12610750",
+        "12611410",
+        "12611540",
+        "12611530",
+        "12611400"
+      ],
+      "narrower_patterns": [
+        "12612420",
+        "12611910",
+        "12611640",
+        "12611560",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611560",
+      "name": "Opportunities for perspectives of decreasing activity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12610400",
+        "12610750",
+        "12611410",
+        "12611550",
+        "12611400"
+      ],
+      "narrower_patterns": [
+        "12611580",
+        "12611570",
+        "12611650"
+      ]
+    },
+    {
+      "pattern_id": "12611570",
+      "name": "Local opportunities for perspective activity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610270",
+        "12610370",
+        "12610180",
+        "12610470",
+        "12610790",
+        "12610090",
+        "12611370",
+        "12611410",
+        "12611540",
+        "12611280",
+        "12610840",
+        "12611560",
+        "12611530"
+      ],
+      "narrower_patterns": [
+        "12611920",
+        "12611610",
+        "12611830",
+        "12611580",
+        "12611910",
+        "12611650",
+        "12611590"
+      ]
+    },
+    {
+      "pattern_id": "12611580",
+      "name": "External access to higher structural levels",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610620",
+        "12610390",
+        "12611480",
+        "12610780",
+        "12611570",
+        "12611010",
+        "12610800",
+        "12610770",
+        "12611540",
+        "12610810",
+        "12611560",
+        "12611250",
+        "12611020",
+        "12610970",
+        "12611000",
+        "12611180",
+        "12610820",
+        "12610760",
+        "12611530"
+      ],
+      "narrower_patterns": [
+        "12611610",
+        "12611950"
+      ]
+    },
+    {
+      "pattern_id": "12611590",
+      "name": "Organization of structures to permit two sources of external insight",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611520",
+        "12611460",
+        "12611310",
+        "12611160",
+        "12611320",
+        "12611570",
+        "12611510",
+        "12611390",
+        "12611500",
+        "12611290",
+        "12611410",
+        "12611360",
+        "12611430",
+        "12611490",
+        "12611300",
+        "12611090",
+        "12611530",
+        "12611440",
+        "12611070",
+        "12611060"
+      ],
+      "narrower_patterns": [
+        "12612380",
+        "12612210",
+        "12612230",
+        "12611920",
+        "12612090",
+        "12611890",
+        "12611800",
+        "12611600",
+        "12611620"
+      ]
+    },
+    {
+      "pattern_id": "12611600",
+      "name": "Hospitable interface between structures and external environment",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610450",
+        "12610940",
+        "12611190",
+        "12610690",
+        "12611250",
+        "12611220",
+        "12611590",
+        "12611070",
+        "12611060"
+      ],
+      "narrower_patterns": [
+        "12611680",
+        "12612420",
+        "12612490",
+        "12612410",
+        "12611610",
+        "12612450",
+        "12611970",
+        "12611670",
+        "12611640",
+        "12611690",
+        "12611630",
+        "12611620",
+        "12611660"
+      ]
+    },
+    {
+      "pattern_id": "12611610",
+      "name": "Structure-enfolded insight domain",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611580",
+        "12611570",
+        "12611280",
+        "12611150",
+        "12611180",
+        "12611600",
+        "12611050",
+        "12611400",
+        "12610730"
+      ],
+      "narrower_patterns": [
+        "12612380",
+        "12612440",
+        "12612420",
+        "12612410",
+        "12611670",
+        "12611740",
+        "12611760",
+        "12611630",
+        "12611620"
+      ]
+    },
+    {
+      "pattern_id": "12611620",
+      "name": "Organization of integrative superstructure to minimize insight blindspots",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611610",
+        "12611280",
+        "12611450",
+        "12611600",
+        "12611590",
+        "12611130",
+        "12611050"
+      ],
+      "narrower_patterns": [
+        "12611980",
+        "12611780",
+        "12611730"
+      ]
+    },
+    {
+      "pattern_id": "12611630",
+      "name": "Hospitable non-linear domain external to structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611080",
+        "12611610",
+        "12611370",
+        "12610690",
+        "12611320",
+        "12611420",
+        "12611390",
+        "12611240",
+        "12611290",
+        "12611280",
+        "12611150",
+        "12611180",
+        "12611110",
+        "12611600",
+        "12611130",
+        "12611400",
+        "12611060"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612440",
+        "12611680",
+        "12612430",
+        "12612410",
+        "12612470",
+        "12611910",
+        "12611670",
+        "12611740",
+        "12611710",
+        "12611650",
+        "12611730",
+        "12611660",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611640",
+      "name": "Overview of communication pathway from structure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610570",
+        "12611230",
+        "12611210",
+        "12611010",
+        "12611500",
+        "12610610",
+        "12610510",
+        "12611000",
+        "12611600",
+        "12611550",
+        "12611220"
+      ],
+      "narrower_patterns": [
+        "12612380",
+        "12612210",
+        "12612360",
+        "12612460",
+        "12611800"
+      ]
+    },
+    {
+      "pattern_id": "12611650",
+      "name": "Exposure of structural activities to communication pathway",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610440",
+        "12610450",
+        "12610470",
+        "12610430",
+        "12610460",
+        "12611230",
+        "12611210",
+        "12610890",
+        "12610880",
+        "12611570",
+        "12611010",
+        "12611500",
+        "12611630",
+        "12610870",
+        "12611560",
+        "12610850",
+        "12611220",
+        "12610720"
+      ],
+      "narrower_patterns": [
+        "12612430"
+      ]
+    },
+    {
+      "pattern_id": "12611660",
+      "name": "Overview domains at interfaces of the structure with the external environment",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611190",
+        "12611230",
+        "12611320",
+        "12611170",
+        "12611630",
+        "12611150",
+        "12610970",
+        "12611000",
+        "12611300",
+        "12611180",
+        "12611600",
+        "12611220",
+        "12611400"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612440",
+        "12611680",
+        "12612430",
+        "12612270",
+        "12611930",
+        "12611670"
+      ]
+    },
+    {
+      "pattern_id": "12611670",
+      "name": "Enfolded overview domains of minimum proportions",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611190",
+        "12611610",
+        "12611630",
+        "12611150",
+        "12611000",
+        "12611180",
+        "12611600",
+        "12611660"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12611680",
+        "12612430",
+        "12612270",
+        "12611930",
+        "12611910"
+      ]
+    },
+    {
+      "pattern_id": "12611680",
+      "name": "Grounded structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611190",
+        "12611670",
+        "12611630",
+        "12611250",
+        "12611300",
+        "12611600",
+        "12611660"
+      ],
+      "narrower_patterns": [
+        "12612480",
+        "12612420",
+        "12612490",
+        "12612150",
+        "12612140",
+        "12612410",
+        "12612470",
+        "12611690"
+      ]
+    },
+    {
+      "pattern_id": "12611690",
+      "name": "Maintaining distinctions between contextual levels",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611680",
+        "12611450",
+        "12611600",
+        "12611400",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12612470",
+        "12611700",
+        "12612450",
+        "12611720",
+        "12611770"
+      ]
+    },
+    {
+      "pattern_id": "12611700",
+      "name": "Cultivation of productive non-linearity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610670",
+        "12611200",
+        "12611690",
+        "12610510",
+        "12611110"
+      ],
+      "narrower_patterns": [
+        "12611720",
+        "12611740",
+        "12611760",
+        "12611780",
+        "12611770",
+        "12611710"
+      ]
+    },
+    {
+      "pattern_id": "12611710",
+      "name": "Appropriate relationship of non-linearity to structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610600",
+        "12610240",
+        "12611200",
+        "12610660",
+        "12611700",
+        "12610960",
+        "12610700",
+        "12611260",
+        "12611030",
+        "12611630",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12612410",
+        "12611720",
+        "12611740",
+        "12611760"
+      ]
+    },
+    {
+      "pattern_id": "12611720",
+      "name": "Contexts of self-organizing non-linearity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610710",
+        "12611700",
+        "12611690",
+        "12611710",
+        "12611110",
+        "12611060",
+        "12611040",
+        "12610730"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12612450",
+        "12611760",
+        "12611750"
+      ]
+    },
+    {
+      "pattern_id": "12611730",
+      "name": "Protecting non-linear contexts from communication pathways",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610600",
+        "12610560",
+        "12610590",
+        "12610650",
+        "12611340",
+        "12611140",
+        "12611030",
+        "12611630",
+        "12611150",
+        "12611110",
+        "12611120",
+        "12611440",
+        "12611400",
+        "12611060",
+        "12611620"
+      ],
+      "narrower_patterns": [
+        "12612490",
+        "12611930",
+        "12612450",
+        "12611740"
+      ]
+    },
+    {
+      "pattern_id": "12611740",
+      "name": "Communication pathways enfolded by non-linearity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611610",
+        "12610710",
+        "12611200",
+        "12611700",
+        "12611240",
+        "12610540",
+        "12611630",
+        "12611710",
+        "12611730",
+        "12611120",
+        "12611060"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612380",
+        "12612440",
+        "12612460",
+        "12612410",
+        "12612470",
+        "12611750"
+      ]
+    },
+    {
+      "pattern_id": "12611750",
+      "name": "Insight capturing non-linear extensions of structures",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610370",
+        "12610670",
+        "12610410",
+        "12611720",
+        "12611740",
+        "12611450"
+      ],
+      "narrower_patterns": [
+        "12611800",
+        "12612010",
+        "12611760",
+        "12611780",
+        "12611770"
+      ]
+    },
+    {
+      "pattern_id": "12611760",
+      "name": "Sites for grounding perspectives in non-linearity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610240",
+        "12611610",
+        "12611700",
+        "12611720",
+        "12611500",
+        "12611140",
+        "12611750",
+        "12611710"
+      ],
+      "narrower_patterns": [
+        "12612380",
+        "12612410"
+      ]
+    },
+    {
+      "pattern_id": "12611770",
+      "name": "Local cultivation of sources of perspective nourishment",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610470",
+        "12610670",
+        "12610390",
+        "12610400",
+        "12611700",
+        "12611690",
+        "12611750",
+        "12611180",
+        "12611110",
+        "12611440"
+      ],
+      "narrower_patterns": [
+        "12611780"
+      ]
+    },
+    {
+      "pattern_id": "12611780",
+      "name": "Re-integration of rejected perspective by-products",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610370",
+        "12611700",
+        "12610740",
+        "12611750",
+        "12611770",
+        "12611440",
+        "12611620"
+      ],
+      "narrower_patterns": [
+        "12611810"
+      ]
+    },
+    {
+      "pattern_id": "12611790",
+      "name": "Organization of structure to provide occupiable sites",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611460",
+        "12611320",
+        "12611510",
+        "12611420",
+        "12611390",
+        "12610900",
+        "12611500",
+        "12611290",
+        "12611410",
+        "12611490"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612520",
+        "12612020",
+        "12611930",
+        "12611830",
+        "12611900",
+        "12611970",
+        "12611800",
+        "12612310",
+        "12611910",
+        "12612110",
+        "12611860",
+        "12612280"
+      ]
+    },
+    {
+      "pattern_id": "12611800",
+      "name": "Occupiable sites exposed to external insight",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610780",
+        "12611380",
+        "12611320",
+        "12611340",
+        "12611010",
+        "12611420",
+        "12611500",
+        "12611640",
+        "12611790",
+        "12611750",
+        "12611350",
+        "12611490",
+        "12611300",
+        "12611590"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12612210",
+        "12612360",
+        "12612220",
+        "12612230",
+        "12612020",
+        "12611970",
+        "12612310",
+        "12612110",
+        "12611850",
+        "12611810",
+        "12612490"
+      ]
+    },
+    {
+      "pattern_id": "12611810",
+      "name": "Maintenance of source of direct insight within structures as a focal point",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611800",
+        "12611420",
+        "12610900",
+        "12611290",
+        "12611780",
+        "12611490"
+      ],
+      "narrower_patterns": [
+        "12611850"
+      ]
+    },
+    {
+      "pattern_id": "12611820",
+      "name": "Appropriate conditions for perspective nourishment",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611470",
+        "12611390"
+      ],
+      "narrower_patterns": [
+        "12612520",
+        "12612500",
+        "12612020",
+        "12612000",
+        "12612010",
+        "12612510"
+      ]
+    },
+    {
+      "pattern_id": "12611830",
+      "name": "Partially exposed perspective context",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611520",
+        "12611460",
+        "12611480",
+        "12610780",
+        "12611570",
+        "12611410",
+        "12611280",
+        "12611790",
+        "12611490",
+        "12610830"
+      ],
+      "narrower_patterns": [
+        "12612520",
+        "12611920",
+        "12612000",
+        "12611930",
+        "12611970",
+        "12611980",
+        "12612010",
+        "12611910",
+        "12611850"
+      ]
+    },
+    {
+      "pattern_id": "12611840",
+      "name": "Appropriate configuration for input processing",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611390"
+      ],
+      "narrower_patterns": [
+        "12612000",
+        "12611970",
+        "12611990"
+      ]
+    },
+    {
+      "pattern_id": "12611850",
+      "name": "Appropriate configuration for perspective interaction",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611520",
+        "12611270",
+        "12611830",
+        "12611800",
+        "12611510",
+        "12611420",
+        "12611290",
+        "12611360",
+        "12611540",
+        "12611810"
+      ],
+      "narrower_patterns": [
+        "12612510",
+        "12612520",
+        "12611930",
+        "12611910"
+      ]
+    },
+    {
+      "pattern_id": "12611860",
+      "name": "Appropriate configuration for perspective inactivity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611370",
+        "12611380",
+        "12611360",
+        "12610910",
+        "12611790",
+        "12611430"
+      ],
+      "narrower_patterns": [
+        "12611880",
+        "12611890",
+        "12611870"
+      ]
+    },
+    {
+      "pattern_id": "12611870",
+      "name": "Appropriate configuration for interaction of complementary perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610260",
+        "12611380",
+        "12611360",
+        "12611860"
+      ],
+      "narrower_patterns": [
+        "12612490",
+        "12611900",
+        "12611880",
+        "12611890",
+        "12611910"
+      ]
+    },
+    {
+      "pattern_id": "12611880",
+      "name": "Occupiable sites for perspective inactivity",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610940",
+        "12610780",
+        "12611380",
+        "12611410",
+        "12611540",
+        "12611860",
+        "12611430",
+        "12611870"
+      ],
+      "narrower_patterns": [
+        "12612210",
+        "12612000",
+        "12611930",
+        "12611900",
+        "12611970",
+        "12611890",
+        "12611910"
+      ]
+    },
+    {
+      "pattern_id": "12611890",
+      "name": "Context for forms of perspective presentation",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12610780",
+        "12611880",
+        "12611410",
+        "12611360",
+        "12611860",
+        "12611430",
+        "12611440",
+        "12611590",
+        "12611870"
+      ],
+      "narrower_patterns": [
+        "12612000",
+        "12611970",
+        "12612010",
+        "12611980",
+        "12611910"
+      ]
+    },
+    {
+      "pattern_id": "12611900",
+      "name": "Variation in size of perspective contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611460",
+        "12611190",
+        "12611160",
+        "12611880",
+        "12611010",
+        "12610900",
+        "12611790",
+        "12611450",
+        "12611870"
+      ],
+      "narrower_patterns": [
+        "12612040",
+        "12611920",
+        "12612190",
+        "12611970",
+        "12612100",
+        "12611910",
+        "12612130",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611910",
+      "name": "Appropriate proportions of perspective contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611520",
+        "12611830",
+        "12611900",
+        "12611320",
+        "12610890",
+        "12611880",
+        "12611890",
+        "12611570",
+        "12611510",
+        "12611390",
+        "12611500",
+        "12611290",
+        "12611670",
+        "12611410",
+        "12611540",
+        "12611630",
+        "12610870",
+        "12611850",
+        "12611790",
+        "12611430",
+        "12611490",
+        "12611300",
+        "12611330",
+        "12611550",
+        "12611530",
+        "12611440",
+        "12611060",
+        "12611870"
+      ],
+      "narrower_patterns": [
+        "12611920",
+        "12612180",
+        "12612190",
+        "12611930",
+        "12611970",
+        "12612100",
+        "12611980",
+        "12612120",
+        "12612050"
+      ]
+    },
+    {
+      "pattern_id": "12611920",
+      "name": "Overview of external contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611520",
+        "12611830",
+        "12611900",
+        "12611570",
+        "12611910",
+        "12611590"
+      ],
+      "narrower_patterns": [
+        "12612210",
+        "12612360",
+        "12612220",
+        "12612390",
+        "12612230",
+        "12611990"
+      ]
+    },
+    {
+      "pattern_id": "12611930",
+      "name": "Partially enclosed internal domains",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611520",
+        "12611190",
+        "12611830",
+        "12611310",
+        "12611880",
+        "12611010",
+        "12611910",
+        "12611670",
+        "12611850",
+        "12611790",
+        "12611730",
+        "12611400",
+        "12611660"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612270",
+        "12612490",
+        "12612390",
+        "12611940",
+        "12612120"
+      ]
+    },
+    {
+      "pattern_id": "12611940",
+      "name": "Internal connectedness between domains",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611930",
+        "12611310",
+        "12611320",
+        "12611010",
+        "12611420",
+        "12611350",
+        "12611300"
+      ],
+      "narrower_patterns": [
+        "12612390",
+        "12612370"
+      ]
+    },
+    {
+      "pattern_id": "12611950",
+      "name": "Framework for transition between structural levels",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611580",
+        "12611250",
+        "12611330"
+      ],
+      "narrower_patterns": [
+        "12612030",
+        "12612280",
+        "12612120"
+      ]
+    },
+    {
+      "pattern_id": "12611960",
+      "name": "Eccentric access to perspective contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611310",
+        "12611420",
+        "12611350"
+      ],
+      "narrower_patterns": [
+        "12612210",
+        "12612490",
+        "12612370",
+        "12612370",
+        "12612240",
+        "12611980"
+      ]
+    },
+    {
+      "pattern_id": "12611970",
+      "name": "Substantive distinctions separating domains",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611830",
+        "12611900",
+        "12611320",
+        "12610890",
+        "12611880",
+        "12611890",
+        "12611800",
+        "12611840",
+        "12611910",
+        "12610870",
+        "12611790",
+        "12611600"
+      ],
+      "narrower_patterns": [
+        "12612040",
+        "12612230",
+        "12612020",
+        "12612000",
+        "12612030",
+        "12612010",
+        "12611980",
+        "12612110",
+        "12611990",
+        "12612120"
+      ]
+    },
+    {
+      "pattern_id": "12611980",
+      "name": "Inter-domain contexts for perspective adjuncts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611830",
+        "12611960",
+        "12611320",
+        "12611970",
+        "12611890",
+        "12611910",
+        "12611360",
+        "12611430",
+        "12611620"
+      ],
+      "narrower_patterns": [
+        "12612040",
+        "12612280"
+      ]
+    },
+    {
+      "pattern_id": "12611990",
+      "name": "Exposure of input processing context to external insight",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611920",
+        "12611970",
+        "12611390",
+        "12611840",
+        "12611280"
+      ],
+      "narrower_patterns": [
+        "12612500",
+        "12612000",
+        "12612110"
+      ]
+    },
+    {
+      "pattern_id": "12612000",
+      "name": "Facilities for perspective adjuncts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611830",
+        "12610890",
+        "12611970",
+        "12611880",
+        "12611890",
+        "12611390",
+        "12611840",
+        "12611820",
+        "12610870",
+        "12611990"
+      ],
+      "narrower_patterns": [
+        "12612010",
+        "12612110"
+      ]
+    },
+    {
+      "pattern_id": "12612010",
+      "name": "Accessible facilities for perspective adjuncts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12612000",
+        "12611830",
+        "12611970",
+        "12611890",
+        "12611390",
+        "12611820",
+        "12611750",
+        "12611300"
+      ],
+      "narrower_patterns": [
+        "12612220",
+        "12612530",
+        "12612110"
+      ]
+    },
+    {
+      "pattern_id": "12612020",
+      "name": "Structure-enfolded occupiable sites",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611970",
+        "12611800",
+        "12611420",
+        "12611820",
+        "12611790",
+        "12611300"
+      ],
+      "narrower_patterns": [
+        "12612510",
+        "12612300",
+        "12612110"
+      ]
+    },
+    {
+      "pattern_id": "12612030",
+      "name": "Exclusive spaces for emergent perspectives",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611370",
+        "12611970",
+        "12610860",
+        "12611950",
+        "12610730"
+      ],
+      "narrower_patterns": [
+        "12612240",
+        "12612110",
+        "12612280"
+      ]
+    },
+    {
+      "pattern_id": "12612040",
+      "name": "Exclusive contexts",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12611900",
+        "12611970",
+        "12611980"
+      ],
+      "narrower_patterns": [
+        "12612190",
+        "12612110"
+      ]
     },
     {
       "pattern_id": "12612050",
@@ -4221,7 +9129,29 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612050.md"
+      "source_file": "arc_12612050.md",
+      "broader_patterns": [
+        "12611190",
+        "12610990",
+        "12611160",
+        "12610950",
+        "12611900",
+        "12610960",
+        "12611910",
+        "12611540",
+        "12611630",
+        "12610970",
+        "12611550",
+        "12611130",
+        "12611070"
+      ],
+      "narrower_patterns": [
+        "12612080",
+        "12612070",
+        "12612190",
+        "12612060",
+        "12612120"
+      ]
     },
     {
       "pattern_id": "12612060",
@@ -4294,7 +9224,29 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612060.md"
+      "source_file": "arc_12612060.md",
+      "broader_patterns": [
+        "12612050"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612170",
+        "12612270",
+        "12612150",
+        "12612160",
+        "12612200",
+        "12612180",
+        "12612080",
+        "12612070",
+        "12612070",
+        "12612190",
+        "12612090",
+        "12612100",
+        "12612130",
+        "12612290",
+        "12612280",
+        "12612120"
+      ]
     },
     {
       "pattern_id": "12612070",
@@ -4368,7 +9320,19 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612070.md"
+      "source_file": "arc_12612070.md",
+      "broader_patterns": [
+        "12612340",
+        "12612060",
+        "12612050"
+      ],
+      "narrower_patterns": [
+        "12612480",
+        "12612500",
+        "12612080",
+        "12612190",
+        "12612280"
+      ]
     },
     {
       "pattern_id": "12612080",
@@ -4440,7 +9404,22 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612080.md"
+      "source_file": "arc_12612080.md",
+      "broader_patterns": [
+        "12612070",
+        "12612060",
+        "12612050"
+      ],
+      "narrower_patterns": [
+        "12612170",
+        "12612160",
+        "12612200",
+        "12612180",
+        "12612180",
+        "12612190",
+        "12612310",
+        "12612120"
+      ]
     },
     {
       "pattern_id": "12612090",
@@ -4510,7 +9489,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612090.md"
+      "source_file": "arc_12612090.md",
+      "broader_patterns": [
+        "12611160",
+        "12611170",
+        "12611150",
+        "12611180",
+        "12612060",
+        "12611590"
+      ],
+      "narrower_patterns": [
+        "12612100",
+        "12612110",
+        "12612120"
+      ]
     },
     {
       "pattern_id": "12612100",
@@ -4580,7 +9572,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612100.md"
+      "source_file": "arc_12612100.md",
+      "broader_patterns": [
+        "12611900",
+        "12612090",
+        "12611910",
+        "12612060"
+      ],
+      "narrower_patterns": [
+        "12612170",
+        "12612330",
+        "12612190",
+        "12612130",
+        "12612110",
+        "12612120"
+      ]
     },
     {
       "pattern_id": "12612110",
@@ -4650,7 +9656,27 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612110.md"
+      "source_file": "arc_12612110.md",
+      "broader_patterns": [
+        "12612040",
+        "12611190",
+        "12612020",
+        "12612000",
+        "12611160",
+        "12612090",
+        "12612030",
+        "12611970",
+        "12611800",
+        "12612100",
+        "12612010",
+        "12611790",
+        "12611990"
+      ],
+      "narrower_patterns": [
+        "12612200",
+        "12612190",
+        "12612120"
+      ]
     },
     {
       "pattern_id": "12612120",
@@ -4722,7 +9748,31 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612120.md"
+      "source_file": "arc_12612120.md",
+      "broader_patterns": [
+        "12612080",
+        "12611930",
+        "12610460",
+        "12612090",
+        "12611970",
+        "12612100",
+        "12611910",
+        "12612110",
+        "12611950",
+        "12612060",
+        "12612050"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612170",
+        "12612150",
+        "12612160",
+        "12612200",
+        "12612140",
+        "12612190",
+        "12612310",
+        "12612130"
+      ]
     },
     {
       "pattern_id": "12612130",
@@ -4792,7 +9842,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612130.md"
+      "source_file": "arc_12612130.md",
+      "broader_patterns": [
+        "12611900",
+        "12610960",
+        "12612100",
+        "12612060",
+        "12612120"
+      ],
+      "narrower_patterns": [
+        "12612160",
+        "12612140",
+        "12612180",
+        "12612190"
+      ]
     },
     {
       "pattern_id": "12612140",
@@ -4862,7 +9925,18 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612140.md"
+      "source_file": "arc_12612140.md",
+      "broader_patterns": [
+        "12611680",
+        "12612130",
+        "12612120",
+        "12611040"
+      ],
+      "narrower_patterns": [
+        "12612160",
+        "12612150",
+        "12612190"
+      ]
     },
     {
       "pattern_id": "12612150",
@@ -4932,7 +10006,19 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612150.md"
+      "source_file": "arc_12612150.md",
+      "broader_patterns": [
+        "12611680",
+        "12612140",
+        "12611450",
+        "12612060",
+        "12612120"
+      ],
+      "narrower_patterns": [
+        "12612480",
+        "12612330",
+        "12612190"
+      ]
     },
     {
       "pattern_id": "12612160",
@@ -5004,7 +10090,24 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612160.md"
+      "source_file": "arc_12612160.md",
+      "broader_patterns": [
+        "12612140",
+        "12612080",
+        "12612130",
+        "12612060",
+        "12612120"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612170",
+        "12612270",
+        "12612210",
+        "12612400",
+        "12612180",
+        "12612190",
+        "12612310"
+      ]
     },
     {
       "pattern_id": "12612170",
@@ -5074,7 +10177,22 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612170.md"
+      "source_file": "arc_12612170.md",
+      "broader_patterns": [
+        "12612160",
+        "12612080",
+        "12612100",
+        "12612060",
+        "12612120"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612270",
+        "12612210",
+        "12612400",
+        "12612190",
+        "12612310"
+      ]
     },
     {
       "pattern_id": "12612180",
@@ -5144,7 +10262,24 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612180.md"
+      "source_file": "arc_12612180.md",
+      "broader_patterns": [
+        "12612160",
+        "12612080",
+        "12611910",
+        "12612130",
+        "12612060"
+      ],
+      "narrower_patterns": [
+        "12612480",
+        "12612490",
+        "12612370",
+        "12612300",
+        "12612350",
+        "12612320",
+        "12612310",
+        "12612340"
+      ]
     },
     {
       "pattern_id": "12612190",
@@ -5214,7 +10349,34 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612190.md"
+      "source_file": "arc_12612190.md",
+      "broader_patterns": [
+        "12612040",
+        "12612170",
+        "12612160",
+        "12612150",
+        "12612140",
+        "12612080",
+        "12612070",
+        "12611900",
+        "12612100",
+        "12611910",
+        "12612130",
+        "12612110",
+        "12612060",
+        "12612120",
+        "12612050"
+      ],
+      "narrower_patterns": [
+        "12612330",
+        "12612400",
+        "12612300",
+        "12612350",
+        "12612310",
+        "12612290",
+        "12612280",
+        "12612200"
+      ]
     },
     {
       "pattern_id": "12612200",
@@ -5284,7 +10446,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612200.md"
+      "source_file": "arc_12612200.md",
+      "broader_patterns": [
+        "12612080",
+        "12612190",
+        "12611170",
+        "12612110",
+        "12611180",
+        "12612060",
+        "12612120"
+      ],
+      "narrower_patterns": [
+        "12612320",
+        "12612310",
+        "12612340"
+      ]
     },
     {
       "pattern_id": "12612210",
@@ -5354,7 +10530,28 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612210.md"
+      "source_file": "arc_12612210.md",
+      "broader_patterns": [
+        "12612170",
+        "12612160",
+        "12611920",
+        "12611960",
+        "12611380",
+        "12611880",
+        "12611800",
+        "12611340",
+        "12611640",
+        "12611590"
+      ],
+      "narrower_patterns": [
+        "12612380",
+        "12612360",
+        "12612220",
+        "12612390",
+        "12612230",
+        "12612230",
+        "12612240"
+      ]
     },
     {
       "pattern_id": "12612220",
@@ -5426,7 +10623,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612220.md"
+      "source_file": "arc_12612220.md",
+      "broader_patterns": [
+        "12612210",
+        "12611920",
+        "12611320",
+        "12611800",
+        "12611340",
+        "12612010"
+      ],
+      "narrower_patterns": [
+        "12612360",
+        "12612360",
+        "12612450"
+      ]
     },
     {
       "pattern_id": "12612230",
@@ -5496,7 +10706,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612230.md"
+      "source_file": "arc_12612230.md",
+      "broader_patterns": [
+        "12612210",
+        "12611920",
+        "12611970",
+        "12611800",
+        "12611590"
+      ],
+      "narrower_patterns": [
+        "12612380",
+        "12612460",
+        "12612400",
+        "12612400"
+      ]
     },
     {
       "pattern_id": "12612240",
@@ -5566,7 +10789,40 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612240.md"
+      "source_file": "arc_12612240.md",
+      "broader_patterns": [
+        "12612210",
+        "12611190",
+        "12611310",
+        "12611960",
+        "12612030",
+        "12611100",
+        "12611020"
+      ],
+      "narrower_patterns": [
+        "12612490",
+        "12612490",
+        "12612370"
+      ]
+    },
+    {
+      "pattern_id": "12612250",
+      "name": "Thickened boundary interfaces",
+      "archetypal_pattern": "Boundaries may be given special significance and functionality by making them thick enough to establish a significant zone of their own rather than being merely a thin divider between domains.",
+      "original_template": "Boundaries may be given special significance and functionality by making them thick enough to establish a significant zone of their own rather than being merely a thin divider between domains.",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12612240",
+        "12611190",
+        "12612210",
+        "12612180"
+      ],
+      "narrower_patterns": [
+        "12612260",
+        "12612430",
+        "12612370"
+      ]
     },
     {
       "pattern_id": "12612260",
@@ -5638,7 +10894,29 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612260.md"
+      "source_file": "arc_12612260.md",
+      "broader_patterns": [
+        "12612170",
+        "12612160",
+        "12611460",
+        "12611190",
+        "12611930",
+        "12610690",
+        "12611740",
+        "12611670",
+        "12611630",
+        "12611790",
+        "12612060",
+        "12612120",
+        "12611660"
+      ],
+      "narrower_patterns": [
+        "12612510",
+        "12612430",
+        "12612270",
+        "12612490",
+        "12612450"
+      ]
     },
     {
       "pattern_id": "12612270",
@@ -5712,7 +10990,99 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612270.md"
+      "source_file": "arc_12612270.md",
+      "broader_patterns": [
+        "12612260",
+        "12612170",
+        "12612160",
+        "12611190",
+        "12611190",
+        "12611930",
+        "12611670",
+        "12612060",
+        "12611660"
+      ],
+      "narrower_patterns": [
+        "12612490"
+      ]
+    },
+    {
+      "pattern_id": "12612280",
+      "name": "Appropriate superstructure to contain transitions between levels",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12612070",
+        "12612190",
+        "12612030",
+        "12611980",
+        "12611950",
+        "12611790",
+        "12611330",
+        "12612060"
+      ],
+      "narrower_patterns": [
+        "12612480",
+        "12612330"
+      ]
+    },
+    {
+      "pattern_id": "12612290",
+      "name": "Provision for pathways for automatic communications",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12612190",
+        "12612060"
+      ],
+      "narrower_patterns": [
+        "12612520",
+        "12612300"
+      ]
+    },
+    {
+      "pattern_id": "12612300",
+      "name": "Unmediated supportive emotion",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12612180",
+        "12612190",
+        "12612020",
+        "12612290"
+      ],
+      "narrower_patterns": []
+    },
+    {
+      "pattern_id": "12612310",
+      "name": "Overview sites from integrative superstructure",
+      "archetypal_pattern": "",
+      "original_template": "",
+      "placeholders": [],
+      "domain_mappings": {},
+      "broader_patterns": [
+        "12612170",
+        "12612160",
+        "12612200",
+        "12612180",
+        "12612080",
+        "12612080",
+        "12612190",
+        "12611170",
+        "12611800",
+        "12611790",
+        "12612120"
+      ],
+      "narrower_patterns": [
+        "12612360",
+        "12612390"
+      ]
     },
     {
       "pattern_id": "12612320",
@@ -5784,7 +11154,14 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612320.md"
+      "source_file": "arc_12612320.md",
+      "broader_patterns": [
+        "12612200",
+        "12612180"
+      ],
+      "narrower_patterns": [
+        "12612490"
+      ]
     },
     {
       "pattern_id": "12612330",
@@ -5856,7 +11233,19 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612330.md"
+      "source_file": "arc_12612330.md",
+      "broader_patterns": [
+        "12612150",
+        "12611270",
+        "12612190",
+        "12612100",
+        "12612280"
+      ],
+      "narrower_patterns": [
+        "12612480",
+        "12612500",
+        "12612490"
+      ]
     },
     {
       "pattern_id": "12612340",
@@ -5928,7 +11317,16 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612340.md"
+      "source_file": "arc_12612340.md",
+      "broader_patterns": [
+        "12612200",
+        "12612180"
+      ],
+      "narrower_patterns": [
+        "12612490",
+        "12612400",
+        "12612070"
+      ]
     },
     {
       "pattern_id": "12612350",
@@ -5998,7 +11396,16 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612350.md"
+      "source_file": "arc_12612350.md",
+      "broader_patterns": [
+        "12612180",
+        "12612190"
+      ],
+      "narrower_patterns": [
+        "12612500",
+        "12612490",
+        "12612400"
+      ]
     },
     {
       "pattern_id": "12612360",
@@ -6071,7 +11478,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612360.md"
+      "source_file": "arc_12612360.md",
+      "broader_patterns": [
+        "12612210",
+        "12612220",
+        "12611920",
+        "12610240",
+        "12611800",
+        "12612310",
+        "12611640",
+        "12611280"
+      ],
+      "narrower_patterns": [
+        "12612390"
+      ]
     },
     {
       "pattern_id": "12612370",
@@ -6143,7 +11563,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612370.md"
+      "source_file": "arc_12612370.md",
+      "broader_patterns": [
+        "12612180",
+        "12612180",
+        "12611940",
+        "12611960",
+        "12612240",
+        "12611320",
+        "12611010",
+        "12611350",
+        "12611300"
+      ],
+      "narrower_patterns": [
+        "12612390"
+      ]
     },
     {
       "pattern_id": "12612380",
@@ -6213,7 +11647,24 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612380.md"
+      "source_file": "arc_12612380.md",
+      "broader_patterns": [
+        "12612210",
+        "12612230",
+        "12611610",
+        "12611380",
+        "12611740",
+        "12611640",
+        "12611760",
+        "12611440",
+        "12611590"
+      ],
+      "narrower_patterns": [
+        "12612440",
+        "12612500",
+        "12612390",
+        "12612460"
+      ]
     },
     {
       "pattern_id": "12612390",
@@ -6283,7 +11734,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612390.md"
+      "source_file": "arc_12612390.md",
+      "broader_patterns": [
+        "12612380",
+        "12612210",
+        "12612360",
+        "12612370",
+        "12611920",
+        "12610240",
+        "12611930",
+        "12611940",
+        "12612310"
+      ],
+      "narrower_patterns": [
+        "12612400"
+      ]
     },
     {
       "pattern_id": "12612400",
@@ -6356,7 +11821,21 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612400.md"
+      "source_file": "arc_12612400.md",
+      "broader_patterns": [
+        "12612170",
+        "12612160",
+        "12612390",
+        "12612230",
+        "12612350",
+        "12612350",
+        "12612190",
+        "12612340"
+      ],
+      "narrower_patterns": [
+        "12612500",
+        "12612490"
+      ]
     },
     {
       "pattern_id": "12612410",
@@ -6426,7 +11905,31 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612410.md"
+      "source_file": "arc_12612410.md",
+      "broader_patterns": [
+        "12611680",
+        "12610940",
+        "12610920",
+        "12611610",
+        "12611200",
+        "12610690",
+        "12611210",
+        "12611420",
+        "12611240",
+        "12610700",
+        "12611740",
+        "12611760",
+        "12611630",
+        "12611250",
+        "12611710",
+        "12611600",
+        "12610720",
+        "12611400"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12612420"
+      ]
     },
     {
       "pattern_id": "12612420",
@@ -6496,7 +11999,22 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612420.md"
+      "source_file": "arc_12612420.md",
+      "broader_patterns": [
+        "12611680",
+        "12612410",
+        "12611190",
+        "12611610",
+        "12611100",
+        "12611300",
+        "12611600",
+        "12611550",
+        "12611220"
+      ],
+      "narrower_patterns": [
+        "12612430",
+        "12612450"
+      ]
     },
     {
       "pattern_id": "12612430",
@@ -6566,7 +12084,38 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612430.md"
+      "source_file": "arc_12612430.md",
+      "broader_patterns": [
+        "12612260",
+        "12612420",
+        "12612410",
+        "12610710",
+        "12610550",
+        "12611210",
+        "12611720",
+        "12610880",
+        "12611240",
+        "12611140",
+        "12611670",
+        "12611260",
+        "12611690",
+        "12611630",
+        "12610510",
+        "12611710",
+        "12611000",
+        "12611650",
+        "12611110",
+        "12610720",
+        "12611400",
+        "12611060",
+        "12611660",
+        "12610730"
+      ],
+      "narrower_patterns": [
+        "12612480",
+        "12612490",
+        "12612450"
+      ]
     },
     {
       "pattern_id": "12612440",
@@ -6636,7 +12185,32 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612440.md"
+      "source_file": "arc_12612440.md",
+      "broader_patterns": [
+        "12612380",
+        "12610580",
+        "12610320",
+        "12611190",
+        "12611610",
+        "12610460",
+        "12610690",
+        "12610880",
+        "12611800",
+        "12611740",
+        "12610540",
+        "12611030",
+        "12611630",
+        "12610970",
+        "12611180",
+        "12610930",
+        "12610630",
+        "12611400",
+        "12611660"
+      ],
+      "narrower_patterns": [
+        "12612500",
+        "12612490"
+      ]
     },
     {
       "pattern_id": "12612450",
@@ -6706,7 +12280,23 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612450.md"
+      "source_file": "arc_12612450.md",
+      "broader_patterns": [
+        "12612260",
+        "12612430",
+        "12612420",
+        "12612220",
+        "12611200",
+        "12611720",
+        "12611690",
+        "12611250",
+        "12610510",
+        "12611730",
+        "12611180",
+        "12611600",
+        "12611130"
+      ],
+      "narrower_patterns": []
     },
     {
       "pattern_id": "12612460",
@@ -6776,7 +12366,15 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612460.md"
+      "source_file": "arc_12612460.md",
+      "broader_patterns": [
+        "12612380",
+        "12612230",
+        "12611740",
+        "12611640",
+        "12611180"
+      ],
+      "narrower_patterns": []
     },
     {
       "pattern_id": "12612470",
@@ -6848,7 +12446,20 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612470.md"
+      "source_file": "arc_12612470.md",
+      "broader_patterns": [
+        "12611680",
+        "12611200",
+        "12611210",
+        "12611740",
+        "12611690",
+        "12611630",
+        "12610510",
+        "12611400"
+      ],
+      "narrower_patterns": [
+        "12612480"
+      ]
     },
     {
       "pattern_id": "12612480",
@@ -6918,7 +12529,22 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612480.md"
+      "source_file": "arc_12612480.md",
+      "broader_patterns": [
+        "12611680",
+        "12612430",
+        "12612330",
+        "12612150",
+        "12612180",
+        "12612070",
+        "12612470",
+        "12611250",
+        "12612280"
+      ],
+      "narrower_patterns": [
+        "12612500",
+        "12612490"
+      ]
     },
     {
       "pattern_id": "12612490",
@@ -6990,7 +12616,34 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612490.md"
+      "source_file": "arc_12612490.md",
+      "broader_patterns": [
+        "12612480",
+        "12612260",
+        "12612440",
+        "12611680",
+        "12612430",
+        "12612270",
+        "12612330",
+        "12612400",
+        "12612180",
+        "12612350",
+        "12612350",
+        "12611930",
+        "12611960",
+        "12612240",
+        "12612320",
+        "12611800",
+        "12612340",
+        "12611100",
+        "12611730",
+        "12611600",
+        "12611870"
+      ],
+      "narrower_patterns": [
+        "12612500",
+        "12612530"
+      ]
     },
     {
       "pattern_id": "12612500",
@@ -7060,7 +12713,23 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612500.md"
+      "source_file": "arc_12612500.md",
+      "broader_patterns": [
+        "12612480",
+        "12612380",
+        "12612440",
+        "12612490",
+        "12612330",
+        "12612400",
+        "12612350",
+        "12612070",
+        "12611820",
+        "12611350",
+        "12611990"
+      ],
+      "narrower_patterns": [
+        "12612520"
+      ]
     },
     {
       "pattern_id": "12612510",
@@ -7130,7 +12799,19 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612510.md"
+      "source_file": "arc_12612510.md",
+      "broader_patterns": [
+        "12612260",
+        "12612020",
+        "12610880",
+        "12611510",
+        "12611420",
+        "12611820",
+        "12611850"
+      ],
+      "narrower_patterns": [
+        "12612520"
+      ]
     },
     {
       "pattern_id": "12612520",
@@ -7200,7 +12881,22 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612520.md"
+      "source_file": "arc_12612520.md",
+      "broader_patterns": [
+        "12612510",
+        "12612500",
+        "12611460",
+        "12611830",
+        "12611510",
+        "12611290",
+        "12611820",
+        "12612290",
+        "12611850",
+        "12611790",
+        "12611350",
+        "12611300"
+      ],
+      "narrower_patterns": []
     },
     {
       "pattern_id": "12612530",
@@ -7270,7 +12966,13 @@
           "psychic": "modes of awareness"
         }
       },
-      "source_file": "arc_12612530.md"
+      "source_file": "arc_12612530.md",
+      "broader_patterns": [
+        "12612490",
+        "12612010",
+        "12611410"
+      ],
+      "narrower_patterns": []
     }
   ],
   "placeholder_definitions": [
