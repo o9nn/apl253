@@ -74,11 +74,44 @@ def demo_domain_transformations():
     
     domains = ["physical", "social", "conceptual", "psychic"]
     
-    print(f"\n--- Domain-Specific Versions ---")
+    print(f"\n--- Domain-Specific Versions (via transformation) ---")
     for domain in domains:
         transformed = apply_domain_transformation(pattern, domain)
         print(f"\n{domain.upper()}:")
         print(f"  {transformed}")
+    
+    # Show domain-specific content from UIA source
+    if 'domain_specific_content' in pattern:
+        print(f"\n--- Domain-Specific Content (from UIA source) ---")
+        for domain in domains:
+            if domain in pattern['domain_specific_content']:
+                content = pattern['domain_specific_content'][domain]
+                # Show first 150 chars
+                preview = content[:150] + "..." if len(content) > 150 else content
+                print(f"\n{domain.upper()}:")
+                print(f"  {preview}")
+
+
+def demo_domain_content():
+    """Demonstrate accessing full domain-specific content from UIA."""
+    print("\n" + "=" * 80)
+    print("DEMO: Full Domain-Specific Content from UIA")
+    print("=" * 80)
+    
+    data = load_archetypal_patterns()
+    pattern = data["patterns"][0]  # Independent domains
+    
+    print(f"\nPattern: {pattern['name']} (ID: {pattern['pattern_id']})")
+    
+    if 'domain_specific_content' in pattern:
+        print(f"\nAvailable domain content: {list(pattern['domain_specific_content'].keys())}")
+        
+        # Show full physical content as example
+        if 'physical' in pattern['domain_specific_content']:
+            print(f"\n--- Full Physical Domain Implementation ---")
+            print(pattern['domain_specific_content']['physical'])
+    else:
+        print("\nNo domain-specific content available for this pattern.")
 
 
 def demo_placeholder_query():
@@ -197,6 +230,7 @@ def main():
     try:
         demo_basic_usage()
         demo_domain_transformations()
+        demo_domain_content()  # New demo for domain-specific content
         demo_placeholder_query()
         demo_multi_domain_comparison()
         demo_placeholder_mappings()
@@ -209,6 +243,7 @@ def main():
         print("\nKey Features Demonstrated:")
         print("  • Loading archetypal patterns")
         print("  • Transforming patterns to specific domains")
+        print("  • Accessing full domain-specific content from UIA")
         print("  • Querying patterns by placeholder")
         print("  • Comparing patterns across domains")
         print("  • Exploring placeholder mappings")

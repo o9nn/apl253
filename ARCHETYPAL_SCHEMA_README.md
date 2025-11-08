@@ -48,25 +48,41 @@ JSON Schema definition for archetypal patterns. Defines the structure and valida
 - `original_template` - Original template without placeholders
 - `placeholders` - List of placeholder names used
 - `domain_mappings` - Mapping of placeholders to domain terms
+- `domain_specific_content` - Full domain-specific implementations from UIA patterns
+  - `physical` - Physical domain implementation (spatial, material, architectural)
+  - `social` - Social domain implementation (organizational, community, institutional)
+  - `conceptual` - Conceptual domain implementation (knowledge, theoretical, paradigmatic)
+  - `psychic` - Psychic domain implementation (awareness, consciousness, mental)
 - `source_file` - Source markdown file
+- `broader_patterns` - Pattern IDs of broader (more general) patterns
+- `narrower_patterns` - Pattern IDs of narrower (more specific) patterns
 
 ### 2. archetypal_patterns.json
 
-Complete collection of all 102 archetypal patterns with metadata and mappings.
+Complete collection of all 253 archetypal patterns with metadata, domain mappings, and full domain-specific content from UIA patterns.
 
 **Structure:**
 ```json
 {
   "meta": {
     "title": "UIA Archetypal Patterns",
-    "total_patterns": 102,
+    "total_patterns": 253,
     "source_directory": "markdown/arc",
-    "format": "generic {{domain-specific}} generic"
+    "format": "generic {{domain-specific}} generic",
+    "includes_domain_content": true,
+    "patterns_with_domain_content": 253
   },
   "patterns": [ ... ],
   "placeholder_definitions": [ ... ]
 }
 ```
+
+**Pattern Structure:**
+Each pattern includes:
+- **Archetypal pattern** with placeholders
+- **Domain mappings** for placeholder substitution
+- **Domain-specific content** - Full implementations for each domain from UIA source
+- **Pattern relationships** - Broader and narrower patterns
 
 **Usage:**
 ```python
@@ -79,15 +95,25 @@ with open('archetypal_patterns.json') as f:
 patterns = data['patterns']
 first_pattern = patterns[0]
 
-# Get domain-specific version
+# Get archetypal pattern with placeholders
 archetypal = first_pattern['archetypal_pattern']
+
+# Get domain-specific content (from UIA source)
+if 'domain_specific_content' in first_pattern:
+    physical = first_pattern['domain_specific_content']['physical']
+    social = first_pattern['domain_specific_content'].get('social', '')
+    conceptual = first_pattern['domain_specific_content'].get('conceptual', '')
+    psychic = first_pattern['domain_specific_content'].get('psychic', '')
+
+# Or, transform archetypal pattern using domain mappings
 mappings = first_pattern['domain_mappings']
 physical_version = archetypal
 for placeholder, domains in mappings.items():
-    physical_version = physical_version.replace(
-        f'{{{{{placeholder}}}}}', 
-        domains['physical']
-    )
+    if 'physical' in domains:
+        physical_version = physical_version.replace(
+            f'{{{{{placeholder}}}}}', 
+            domains['physical']
+        )
 ```
 
 ### 3. archetypal_placeholders.json
@@ -133,10 +159,13 @@ The schema defines 10 core placeholders used across patterns:
 
 ## Pattern Statistics
 
-- **Total Patterns:** 102
-- **Source Files:** markdown/arc/arc_*.md
+- **Total Patterns:** 253 (all UIA patterns)
+- **Archetypal Patterns (with templates):** 102
+- **Source Files:** markdown/arc/arc_*.md and markdown/uia/*.md
 - **Unique Placeholders:** 10
-- **Domain Coverage:** Physical, Social, Conceptual, Psychic
+- **Domain Coverage:** Physical (253), Social (67), Conceptual (67), Psychic (67)
+- **Patterns with All 4 Domains:** 67
+- **Patterns with Physical Only:** 186
 
 ## Usage Examples
 

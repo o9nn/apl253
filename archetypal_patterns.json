@@ -4,7 +4,9 @@
     "description": "All 253 archetypal patterns with relationships",
     "total_patterns": 253,
     "source_directory": "markdown/arc",
-    "format": "generic {{domain-specific}} generic"
+    "format": "generic {{domain-specific}} generic",
+    "includes_domain_content": true,
+    "patterns_with_domain_content": 253
   },
   "patterns": [
     {
@@ -83,7 +85,13 @@
       "narrower_patterns": [
         "12610020",
         "12610040"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Metropolitan regions will not come to balance until each one is small and autonomous enough to be an independent sphere of influence. Whenever possible, evolution of such regions should be encouraged; each with its own natural and geographic boundaries; each with its own economy; each one autonomous and self-governing.",
+        "social": "Major networks or communities of organizations will not come to functional balance until each one is small and autonomous enough to be an independent sphere of influence.",
+        "conceptual": "Major paradigms, networks of concepts or schools of thought will not come to functional balance until each one is sufficiently well-defined and autonomous to be an independent sphere of insight.",
+        "psychic": "Major modes of awareness will not come to functional balance within the individual until each one is sufficiently well-defined and autonomous to be an independent sphere of influence."
+      }
     },
     {
       "pattern_id": "12610020",
@@ -167,7 +175,13 @@
         "12610060",
         "12610040",
         "12610030"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "If the population of a region is comprised of too many small villages, advanced civilization is unlikely to be generated; but if a region has too many large cities, the surrounding area will go to ruin for there will be no populace there to tend to it. The population needs to be distributed evenly in towns of different sizes, and the towns of the same size need to be distributed evenly throughout the region.",
+        "social": "If a functional domain is characterized by smaller groups to too great an extent, larger and more complex forms of organization cannot emerge. But if such a domain is characterized by larger and more complex forms of organization to too great an extent, such forms of organization will prove detrimental to the integrity of the functional domain. Groups of different size and degrees of organization should be distributed evenly throughout the functional domain.",
+        "conceptual": "If a conceptual domain is characterized by small networks or groups of concepts to too great an extent, more integrated and comprehensive forms of organization cannot emerge. But if such a domain is characterized by extensively organized networks of concepts to too great an extent, such a degree of organization will prove detrimental to the integrity of the conceptual domain. Bodies of knowledge of different degrees of organization should be distributed evenly throughout the domain.",
+        "psychic": "If a mode of awareness is characterized by too many aspects of limited degree of organization, more integrated and comprehensive forms of awareness cannot emerge. But if such a mode of awareness is characterized by too limited a number of highly organized aspects, then this manner of organization will prove detrimental to the integrity of that mode of awareness."
+      }
     },
     {
       "pattern_id": "12610030",
@@ -258,7 +272,13 @@
         "12610110",
         "12610160",
         "12610040"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Massive urban environments render life mechanized and harsh and detract from enjoyment and health from enjoyment and health. But the size of cities is potent. Interlocking fingers of farmland and urban land are an appropriate compromise, even at the centre of the metropolis.",
+        "social": "The proliferation of total patterns of organization and systems of procedures denies the existence and emergence of unorganized activity and severely diminishes the value of major institutions. But the degree of integration of such institutions is also valuable and potent. A compromise can be achieved by ensuring the interpenetration of formal and informal modes of organization as necessary complements.",
+        "conceptual": "The proliferation of totally organized bodies of knowledge and conceptual methods ignores the existence and emergence of underdefined concepts and forms of integration with the consequence that conceptual development is severely inhibited. But the degree of integration of such established bodies of knowledge is also valuable and potent. A compromise can be achieved by ensuring the interpenetration of formal and informal modes of conceptual organization.",
+        "psychic": "The proliferation of highly structured modes of awareness ignores the existence and emergence of underdefined modes of awareness and forms of integration, with the consequence that personal development is severely inhibited. But the degree of integration of such established modes of awareness is also valuable and potent. A compromise can be achieved by ensuring the interpenetration of structured and unstructured modes of awareness."
+      }
     },
     {
       "pattern_id": "12610040",
@@ -343,7 +363,13 @@
       ],
       "narrower_patterns": [
         "12610070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The land which is best for agriculture happens to be best for building too. It is however limited and once the fertility is destroyed or locked up it cannot be regained for centuries. Agricultural valleys should therefore be protected as farmland or as nature reserves, if they are not cultivated.",
+        "social": "The functional areas most favourable to regeneration of social resources are also those in which organizations can most easily be established. The availability of such areas is however limited and once denatured by the establishment of organizations, their resource regeneration function cannot easily be recovered. Such functional areas should therefore be protected from attempts at organization.",
+        "conceptual": "The domains most favourable to regeneration of creative resources are also those in which concepts can most easily be ordered into conceptual frameworks. The availability of such areas is however limited and once denatured by the establishment of such frameworks their function in regenerating creative resources cannot easily be recovered. Such creative domains should therefore be protected from attempts at conceptual organization.",
+        "psychic": "The modes of awareness most favourable to regeneration of psychic resources are also those which lend themselves most easily to being structured. The availability of such modes is however limited and once denatured by being structured in this way, their regenerative function cannot easily be recovered. Such modes of awareness should therefore be protected from efforts to structure them."
+      }
     },
     {
       "pattern_id": "12610050",
@@ -427,7 +453,13 @@
         "12610370",
         "12610070",
         "12610210"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Many people want to live in the country whilst also living close to a large city. It is however geometrically impossible to have thousands of small farms within a few minutes of a major city. Both are possible by arranging a loose network of country roads around large open squares of countryside or farmland, with houses closely packed along the road, but only one house deep. In these terms, the suburb is an obsolete and contradictory form of human settlement.",
+        "social": "There is advantage in participation in major groups and local communities. In order to reconcile these mutually incompatible forms of activity, a loose network of relationships is necessary which links both the limited number of central organizations to the many non-central, minimally organized groups and ensures that the latter provide protection against external encroachment.",
+        "conceptual": "There is advantage in major conceptual frameworks as well as in minimally organized conceptual processes. In order to reconcile these mutually incompatible forms of conceptual organization a loose network of relationships is necessary which links both the limited number of centrally organized frameworks to the minimally organized conceptual processes and ensures that the latter provide protection against progressive formalization.",
+        "psychic": "There is advantage in highly ordered modes of awareness as well as in minimally ordered modes of awareness. In order to reconcile these mutually incompatible modes a loose network of associative relationships is necessary which links both the limited number of ordered modes to the minimally ordered modes and ensures that the latter provide protection against loss of the former."
+      }
     },
     {
       "pattern_id": "12610060",
@@ -509,7 +541,13 @@
         "12610260",
         "12610070",
         "12610120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The big city is a magnet. Small country towns find it difficult to stay alive and healthy in the face of central urban growth. Where they exist, country towns should be preserved. The growth of new self-contained towns should also be encouraged. The region should be collectively concerned to ensure their viability and avoid their development into dormitory towns.",
+        "social": "The activities of a large and growing organizational complex attract further participation. It is consequently difficult for smaller organizations to offer processes of equivalent attractiveness to ensure their viability. Where such intermediate bodies exist they should be preserved. The growth of new self-reliant forms of organization should be encouraged. The functional domain should be collectively concerned to ensure their viability and avoid their development into dependent or \"front\" organizations.",
+        "conceptual": "Major conceptual and ideological frameworks powerfully attract adherents. It is consequently difficult for smaller alternative frameworks to offer knowledge of equivalent interest to ensure their viability. Where such alternatives exist they should be preserved. The growth of new alternatives should be encouraged. There should be collective concern within the conceptual domain to ensure their viability and avoid their development into conceptual outposts of any major framework.",
+        "psychic": "Major modes of awareness powerfully attract further involvement. It is consequently difficult for less comprehensive alternative modes of awareness to offer insights of a power sufficient to ensure their viability. Where such alternatives exist they should be preserved. The growth of new alternatives should be encouraged. There should be a general concern to ensure their viability and independence and avoid their development into aspects of any major modes of awareness."
+      }
     },
     {
       "pattern_id": "12610070",
@@ -597,7 +635,13 @@
         "12610250",
         "12611140",
         "12610510"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Each region has vast areas of countryside (farmland, parkland, forests, deserts, lakes) which separate towns. The legal and ecological character of this open land is a crucial aspect in the balance of the entire region. parks created in the towns are artificial; farms treated as private property deprive people of their natural rights to enjoy the countryside from whence they came. Every area of open space either is farmed if it is arable or is wardened if it is wild. But the countryside should be open at large to all people, provided they respect the ecological processes going on.",
+        "social": "Within each functional domain there are extensive areas of informal organization providing a context for the many formal organizations. The character and status of such informality is crucial to the organizational balance of the domain. Such informality in its many forms should be open to all, provided they respect the special character of social processes associated with it.",
+        "conceptual": "Within each conceptual domain there are extensive areas of non-linear organization of knowledge providing a context for those areas which have been linearly organized. Such non-linear organization is crucial to the balance of knowledge in the domain and as such should be accessible to all, with due respect for the special quality of the conceptual processes involved.",
+        "psychic": "Within each mode of awareness there are many perceptual processes which are non-linearly organized. These non-rational processes provide a context for those which are rationally organized and are crucial to the balance of the mode of awareness."
+      }
     },
     {
       "pattern_id": "12610080",
@@ -685,7 +729,13 @@
         "12610110",
         "12610310",
         "12610290"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Modern cities are heterogeneous and marked by undifferentiated character which erodes variety of lifestyles and impedes the growth of individuality. By breaking the city, as far as possible, into a vast mosaic of sub-cultures, each with its own spatial territory, the emergence of distinct styles may be encouraged and protected provided that each is stimulated and consolidated by an appropriate degree of contact with the others.",
+        "social": "The homogeneous and undifferentiated character of modern organizational complexes and institutional environments inhibits the emergence of alternative life styles and arrests the growth of individual character. By breaking such complexes into a vast mosaic of sub-cultures, each with its own functional territory, the emergence of distinct life styles may be encouraged and protected, provided that each is stimulated and consolidated by an appropriate degree of contact with the others.",
+        "conceptual": "The homogeneous and undifferentiated character of major schools of thought or ideological frameworks inhibits the emergence of alternative conceptual styles deviating from the norm, thus arresting conceptual development. By fragmenting such frameworks into a vast mosaic of sub-cultures, each with its own specialized domain and sharply delineated values, the emergence of distinct intellectual styles may be encouraged and protected, provided that each is stimulated and consolidated by an appropriate degree of contact with the others.",
+        "psychic": "The homogeneous and undifferentiated character of a person's principal modes of awareness inhibits the emergence of alternative modes and arrests personal development. By distinguishing a rich mosaic of distinct variants, each with its particular function, the emergence of alternative modes of awareness may be encouraged and protected, provided that each is stimulated and consolidated by an appropriate degree of interaction with the others."
+      }
     },
     {
       "pattern_id": "12610090",
@@ -772,7 +822,13 @@
         "12610420",
         "12611570",
         "12610800"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The artificial separation of residential and work environments creates rifts in people's inner lives and prevents the emergence of highly differentiated sub- cultures. The concentration and segregation of work leads to dead neighbourhoods. Zoning and other regulations should be used to scatter workplaces throughout the city and to prohibit large concentrations of family life without associated workplaces.",
+        "social": "The segregation of formal and informal processes in organizations and groups and the confinement of each to separate and well-defined settings leads to unhealthy social development of a schizophrenic nature. Formal group processes should be distributed throughout the organizational environment so as to facilitate alternations with informal processes.",
+        "conceptual": "The segregation of formal and informal conceptual procedures and methods and the restriction on the use of each to separate and well-defined circumstances leads to unhealthy conceptual development. Formal procedures should be adopted throughout the conceptual domain such as to facilitate alternation with informal, creative processes.",
+        "psychic": "The segregation of disciplined and unstructured modes of awareness and the restriction of each to separate and well-defined contexts leads to unhealthy personal development of a schizophrenic nature. Structured modes of awareness should be interrelated with unstructured modes such as to facilitate alternation between them."
+      }
     },
     {
       "pattern_id": "12610100",
@@ -858,7 +914,13 @@
         "12610280",
         "12610910",
         "12610630"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "City life is experienced as magical because of its intensity. But urban sprawl deprives most people of genuine participation in it because they must live far out from the core. This problem can only be solved by decentralizing the core to form a multitude of smaller cores, each intense and devoted to some special way of life, corresponding to the needs of the region as a whole.",
+        "social": "Large organizational complexes are experienced as exciting environments because of the variety and intensity of activity within them. But institutional proliferation deprives most people of genuine participation at the foci where action oriented decisions are taken. This problem can only be solved by decentralization around a multitude of smaller decision-making loci, each exemplifying some special way of life corresponding to the needs of the functional domain as a whole.",
+        "conceptual": "Major schools of thought, conceptual frameworks or ideologies are a powerful attractant because of the intensity and complexity of intellectual activity associated with them. But the proliferation of derivative conceptual developments associated with them progressively deprives most people of genuine participation at those points of excellence where creative development is actually taking place. This problem can only be solved by decentralization around a multitude of smaller innovative areas, each exemplifying some special method or approach corresponding to the needs of the conceptual domain as a whole.",
+        "psychic": "The principal modes of awareness exert a powerful influence because of the fascinating richness and intensity of experience they provide. But the proliferation of derivative modes of awareness associated with them progressively inhibits direct creative experience of the fundamental insight governing the further transformation of such a mode. This problem can only be solved by multiplying the number of more limited modes of awareness, each exemplifying some more accessible special insight corresponding to the needs of personal development as a whole."
+      }
     },
     {
       "pattern_id": "12610110",
@@ -950,7 +1012,13 @@
         "12610510",
         "12610970",
         "12610520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Automobiles provide unlimited opportunities for freedom and access to variety, but at the expense of both the environment and social life. The urban area should be broken down into local transport areas, each surrounded by a ring road. Within such areas, paths and minor local roads (inconvenient for cars) should be built for internal movement, with major roads providing access to the ring roads.",
+        "social": "Non-local communication media, when employed locally, inhibit the articulation and social development of community organization and destroy its integrity. The functional domain as a whole should be broken down into local communication areas, each with direct access to non-local communication media. Within such areas, group and interpersonal communication networks should be developed for internal purposes, appropriately connected to (and protected from) the non-local communication media.",
+        "conceptual": "General conceptual relationships, when employed in specialized areas, inhibit the articulation of specialized conceptual domains and destroy their integrity. The domain as a whole should be broken down into domains within which particular local relationships prevail, but appropriately related to a pattern of general relationships.",
+        "psychic": "General patterns of insight, when used to order immediate experience, inhibit development of appreciation of the uniqueness of the present and destroy the integrity of such immediacy. The pattern of insight as a whole should be broken down into domains in which the sense of immediacy prevails, with each appropriately related to the contextual pattern."
+      }
     },
     {
       "pattern_id": "12610120",
@@ -1045,7 +1113,13 @@
         "12610650",
         "12610280",
         "12610290"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Territorial communities expression than 5000-10,000 persons inhibit individual voices. City governments should be decentralized in such a manner as to give local control to communities of approximately 7,000 persons; these communities being delineated by geographic and historic boundaries. Each community should be individually responsible for initiating, deciding, and executing those affairs by which it is affected.",
+        "social": "Individuals have no effective voice in any non-territorial community of more than 5,000 to 10,000 persons. Decentralize major institutions in a way that gives local control to functional divisions interrelating approximately 7,000 persons. Use cultural and traditional distinctions to reinforce such organizational boundaries whenever possible. Give each organization the power to initiate, decide and execute the affairs that concern it closely.",
+        "conceptual": "Individual concepts can have no distinguishably unique function in constituting a conceptual framework of more than 5,000 to 10,000 such concepts. Conceptual frameworks should therefore be partitioned so as to interrelate not more than 7,000 such concepts, thus enabling each concept to fulfil a distinct role in the pattern.",
+        "psychic": "Individual moments of awareness can have no distinguishably unique function in forming a mode of awareness of more than 5,000 to 10,000 such facets. Modes of awareness should therefore be organized so as to interrelate not more than 7,000 such moments, thus enabling each moment to contribute uniquely to the mode as a whole."
+      }
     },
     {
       "pattern_id": "12610130",
@@ -1144,7 +1218,13 @@
         "12610290",
         "12610840",
         "12610970"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "A mosaic of subcultures requires that hundreds of different cultures live, in their own way, at full intensity, on neighbouring territories. But subcultures have their own ecology. They can only live at full intensity, unhampered by their territorial neighbours, if they are physically separated by physical boundaries, whether natural or man-made.",
+        "social": "A mosaic of subcultures and alternative life styles requires that hundreds of different groups live, in their own way, at full intensity on neighbouring functional territories. But subcultures have their own ecology. They can only live at full intensity, unhampered by their functional neighbours, if they are functionally separated by functional boundaries, whether traditional or designed.",
+        "conceptual": "A mosaic of subcultures and conceptual frameworks requires that hundreds of different schools of thought function, in their own way, at full intensity on neighbouring conceptual domains. But subcultures have their own ecology. They can only live at full intensity, unhampered by their intellectual neighbours, if they are conceptually separated by definitions, whether traditional or designed.",
+        "psychic": "A mosaic of distinct modes of awareness requires the co-existence of hundreds of different modes. The full intensity of each mode only emerges, unhampered by its neighbours, if the modes are appropriately separated."
+      }
     },
     {
       "pattern_id": "12610140",
@@ -1242,7 +1322,13 @@
         "12610880",
         "12610610",
         "12610700"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "People need an identifiable spatial unit to belong to (up to 300 yards across; 400-500 inhabitants) distinct from other parts of the urban environment. Today's pattern of development destroys such neighbourhoods. In existing cities, encourage local groups to define physically the neighbourhoods they live in. Give them some degree of autonomy and keep major roads out.",
+        "social": "People need an identifiable functional unit to belong to (a sector of social space), distinct from other parts of the social environment. Within existing organizational complexes, encourage groups to define the special activity domains with which they are identified. Give them some degree of autonomy and protect them from the high intensity communication pathways of the external environment.",
+        "conceptual": "People need an identifiable belief system or school of thought to belong to (a sector of conceptual space), distinct from other parts of the conceptual environment. Within existing conceptual frameworks, encourage groups to define the areas of special interest with which they are identified. Give them some degree of autonomy and protect them from being overridden by patterns of general relationships.",
+        "psychic": "An individual needs a central focus to his or her personality (a sector of his or her psychic space) as a reference point for a sense of identity or on which to ground any response to the world. Experiential discovery of such a centre should be encouraged. The sense of relative detachment associated with such a centre should be cultivated and protected from the distractions of external patterns of insight."
+      }
     },
     {
       "pattern_id": "12610150",
@@ -1336,7 +1422,13 @@
         "12610970",
         "12610720",
         "12610730"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The strength of the boundary is essential to the maintenance of the identifiable character of the neighbourhood. The boundary may be formed by closing down some streets crossing the neighbourhood thus limiting access to the neighbourhood.",
+        "social": "The strength of the boundary is essential to the maintenance of the identifiable character of a group or functional unit. The boundary may be formed by cutting off some communication pathway through the group and restricting access to the group's activity.",
+        "conceptual": "The strength of the boundary is essential to the maintenance of the identifiable character of a conceptual system. The definition may be articulated by establishing distinctions from the pattern of general relationships within which the system is embedded.",
+        "psychic": "The strength of the distinction between modes of awareness is essential to the maintenance of the identifiable character of any focal, ground or \"home\" mode. The distinction may be reinforced by developing the sense of primacy or groundedness associated with such a mode in contrast to others."
+      }
     },
     {
       "pattern_id": "12610160",
@@ -1416,7 +1508,13 @@
         "12610340",
         "12610170",
         "12610200"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The web of different modes of public transportation can only work if all the parts are well-connected. This tends not to be the case because of the emphasis placed on the high volume modes and the difficulty of coordinating the interchange between different modes, especially to local areas. This difficulty can be reduced by treating the interchange points as primary and the actual transportation lines as secondary. Local communities controlling the interchanges can then require guarantees of a desirable level of local service.",
+        "social": "The web of public communication facilities can only work if all social actors are connected by it. This tends not to be the case because of the privileged role accorded to the mass media and the difficulty of translating information between different modes of communication, especially when adapted to particular profiles. This difficulty can be reduced by treating the translation arenas as primary and the actual lines of communication as secondary. Specialized groups controlling the translation arenas can then require guarantees of a desirable level of adaptation to particular profiles.",
+        "conceptual": "The web of general conceptual relationships only acquires its full significance if all concepts are integrated within it. This tends not to be the case because of the fundamental role attributed to intellectual or ideological lines of thought, and the difficulty of integrating concepts based on very different or highly specialized modes of thought. This difficulty can be reduced by treating such interrelationship nexi as primary and the relationships themselves as secondary. Concepts governing such nexi can then require a desirable level of integration of specialized modes of thought.",
+        "psychic": "An ordered network associating different modes of awareness only acquires its full significance if all modes are integrated within it. This tends not to be the case because of the primacy accorded to certain preferred modes of awareness and the difficulty of integrating modes based on very different insights or extraordinary experiences. This difficulty can be reduced by recognition of integrative correspondences as primary and the insights themselves as secondary. Modes of awareness integrating such correspondences can then require a desirable level of integration of any specialized modes of awareness."
+      }
     },
     {
       "pattern_id": "12610170",
@@ -1499,7 +1597,13 @@
         "12610230",
         "12610420",
         "12610970"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "High speed ring roads are a necessity which helps to define and generate local transport areas. Care must be taken, however, to insure that the building and placement of the ring roads do not cause extensive damage to communities or the countryside.",
+        "social": "High intensity communication pathways are needed whereby an organizational complex deflects such communication around its boundary, thus protecting itself from the disruption that irrelevant communication may cause to the collective life of those involved.",
+        "conceptual": "A clearly defined pattern of concepts is required around a conceptual domain in order to channel away concepts irrelevant to that domain and disruptive of its preoccupations.",
+        "psychic": "It is necessary for a person to establish a psychic boundary to unconsciously redirect incoming perceptions which are of no immediate relevance and which would therefore unduly disrupt personal equilibrium."
+      }
     },
     {
       "pattern_id": "12610180",
@@ -1583,7 +1687,13 @@
         "12610840",
         "12610850",
         "12610830"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In a physical environment governed by a fixed plan, the constitutive elements (buildings, traffic, focal points) are perceived as necessarily unchanging in nature. As such they cannot be permitted to contribute to any gradual redefinition of the environment. As such it is difficult to accept that they can contribute to any gradual positive redefinition of the environment through cyclic growth, decay, or adaptation processes. Emergence of new or alternative patterns can only occur when building structures, traffic, etc, adapt to and modify each other's cycles of activity.",
+        "social": "In a society or group which emphasizes the inculcation of some particular pattern of behaviour and perception, individuals become passive and unable to think or act for themselves. Creative, active individuals and groups can only emerge in a society which promotes networks of decentralized learning instead of emphasizing structured teaching systems.",
+        "conceptual": "In a conceptual framework which emphasizes the perpetuation of a particular conceptual order or method, the emergence of new viewpoints, challenging and redefining that order, is discouraged. It is through such processes and the emergence of alternative viewpoints that a conceptual pattern is renewed and its development ensured.",
+        "psychic": "Adoption of a particular mode of thought prevents the emergence of insights. This inhibits personal development through effectively imposing an experiential straitjacket. Greater personal development is encouraged by the use of a network of alternative modes."
+      }
     },
     {
       "pattern_id": "12610190",
@@ -1666,7 +1776,13 @@
         "12610320",
         "12610460",
         "12610890"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Shops and other services rarely locate themselves in those positions which both best serve the needs of those they serve and guarantee their own survival. Similar services can best be evenly distributed throughout the area they serve, filling gaps in the web, whilst different services should be located close to the largest cluster of other services.",
+        "social": "Discussion groups, conferences or fairs concerned with similar questions should best be distributed evenly throughout the space-time environment for which they are a process nexus. As such they interact in a self- organizing manner maintaining a stable nexus web despite changes to it resulting from fluctuating demands upon the groupings. Those concerned with different questions can best be located in relationship to the larger groupings in the web.",
+        "conceptual": "Focal concepts through which similar phenomena are ordered should be evenly distributed throughout the conceptual space within which they are each a nexus of deliberative interchange. As such they interact in a self- organizing manner maintaining a stable web of concepts despite changes to it resulting from fluctuating use of its constituent viewpoints.",
+        "psychic": "Focal modes of awareness through which perceptions of similar circumstances are processed should be evenly distributed throughout a person's perceptual space. As such they interact in a self-organizing manner maintaining a stable web of modes of awareness despite changes to it resulting from fluctuating use of its constituent modes."
+      }
     },
     {
       "pattern_id": "12610200",
@@ -1745,7 +1861,13 @@
         "12610340",
         "12610920",
         "12610230"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Public transportation should be such as to take people from any point to any other point within a metropolitan area. This can be accomplished by supplementing high-volume transportation with a mini-bus feeder service over a varying route optimized by computer in response to requirements of individual users.",
+        "social": "Communications within a society or an organizational complex should be such as to permit any person to make contact with any other person or group within that community. Computer assistance should be available to enable a person to discover the communications address of the contact appropriate to his needs.",
+        "conceptual": "Relationships within a knowledge- representative system should be such as to permit the relevance of any concept to any other concept to be established, particularly when such a system is computer-enhanced.",
+        "psychic": "Associative relationships within any mode of awareness should be such as to enable any perception to enhance any other perception, possibly with the aid of metaphoric transpositions of perspective."
+      }
     },
     {
       "pattern_id": "12610210",
@@ -1829,7 +1951,13 @@
         "12610280",
         "12610290",
         "12610820"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Within any urban area the heights of buildings will vary, with the highest tending to be towards the centre. It is desirable that the majority of buildings, especially those destined for human habitation, should not be more than four stories in height. Higher buildings are destructive of the urban environment, offer few genuine advantages, and are psychologically harmful.",
+        "social": "Within any society or organization the number of hierarchical levels (or classes) will vary, with the highest number tending to be towards the centre of any such organizational complex. It is desirable that the majority of organizations, especially those associated with the daily life of a community, should not have more than four such levels. Organizations with more hierarchical levels are destructive of social life, offer few genuine advantages, and are psychologically harmful.",
+        "conceptual": "Within any conceptual framework the number of conceptual or category levels will vary, with the highest tending to be towards the centre of the framework. It is desirable that the majority of conceptual structures, especially those destined for frequent use by non-specialists, should be based on not more than four levels. More complex structures tend to confuse the conceptual environment, offer few genuine advantages, and are psychologically disturbing.",
+        "psychic": "Within any mode of awareness the number of levels of self-reflectiveness, subtlety or degree of apprehension will vary, with the highest number tending to be associated with the core of the person's being. It is desirable that the majority of perceptual modes, especially those required in normal daily life, should not involve more than four such levels. Modes of awareness based on a greater number of levels tend to confuse, offer few genuine advantages, and are psychologically harmful."
+      }
     },
     {
       "pattern_id": "12610220",
@@ -1911,7 +2039,13 @@
         "12611030",
         "12611020",
         "12610970"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The integrity of local communities and neighbourhoods depends very much on the limit set on the number of parking spaces provided. When this exceeds about nine percent the environment becomes unfit for human use because of the number of vehicles attracted to it.",
+        "social": "The integrity of groups and organizations depends very much on the limit set on the number of uncommitted participants. The opportunity of such temporary membership attracts excessive and irresponsible involvement which destroys organizational coherence and continuity.",
+        "conceptual": "The integrity of a conceptual domain depends very much on the limit set on the number of unresolved issues within it on which alternative or external explanations are sought. The opportunity to offer such explanations may attract superficial and irresponsible involvement to an excessive degree. This inhibits the development of the domain.",
+        "psychic": "The integrity of a mode of awareness depends very much on the limit set on the number of unintegrated perceptions on which alternative insights are sought. Openness to an excessive number of such insights inhibits the development of that mode of awareness."
+      }
     },
     {
       "pattern_id": "12610230",
@@ -2001,7 +2135,13 @@
         "12610540",
         "12610510",
         "12610520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Even when ring roads are used to divert through traffic around a local transport area such as a city (or a portion of it), severe congestion results in any network of intersecting streets. This may be avoided by building systems of parallel and alternating one-way roads to carry traffic to and from the ring roads. Cross-streets may be closed to protect neighbourhoods which are defined between the parallel roads if they are an appropriate distance apart (100 to 350 metres).",
+        "social": "Even when high intensity, non- local communication media are used to deflect such communication around an organization's boundary, severe local communication overload and underuse may result within any communication networks within the organization or community. This may be avoided by developing systems of parallel and alternating unilateral communication pathways to carry information to and from the bounding non-local communication media. Local and specialized groups can effectively define themselves in relationship to such alternating communication pathways.",
+        "conceptual": "Even when a clearly defined contextual pattern of general concepts is used to filter out irrelevant concepts (which may destroy the integrity of a conceptual domain) confusion may result locally from the proliferation of unordered networks of conceptual relationships thus inhibiting the further development of that domain. This may be avoided by developing alternative systems of assymetric or complementary relationships in parallel as a means of linking locally elaborated concepts into the wider network of general conceptual relationships.",
+        "psychic": "Even when a person establishes an adequate psychic boundary to unconsciously redirect non-significant incoming perceptions, undesirable confusion may result from the fragmentation of the person's awareness into a network of ad hoc perceptual modes. This may be avoided by developing parallel systems of complementary modes of perceptions as a means of providing continuity of awareness between immediate perceptions and the general patterns of insight within which they emerge."
+      }
     },
     {
       "pattern_id": "12610240",
@@ -2088,7 +2228,13 @@
         "12611340",
         "12611760",
         "12611710"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In every region, town or locality, there are special places which become symbols embodying the unique characteristics of the area. Unless such sacred sites are protected, whether they are natural or man-made, people cannot maintain their spiritual roots or their sense of historical and cultural identity within a more global framework.",
+        "social": "In every society, organization complex or local group, there are regularly occurring special occasions transcending day-to-day preoccupations. These become symbols embodying, through some form of ritual, the unique characteristics of the community in question. Unless such occasions are protected, whether they are traditional, religious or improvised, people cannot maintain their spiritual roots and their sense of historical and cultural identity within a more global community.",
+        "conceptual": "In any conceptual domain there are key, focal, or self-reflective concepts which serve an integrative function whereby the domain may both itself be integrated as well as being related as a whole to more fundamental or meta-frameworks transcending the boundary of the domain. Unless such focal concepts are protected, it becomes difficult to maintain both the cohesion of the domain and its relevance within any larger conceptual framework.",
+        "psychic": "Within any mode of awareness there are fundamental or self-reflective insights through which the perceptions in that mode are both integrated and related as a whole to some larger, more fundamental, or transcendent mode of awareness. Unless such key insights are protected, it becomes difficult for the individual to maintain both the coherence of that mode and an understanding of its function within the personality as a whole."
+      }
     },
     {
       "pattern_id": "12610250",
@@ -2174,7 +2320,13 @@
         "12610310",
         "12610640",
         "12611030"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Natural bodies of water, whether beaches, lakes or river banks, are of vital and profound significance to people, if only for recreation or industrial purposes. Measures are required to prevent the accumulation of unsightly structures (buildings, factories, roads, etc) at the water's edge which render it inaccessible and disagreeable.",
+        "social": "Informality, whether in the form of parties, festivals or other non-structured occasions providing emotional outlet is of vital and profound significance to people, if only for recreation purposes or to facilitate formal relationships and agreements between organizations. Measures are required to prevent the proliferation of artificial procedures and rituals which render access to informality difficult and disagreeable.",
+        "conceptual": "Indeterminacy, whether in the form of uncertainty, fuzziness, or ignorance, is of vital and profound importance to creative conceptual development, if only to facilitate the emergence of alternative perspectives or to enable beneficial cross-fertilization between conceptual frameworks. Measures are required to prevent the proliferation of artificial methods and procedures which render exposure to uncertainty difficult and conceptually inelegant.",
+        "psychic": "Unstructured modes of awareness, whether in the form of insight, intuition, empathy or other non- rational forms, is of vital and profound significance to a person, if only as a catalyst for relaxation or to facilitate integration between more disciplined modes of awareness. Measures are required to prevent the proliferation of artificial attitudes and habits which render exposure to such immediate awareness difficult and painful."
+      }
     },
     {
       "pattern_id": "12610260",
@@ -2272,7 +2424,13 @@
         "12611530",
         "12611870",
         "12610830"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "A well-balanced village or urban community is characterized by the presence of buildings of a range of types (and ages) each of which facilitates a different activity vital to the integrity of the community. The absence of structures of a particular type (or age) may severely endanger the balance and independence of the community as well as restricting the range of experiences a person can experience there.",
+        "social": "A well-balanced community, organization, or group is characterized by the presence of a range of distinct activities (some varying correspondingly from the traditional to the innovative), each especially relevant to some phase of the cycle of interacting processes through which the life of a mature group regulates itself and develops. If such activities are not all represented, people can neither fulfil themselves in one phase nor pass successfully on to the next.",
+        "conceptual": "A well-balanced conceptual domain or body of knowledge is characterized by a range of distinct methods or conceptual approaches (some varying correspondingly from the traditional to the innovative), each especially relevant to some phase of the cycle of interacting processes through which the life of a mature school of thought regulates itself and develops. If such approaches are not all represented, ideas cannot be brought to fruition in one phase nor be successfully transformed for development in subsequent phases.",
+        "psychic": "A well-balanced mode of awareness is characterized by a range of distinct perceptions (some varying correspondingly from the habitual to the innovative), each especially relevant to some phase of the cycle of interacting processes through which the person's psychic life is integrated and developed. If such perceptions are not all represented, insights cannot be brought to fruition in one phase by the person nor be successfully transformed for development in subsequent phases."
+      }
     },
     {
       "pattern_id": "12610270",
@@ -2355,7 +2513,13 @@
       "narrower_patterns": [
         "12611570",
         "12611410"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In order to ensure appropriate balance within any urban environment, each building, open space, neighbourhood and work community should be developed with a blend of incommensurable insights (as typified by those of men and women). If structures are developed (whether homes, suburbs, supermarkets or factories), in which either of such insights is repressed, such structures perpetuate and solidify the resulting distortion of reality.",
+        "social": "In order to ensure appropriate balance within any organization or community, each procedure and activity should be developed with a blend of incommensurable insights (as typified by those of men and women). If groups and programmes are developed in which either of such insights is repressed, such structures perpetuate and give form to the resulting distortion of reality.",
+        "conceptual": "In order to successfully embody the complexity inherent in any conceptual domain, each framework should be articulated with a combination of incommensurable perspectives (as typified by those of men and women) viewed as a complementary set of descriptions. If a conceptual framework is developed in which one such perspective is ignored, such a framework perpetuates and gives form to the resulting oversimplified representations of reality.",
+        "psychic": "In order to successfully comprehend the richness inherent in any mode of awareness, it should be allowed to act in either of two incompatible sub-modes (as typified by those of men and women) understood as permitting complementary perceptions. If a mode of awareness is developed in which one such sub-mode is avoided, the resulting perceptual habits will provide a dangerously oversimplified understanding of reality."
+      }
     },
     {
       "pattern_id": "12610280",
@@ -2441,7 +2605,13 @@
         "12610310",
         "12610590",
         "12610290"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Within an urban environment population densities are higher towards the centre, but there is no recognizable pattern arising from the manner in which this trend is modified by the many component local communities (with their own centres). Such randomness inhibits development of any community identity and creates a chaos in the pattern of land use. Given that the centre of local communities are each located on their community boundary (eccentrically towards the centre of the larger agglomeration), by encouraging them each to bulge both towards the geometric centres of their own local community and in a horseshoe along the neighbouring boundary, a gradient of imbricated horseshoes emerges as an overall pattern supportive of local community life.",
+        "social": "Within any organizational complex, network or group, randomness in the local density distribution of formal or informal relationships fails to reinforce any recognizable pattern on the basis of which the organization as a whole may be identified, comprehended and effectively used. A systematic variation in the pattern of relationship densities can provide the necessary coherence.",
+        "conceptual": "Within any conceptual framework or body of knowledge, randomness in the density of relationships between specialized concepts fails to reinforce any recognizable pattern on the basis of which the conceptual framework as a whole may be identified, comprehended and effectively used. A systematic variation in the pattern of specialized relationships can provide the necessary coherence.",
+        "psychic": "Within any mode of awareness randomness in the degree of relatedness of sets of perceptions fails to reinforce any recognizable pattern on the basis of which the mode of awareness as a whole may be identified, comprehended and profitably used. A systematic variation in the pattern of sets of perceptions can provide the necessary coherence."
+      }
     },
     {
       "pattern_id": "12610290",
@@ -2528,7 +2698,13 @@
         "12611230",
         "12610360",
         "12610610"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In a local community people want to live close to shops and services for excitement and convenience. They must balance this against the desire to be away from such services in order to experience peace and greenery. The pattern of such choices in a neighbourhood defines density rings around the local centre. Under the continuing pressure of the arrival of new households, such a density gradient becomes unstable (to the disadvantage of the less privileged) unless compensatory measures are adopted.",
+        "social": "In a local or specialized organizational complex people want to be close to the centre \"where the action is\" and where interpersonal interactions are most intense and challenging. But they must balance this against their need for low key unstructured relationships permitting greater freedom of personal expression and growth. The varying ways in which this balance is struck by individuals in an organization or network defines relationship density rings around the nucleus of the organization. Under the continuing pressure of the arrival of new participants, such a density gradient becomes unstable (to the disadvantage of the less privileged) unless compensatory measures are adopted.",
+        "conceptual": "In a specialized conceptual domain specialists experience a need to be close to the intellectual centre of gravity where the latest challenging ideas are being presented and debated. But they must balance this against their need for peaceful, reflective conditions in which their own insights can emerge and be developed. The varying ways in which this balance is struck by individuals within a school of thought or invisible college defines density rings of conceptual relationships around the core of the domain. Under the continuing pressure of the emergence of new thinkers, such a density gradient becomes unstable (to the disadvantage of the less privileged) unless compensatory measures are adopted.",
+        "psychic": "In employing a specialized mode of awareness, a balance must be struck between the challenging in- sights to be gained by focusing it in its most intensely disciplined form and the benefit to be derived from allowing it to influence perceptions in a more non-directive manner. The varying ways in which this balance tends to be struck over a period of time by the person using that mode defines density rings of perceptual relationships around the focal awareness. Under the continuing pressure of the emergence of new perceptions, such a gradient becomes unstable (to the disadvantage of some perceptions) unless compensatory measures are adopted."
+      }
     },
     {
       "pattern_id": "12610300",
@@ -2628,7 +2804,13 @@
         "12610850",
         "12610930",
         "12610520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "As a local community grows, community facilities emerge randomly, thus failing to reinforce each other or the vitality of the community as a whole. This may be remedied by concentrating mutually supportive facilities at activity nodes (such as small public squares distributed evenly throughout the community) on which the network of pathways naturally converge.",
+        "social": "As an organizational complex develops, facilitative nodes emerge randomly, thus failing to reinforce each other or the vitality of the group or network as a whole. This may be remedied by concentrating mutually supportive network facilities at activity nodes (such as meetings organized regularly to serve different interest groups) on which the network of relationships naturally converge.",
+        "conceptual": "As a specialized conceptual domain develops, facilitative methods emerge randomly, thus failing to reinforce each other or the interest of the domain as a whole. This may be remedied by deliberately grouping mutually supportive methods in relation to the key concepts (such as those providing a focus for alternative perspectives within the domain) on which the network or conceptual relationships naturally converge.",
+        "psychic": "As a specialized mode of awareness develops, facilitative key insights emerge randomly thus failing to reinforce each other or the integrity of that mode. This may be remedied by consciously associating mutually supportive insights in relation to the principal perceptions (such as those providing a focus for alternative perceptions within that mode) on which the network of insights naturally converge."
+      }
     },
     {
       "pattern_id": "12610310",
@@ -2724,7 +2906,13 @@
         "12611000",
         "12610630",
         "12610520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In any urban community the gradual formation of a promenade linking the main activity nodes provides an environment through which people are encouraged to move constantly in order to see and to be seen, especially if the principal nodes are located at each end. Such a promenade provides a focus for the life of the community.",
+        "social": "In any organizational complex or group, linking facilitative nodes together in a communication circuit provides an environment through which people are encouraged to move constantly in order to encounter new and alternative activities and the associated relationships. Such a cycle reinforces existing relationships and the integrity of the group as a whole.",
+        "conceptual": "In any conceptual domain or school of thought, linking together the key foci of conceptual activity in a cycle of conceptual processes provides an environment through which ideas are encouraged to move constantly in order to be challenged by new or alternative insights and the associated conceptual relationships. Such a cycle reinforces existing relationships and the integrity of that body of knowledge as a whole.",
+        "psychic": "Within any mode of awareness, linking key perceptual processes together within a larger cyclic process provides a context through which attention is encouraged to move constantly in order to encounter new or alternative insights and the patterns of significance within which they are embedded. Such a cycle renews existing relationships and the integrity of the mode of awareness as a whole."
+      }
     },
     {
       "pattern_id": "12610320",
@@ -2816,7 +3004,13 @@
         "12610970",
         "12611000",
         "12610520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The viability of shopping centres depends on an appropriate compromise between their accessibility from major roads and the convenience to pedestrian shoppers. This can be achieved by arranging that pedestrian shopping streets cut across major roads, linking parallel roads, and providing parking space behind the shops.",
+        "social": "The viability of environments (such as meetings) for effective exchange between groups depends on an appropriate compromise between their accessibility through structured mass communications pathways and the necessary low key informal interactions between participants. This can be achieved by arranging that low key communication environments cut across major lines of communication, providing a link between them.",
+        "conceptual": "The viability of environments for the cross-fertilization of ideas between different frames of reference or schools of thought (such as in knowledge representation systems) depends on an appropriate compromise between their accessibility through structured high speed information systems and the extended time period required to reflect on new ideas. This can be achieved by connecting local (or personal) information systems enhancing cross-fertilization to different data networks.",
+        "psychic": "The viability of conditions for the cross-fertilization of personal insights depends on an appropriate compromise between exposure of the individual to a continuing stream of impressions and the possibility for the individual to filter out irrelevant impressions in order to focus awareness on those which remain. This can be achieved by alternating attention, for appropriate periods of time, between the stream of impressions and a focused awareness, thus maintaining continuity of awareness between the two modes."
+      }
     },
     {
       "pattern_id": "12610330",
@@ -2900,7 +3094,13 @@
         "12610900",
         "12610910",
         "12610630"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In every urban community there is some kind of night life after daytime activities are closed down. Entertainment facilities, bars, discos, restaurants, etc need to be distributed in clusters to provide lively, secure pedestrian environments in order to guarantee their attractiveness and viability.",
+        "social": "Associated with every organizational complex or group there are extra-mural activities to which participants are attracted during interruptions in the cycle of normal group activity. These range from drinking together through office recreation clubs, group celebrations, parties, collective participation in carnivals and excursions, to other forms of group entertainment. Such activities need to be clustered in space and/or time if they are to provide lively secure environments in order to guarantee their attractiveness and viability.",
+        "conceptual": "In every conceptual domain there are unconscious, ill-defined processes that are only evident when the well-defined conceptual procedures are inactive or exhausted. Such unconscious processes should be inter-related or associated in order to ensure their viability as catalysts for the emergence of alternative perspectives.",
+        "psychic": "In every mode of awareness there are unconscious, ill-defined processes that are only evident when the person's conscious awareness is stilled. Such unconscious processes, including dreams and waking fantasies, should be inter- related in order to ensure their viability as catalysts for the emergence of new insights."
+      }
     },
     {
       "pattern_id": "12610340",
@@ -2987,7 +3187,13 @@
         "12610400",
         "12610410",
         "12611500"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The interchanges in a web of public transportation services play a central role in ensuring the viability and integrity of the transportation system. They should be organized to make them accessible to regular users and to minimize the discontinuity between different modes of transport.",
+        "social": "The arenas in which information is translated between different media in the web of public communication services play a central role in ensuring the viability and integrity of the communication system. The arenas should be organized to make them accessible to regular communications from different groups and to minimize the discontinuity between different modes of communication.",
+        "conceptual": "The focal, or interdisciplinary, concepts which provide interconnections between different lines of thought, play a central role in ensuring the viability and integrity of the web of conceptual relationships. Such nexuses of inter-relationships should be organized to make them relevant to ideas emanating from different schools of thought and to minimize the discontinuity between different modes of thought.",
+        "psychic": "The integrative modes of awareness, which provide the necessary interconnections between particular modes of awareness, play a central role in ensuring the viability and integrity of any ordered pattern of awareness. The integrative modes should be organized to make them significant to insights emerging from different modes of awareness and to minimize the discontinuity between different modes of awareness."
+      }
     },
     {
       "pattern_id": "12610350",
@@ -3073,7 +3279,13 @@
         "12610770",
         "12610760",
         "12610680"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The mix of dwelling types (and ages) in any neighbourhood or urban cluster, namely the presence together of dwellings appropriate for children, single people, working couples, and the old, largely determines the coherence and uniqueness of such a community and its potential for self-renewal. Mixing must be balanced by the need to construct similar dwelling types together.",
+        "social": "The mix of people of different ages, namely at different stages in the human life cycle (or the life cycle of a group), is a major factor in determining the degree of coherence and uniqueness of any organizational complex or group. People need support and confirmation from those at other stages in a life cycle, whether older or younger. Mixing different household types must be balanced against the needs for those of the same age group to be together.",
+        "conceptual": "The variety of distinct methods or conceptual approaches (including the classical and the innovative) constituting the learning/discovery cycle of any conceptual domain or school of thought is a major factor in determining its degree of coherence and specificity. The mixture of methods must however be balanced against the need to strengthen the relationships between those of the same kind.",
+        "psychic": "The variety of distinct perceptions (including the habitual and the innovative) constituting the cycle of processes of any mode of awareness is a major factor in determining its degree of coherence and uniqueness. The mixture of perceptions must however be balanced against the need to reinforce the relationships between those of the same kind."
+      }
     },
     {
       "pattern_id": "12610360",
@@ -3162,7 +3374,13 @@
         "12611210",
         "12610510",
         "12611000"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Within any neighbourhood (or cluster of houses) there are those who wish to live close to central services or the movement of people, there are those who prefer privacy, and there are those who prefer some compromise between such extremes. Such differing preferences for publicness may be satisfied by reinforcing the distinction between busy streets, secluded backstreets or pathways, and streets of an intermediate type.",
+        "social": "Within any organization or group there are those who wish to be visibly associated with areas of intense activity or public contact, there are those who prefer seclusion, and there are those who prefer some compromise between those roles involving extreme public relations and personal exposure, those roles requiring privacy, and those involving some mix of the two.",
+        "conceptual": "A conceptual domain is articulated by differentiating areas of intense interaction between mutually challenging and commonplace ideas, isolated areas of exploration and reflection, and areas having some of the characteristics of both. Such distinctions may be usefully maintained by clarifying and reinforcing the pattern of relationships between them.",
+        "psychic": "A mode of awareness is articulated by differentiating conditions of intense interaction between perceptions (whether new insights or old), conditions of meditation and withdrawal, and conditions having some of the characteristics of both. Such distinctions may be usefully maintained by clarifying and reinforcing the pattern of transitions between them."
+      }
     },
     {
       "pattern_id": "12610370",
@@ -3269,7 +3487,13 @@
         "12611110",
         "12610760",
         "12610680"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The fundamental unit of organization within an identifiable neighbourhood is the cluster of houses. The limit on the number of houses per cluster varies from 8 to 12 depending on the balance between the informality and coherence of the group. The houses should preferably be arranged around some commonly owned land and paths.",
+        "social": "The fundamental unit of local organization in any identifiable social span is the (proximity) cluster of groups (or people) with related preoccupations. The limit on the number of groups (or people) per cluster varies from 8 to 12 depending on the balance between the informality of the relationships within the cluster and the coherence of the cluster as a whole. The relationships between the groups (or people) should preferably be such as to define an area of commonly held concern.",
+        "conceptual": "The fundamental unit of local organization in any identifiable conceptual span is the (proximity) cluster of conceptual frameworks with related foci. The limit on the number of frameworks per cluster varies from 8 to 12 depending on the balance between the network of implicit, associative relationships and the degree of explicit, structural organization. The relationships between the frameworks should preferably be such as to define a common focus.",
+        "psychic": "The fundamental unit of local organization in any identifiable field of awareness is the cluster of perceptual frameworks with related foci. The limit on the number of frameworks per cluster varies from 8 to 12 depending on the balance between the fluidity of the perceived relationships and the degree of gestalt awareness of the cluster as a whole. The perceptual frameworks should preferably be configured such as to highlight a unifying awareness."
+      }
     },
     {
       "pattern_id": "12610380",
@@ -3363,7 +3587,13 @@
         "12610760",
         "12611090",
         "12610520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In certain parts of an urban community clusters of houses do not permit sufficiently high population densities or degrees of publicness. Row houses are then essential and should preferably be placed along pedestrian paths, running at right angle to local roads, such as to provide common land behind them.",
+        "social": "In certain parts of an organizational complex clusters of groups (or people) with related preoccupations do not permit sufficiently high relationship densities or degrees of interaction. Standard groups should then be interlinked in chains, such as to provide low intensity communication pathways between them, connecting into higher intensity communication networks. The groups should be interlinked such as to define a common area of concern.",
+        "conceptual": "In certain parts of a conceptual domain loose clusters of conceptual frameworks do not permit a sufficiently high degree of integration. Standard frameworks (such as matrices of concepts) should then be interlinked by a sequence of procedures such as to encourage non-linear interactions between them, phasing into the linear pattern of more general relationships. The frameworks should be interlinked such as to define a shared common focus.",
+        "psychic": "In certain areas of a field of awareness clusters of perceptual frameworks do not provide a sufficiently high degree of integration. Standard perceptual frameworks should then be interlinked together (such as in a rote learning or meditation sequence) such as to engender the implicit relationships between them, phasing into the explicit patterns of overall awareness. The frameworks should be interlinked such as to define a shared core of awareness."
+      }
     },
     {
       "pattern_id": "12610390",
@@ -3453,7 +3683,13 @@
         "12611000",
         "12611180",
         "12610680"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In every urban environment there are places so central that high-rise apartments tend to be constructed to accommodate the high population density. To avoid alienating impersonality, each apartment should have a direct connection to the ground, a private garden and the possibility of acquiring a unique identity. This may be accomplished by using stepped terraces on a housing hill.",
+        "social": "At the central (or fashionable) foci of any organizational complex the preferred density of relationships is such as to require that many be based on a new mode of action. To avoid alienating impersonality, each group should maintain a direct connection to simpler and more fundamental modes of organizing relationships in time, whilst at the same time acquiring unique characteristics in the new framework.",
+        "conceptual": "At the central foci of any conceptual domain the necessary density of relationships between concepts is such as to require that many be based on a new (or meta) dimension. To avoid arid incomprehensibility, each set of concepts should maintain a direct connection to simpler and more fundamental patterns of relationship, whilst at the same time acquiring unique characteristics within the new framework.",
+        "psychic": "At the central foci of any mode of awareness the density of relationships amongst perceptions and insights is such as to require that many be based on a new dimension of understanding. To avoid cold detachment, each set of insights should maintain a direct connection to simpler and more fundamental patterns of insight, whilst at the same time developing unique characteristics in the light of the new dimension."
+      }
     },
     {
       "pattern_id": "12610400",
@@ -3538,7 +3774,13 @@
         "12611560",
         "12611770",
         "12611550"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "When an urban environment is properly designed it preserves structures reflecting the characteristics of its earlier stages of development, appropriately relating them to recent buildings and those planned or in process of construction.",
+        "social": "When a social group or organizational complex is properly balanced it integrates within it traditional groups (or elderly people), appropriately relating them to contemporary groups (or adults) as well as to new kinds of groups (or the young). Failure to do so creates dangerous rifts in the sense of historical continuity and development within the community.",
+        "conceptual": "When a conceptual domain is properly formed and balanced it integrates within it the earlier stages in its own development, appropriately relating them to currently accepted concepts and to emerging insights into the probable future development of the domain.",
+        "psychic": "When a mode of awareness is properly balanced it integrates within it the earlier learning stages in its own development appropriately relating them to those in which confidence is at present placed, as well as to those emerging insights which are as yet only partially understood."
+      }
     },
     {
       "pattern_id": "12610410",
@@ -3642,7 +3884,13 @@
         "12610820",
         "12610930",
         "12610720"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Workplaces for a variety of employments should be clustered in groups of 10 to 20 around their own courtyards to form an identifiable work community with some collective amenities and nested within a larger community with other services. The work community then provides for a more balanced life outside the house.",
+        "social": "Groups or task forces with a variety of preoccupations should be encouraged to form into clusters of 10 to 20 such as to reinforce the informal interaction amongst them. The resulting community or network then provides for a healthier degree of functional balance than is normally possible outside non-directive groups.",
+        "conceptual": "Utilization of a variety of distinct methodologies or conceptual frameworks should be organized into clusters of 10 to 20 such as to reinforce the processes of non- formal interaction amongst them. The resulting network or \"invisible college\" then provides for a healthier degree of conceptual balance than is normally possible outside contexts of non-deterministic reflection.",
+        "psychic": "A variety of distinct perceptual frameworks should be grouped into clusters of 10 to 20 such as to reinforce the processes of unconscious integration amongst them. The resulting gestalt then provides for a more balanced mode of awareness than is normally possible in the absence of \"seedless\" meditation."
+      }
     },
     {
       "pattern_id": "12610420",
@@ -3723,7 +3971,13 @@
         "12610800",
         "12611220",
         "12611060"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Industry should be distributed along ribbons such as to form boundaries between communities rather than being completely separated from urban life and thus contributing to the unreality of sheltered residential neighbourhoods and to the sterility of industrial parks.",
+        "social": "Managerial and administrative action groups should be situated such as to form boundaries between organizational complexes, rather than being grouped separately from working operations, thus contributing to the unreality of sheltered working environments and to the sterility of bureaucracy.",
+        "conceptual": "Application of theory to concrete problems should be linked such as to form boundaries between conceptual frameworks, rather than being isolated from areas of purely theoretical work, thus contributing to the unreality of such sheltered research environments and to appreciations based on limited insights.",
+        "psychic": "Adaptations and use of modes of awareness in real-world situations should be linked such as to form boundaries between fields of awareness, rather than being completely isolated from reflection and meditation and thus contributing to the unreality of such protected activities and to unenlightened action."
+      }
     },
     {
       "pattern_id": "12610430",
@@ -3810,7 +4064,13 @@
         "12611000",
         "12611650",
         "12610830"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The development of an urban environment may be facilitated by providing a range of structures linked by pathways within which people can meet to explore new ideas and projects. These may take the form of a university, a community education centre or a conference centre.",
+        "social": "The development of an organizational complex or community may be facilitated by providing a range of interlinked meeting opportunities within which people can choose to receive or offer ideas or instruction, whether in the form of classes, lectures, conferences, or as a marketplace of projects.",
+        "conceptual": "The development of a conceptual domain or a body of knowledge may be facilitated by providing a range of interlinked opportunities for the confrontation of different concepts, whether deriving from different levels of education, from different sources of information, or from different ideology or belief systems.",
+        "psychic": "The development of a mode of awareness may be facilitated by ensuring a range of interlinked conditions within which incompatible perceptions are confronted, whether as paradoxes or deriving from different mind-sets."
+      }
     },
     {
       "pattern_id": "12610440",
@@ -3894,7 +4154,13 @@
         "12610610",
         "12611650",
         "12610810"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Local government of communities, with the full participation of inhabitants, can best be ensured by provision of a small town hall for each community of about 7000. This should be located near the busiest intersection in the community. It should provide for a public discussion arena, public services, and community project offices.",
+        "social": "Coordination of any specialized group or organizational complex, with the full participation of those involved, can best be ensured by creation of a common service environment. This should be associated with the main nexus of communications amongst participants. It should provide an arena for public discussion, common services, and project management facilities.",
+        "conceptual": "Integration of any specialized conceptual domain or school of thought can best be ensured by promoting the emergence of a common framework, preferably associated with the main nexus of conceptual relationships, to facilitate interrelationships between concepts.",
+        "psychic": "Integration of any specialized mode of awareness can best be ensured by encouraging the emergence of a focal insight, preferably associated with the main nexus of perceptual relationships."
+      }
     },
     {
       "pattern_id": "12610450",
@@ -3977,7 +4243,13 @@
         "12611650",
         "12611600",
         "12611220"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "A local town hall functions more effectively when it surrounds itself with shop-size spaces available to community action groups. Availability of low-cost office space is a vital catalyst to the initiatives of effective group action.",
+        "social": "A common service environment can only be effective when it is embedded in a network of specialized action projects, each testing its views within the community and mobilizing support and resources. Such a network is basic to the self-regulation of any community.",
+        "conceptual": "An integrative common framework only acquires significance in a specialized conceptual domain when it is embedded in a network of investigative initiatives whose activities it facilitates.",
+        "psychic": "A focal insight only acquires significance within any specialized mode of awareness when it is embedded within a network perception whose value it enhances."
+      }
     },
     {
       "pattern_id": "12610460",
@@ -4062,7 +4334,13 @@
         "12611000",
         "12611650",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "A market is most effective and dynamic when it offers a wide variety of products through many shops, each organized according to its own style rather than standardized within a monolithic supermarket. Only a minimum structure of roofing, aisles and common services is required.",
+        "social": "A meeting environment is most effective and dynamic when it offers a wide variety of experiences each organized according to its particular style rather than according to a uniform set of procedures. Only a minimum framework defining and interrelating meeting spaces and common services is required.",
+        "conceptual": "A framework for the interchange of ideas is most effective and dynamic when it offers a wide variety of methods, approaches and procedures, rather than being based on a single all-embracing approach. Only a minimum framework defining the relationship between the approaches is required, together with any common facilitative procedures.",
+        "psychic": "A mode of awareness ensuring cross- fertilization between perceptions is most effective and significant when it permits a wide variety of perceptions rather than being based on one all-embracing mode of comprehension. Only a minimum comprehension framework is required to clarify the relationship between the different perceptions."
+      }
     },
     {
       "pattern_id": "12610470",
@@ -4149,7 +4427,13 @@
         "12611650",
         "12610720",
         "12610730"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In any ordinary neighbourhood more than 90 per cent of the people are unhealthy in terms of simple biological criteria. Their health cannot be effectively enhanced by focusing on illnesses. A network of centres is required, with medical facilities, but focusing on the enhancement of physical and mental health through recreational and educational activities.",
+        "social": "In any ordinary group or organizational complex a significant proportion of the roles exhibit dysfunctional characteristics in terms of the health of the organization. These cannot be effectively remedied by focusing directly upon them. A network of facilitative environments is required with counselling expertise but providing the opportunity for role health, exploration and development.",
+        "conceptual": "In any ordinary conceptual environment or school of thought a significant proportion of the conceptual portions or processes exhibit dysfunctional characteristics in terms of the integration of the domain as a whole. These cannot be effectively remedied by focusing directly upon them. A network of facilitative conceptual environments is required with consultative expertise but providing the opportunity for creative exercises in the exploration and further development of such positions.",
+        "psychic": "Within any ordinary mode of awareness a significant proportion of the perceptions are unhealthy with respect to the holistic integration of that mode. Such perceptions cannot be effectively improved by focusing directly upon them. A network of facilitative processes is required with integrative potential but providing the opportunity for reflective exercises in the exploration and further development of such perceptions."
+      }
     },
     {
       "pattern_id": "12610480",
@@ -4235,7 +4519,13 @@
         "12610790",
         "12610750",
         "12610970"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Wherever there tends to be a sharp separation between residential and non-residential areas, building occasional houses into the fabric of shops, factories and public buildings ensures that the non-residential area is lived-in and does not deteriorate into a slum area.",
+        "social": "Wherever there tends to be a sharp separation in an organizational complex between functions or programmes active throughout the time cycle and those active in part of the time cycle only, integrating some communal or family groups into the structure of the latter reduces their vulnerability when they are inactive.",
+        "conceptual": "Wherever there tends to be a sharp distinction made in a conceptual domain between processes active throughout the time cycle and those active for only part of it, integrating some continually active processes into the latter reduces their vulnerability to conditions prevailing when they are inactive.",
+        "psychic": "Wherever there tends to be a sharp separation mode within a mode of awareness between perceptual processes intertwining throughout the daily cycle and those active for only part of it, integrating some of the ongoing processes into the latter reduces their vulnerability to impressions engendered when they are inactive."
+      }
     },
     {
       "pattern_id": "12610490",
@@ -4322,7 +4612,13 @@
         "12610510",
         "12611130",
         "12610520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Local roads should be laid out in the form of loops such as to provide access to houses but not to offer any advantages to through traffic seeking a short-cut.",
+        "social": "Communication pathways between groups with closely related concerns should be based on circuits structured to facilitate low-key interaction amongst those groups but to offer no advantages to external communications seeking to use them to establish more efficient relationships between distant groups.",
+        "conceptual": "Closely related specialized conceptual domains should be interlinked by self-reinforcing cycles of interaction which are of little significance as a means of establishing more general patterns of relationship between more distant domains.",
+        "psychic": "Closely related patterns of perceptions should be interlinked within a specialized mode of awareness by cycles of self-reinforcement which are of little significance as a means of integrating more general modes of awareness."
+      }
     },
     {
       "pattern_id": "12610500",
@@ -4399,7 +4695,13 @@
       ],
       "narrower_patterns": [
         "12610510"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "At intersections where two roads meet, accidents are less frequent when the roads meet in three-way T junctions rather than in four-way junctions involving crossing movements.",
+        "social": "The potential for conflict in any inter-organizational environment is reduced when two programmes interact in a mutually entraining manner with a common resultant rather than when an effort is made to maintain the orientation of each toward unrelated outcomes, overriding the frustration and interruption engendered by the interference of the other.",
+        "conceptual": "The potential for disagreement in any conceptual domain is reduced when two lines of research interact in a mutally entraining manner with a common resultant, rather than when each line of thought is pursued, irrespective of the influence exerted by the other and the necessity of overriding the interference and discontinuity it causes.",
+        "psychic": "The potential for cognitive dissonance within any mode of awareness is reduced when two distinct perceptual processes merge into a common third process, rather than when each is pursued, irrespective of the influence of the other and the necessity of overriding the interference and discontinuity to which its insights give rise."
+      }
     },
     {
       "pattern_id": "12610510",
@@ -4493,7 +4795,10 @@
         "12610680",
         "12611400",
         "12610520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Local asphalt roads destroy the micro- climate and the local environment. Substituting paving stones with grass between them alleviates such effects."
+      }
     },
     {
       "pattern_id": "12610520",
@@ -4582,7 +4887,10 @@
         "12611210",
         "12610540",
         "12611000"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Automobiles are dangerous to pedestrians and yet social life is enlivened at the points where they meet. A protected network of pedestrian paths may be developed, distinct from the road system, and orthogonal to it."
+      }
     },
     {
       "pattern_id": "12610530",
@@ -4669,7 +4977,10 @@
         "12611030",
         "12611020",
         "12611120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The identity of neighbourhoods, housing clusters or other urban precincts is enhanced by the presence of distinctive gateways for the pathways through the boundary."
+      }
     },
     {
       "pattern_id": "12610540",
@@ -4753,7 +5064,10 @@
         "12611740",
         "12611030",
         "12610930"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Where pedestrian pathways cross roads, the crossing should be protected by, for example, providing islands between the lanes and ensuring its recognition by drivers."
+      }
     },
     {
       "pattern_id": "12610550",
@@ -4837,7 +5151,10 @@
         "12611250",
         "12611000",
         "12610930"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Pedestrian sidewalks should be raised 0.5 metres above the level of parallel roads carrying fast-moving traffic, with some form of railing to mark the edge, or else pedestrians feel overwhelmed by the vehicles."
+      }
     },
     {
       "pattern_id": "12610560",
@@ -4923,7 +5240,10 @@
         "12611100",
         "12611730",
         "12610730"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Bicycles are endangered by other vehicles on roads and are themselves a danger to pedestrians on pathways, despite being a healthy mode of transport with little negative impact on the environment. This calls for the establishment of a system of appropriately adapted bicycle paths with bike racks located close to common destinations."
+      }
     },
     {
       "pattern_id": "12610570",
@@ -5016,7 +5336,10 @@
         "12610720",
         "12610730",
         "12610700"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "A specially protected network of pathways should be provided to enable children to explore the variety of buildings which make up the urban environment in which they have to learn to function as adults."
+      }
     },
     {
       "pattern_id": "12610580",
@@ -5099,7 +5422,10 @@
         "12611000",
         "12610930",
         "12610630"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Within a town a part of it may be reserved as a place for carnival-type events, whether fairs, displays, street theatre or any kind of unprogrammed happening. These allow the necessary expression of man's unconscious processes and fantasy."
+      }
     },
     {
       "pattern_id": "12610590",
@@ -5122,7 +5448,10 @@
         "12610700",
         "12611730",
         "12611400"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Quiet lanes and pathways."
+      }
     },
     {
       "pattern_id": "12610600",
@@ -5152,7 +5481,10 @@
         "12611730",
         "12610720",
         "12611060"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Accessible trees and greenery."
+      }
     },
     {
       "pattern_id": "12610610",
@@ -5186,7 +5518,10 @@
         "12611220",
         "12610630",
         "12611060"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Small public squares in urban environments."
+      }
     },
     {
       "pattern_id": "12610620",
@@ -5206,7 +5541,10 @@
         "12610610",
         "12611260",
         "12611250"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "High places as vantage points."
+      }
     },
     {
       "pattern_id": "12610630",
@@ -5228,7 +5566,10 @@
         "12611240",
         "12611260",
         "12610930"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Communal dancing in the street."
+      }
     },
     {
       "pattern_id": "12610640",
@@ -5251,7 +5592,10 @@
         "12610660",
         "12611260",
         "12611000"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Flowing water, streams and pools."
+      }
     },
     {
       "pattern_id": "12610650",
@@ -5275,7 +5619,10 @@
         "12610910",
         "12611730",
         "12611110"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Places for natural childbirth."
+      }
     },
     {
       "pattern_id": "12610660",
@@ -5296,7 +5643,10 @@
         "12611340",
         "12610700",
         "12611710"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Holy ground and sacred places."
+      }
     },
     {
       "pattern_id": "12610670",
@@ -5329,7 +5679,10 @@
         "12610720",
         "12611060",
         "12610730"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Common land in urban areas."
+      }
     },
     {
       "pattern_id": "12610680",
@@ -5352,7 +5705,10 @@
         "12610860",
         "12610740",
         "12610730"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Connected environment for childrens play."
+      }
     },
     {
       "pattern_id": "12610690",
@@ -5388,7 +5744,10 @@
         "12611150",
         "12611000",
         "12611600"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Public outdoor covered place where people can gather."
+      }
     },
     {
       "pattern_id": "12610700",
@@ -5410,7 +5769,10 @@
       "narrower_patterns": [
         "12612410",
         "12611710"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Grave sites and memorials to the dead."
+      }
     },
     {
       "pattern_id": "12610710",
@@ -5440,7 +5802,10 @@
         "12611440",
         "12611050",
         "12610720"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Still water, ponds and lakeside areas."
+      }
     },
     {
       "pattern_id": "12610720",
@@ -5466,7 +5831,10 @@
         "12611010",
         "12611650",
         "12611440"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Local sports facilities."
+      }
     },
     {
       "pattern_id": "12610730",
@@ -5489,7 +5857,10 @@
         "12611720",
         "12612030",
         "12610860"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Adventure playground for children."
+      }
     },
     {
       "pattern_id": "12610740",
@@ -5508,7 +5879,10 @@
         "12610790",
         "12610860",
         "12611780"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Facilities for contact with animals."
+      }
     },
     {
       "pattern_id": "12610750",
@@ -5542,7 +5916,10 @@
         "12611550",
         "12611530",
         "12611070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Communal households."
+      }
     },
     {
       "pattern_id": "12610760",
@@ -5569,7 +5946,10 @@
         "12611450",
         "12611430",
         "12611070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "House for a small family."
+      }
     },
     {
       "pattern_id": "12610770",
@@ -5590,7 +5970,10 @@
         "12611410",
         "12611360",
         "12611070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "House for a couple."
+      }
     },
     {
       "pattern_id": "12610780",
@@ -5618,7 +6001,10 @@
         "12611550",
         "12611440",
         "12611070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "House for one person."
+      }
     },
     {
       "pattern_id": "12610790",
@@ -5644,7 +6030,10 @@
         "12610860",
         "12611570",
         "12611110"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Owning a home that can be modified and adapted."
+      }
     },
     {
       "pattern_id": "12610800",
@@ -5672,7 +6061,10 @@
         "12611530",
         "12611070",
         "12610830"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Self-governing workshops, offices and cooperatives."
+      }
     },
     {
       "pattern_id": "12610810",
@@ -5702,7 +6094,10 @@
         "12610820",
         "12611530",
         "12611070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Community services without excessive bureaucracy."
+      }
     },
     {
       "pattern_id": "12610820",
@@ -5727,7 +6122,10 @@
         "12611020",
         "12611000",
         "12611070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Connections between offices."
+      }
     },
     {
       "pattern_id": "12610830",
@@ -5751,7 +6149,10 @@
         "12611290",
         "12610840",
         "12611070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Learning through work in an apprenticeship setting."
+      }
     },
     {
       "pattern_id": "12610840",
@@ -5774,7 +6175,10 @@
         "12610950",
         "12611570",
         "12610720"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Institutional environments for teenagers."
+      }
     },
     {
       "pattern_id": "12610850",
@@ -5796,7 +6200,10 @@
         "12610860",
         "12611000",
         "12611650"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Shopfront schools."
+      }
     },
     {
       "pattern_id": "12610860",
@@ -5822,7 +6229,10 @@
         "12612030",
         "12611010",
         "12611290"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Children's home where they can gather and play."
+      }
     },
     {
       "pattern_id": "12610870",
@@ -5849,7 +6259,10 @@
         "12611650",
         "12610930",
         "12611070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Individually owned shops."
+      }
     },
     {
       "pattern_id": "12610880",
@@ -5877,7 +6290,10 @@
         "12611500",
         "12611250",
         "12611650"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Street cafe."
+      }
     },
     {
       "pattern_id": "12610890",
@@ -5899,7 +6315,10 @@
         "12611910",
         "12611100",
         "12611650"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Corner grocery."
+      }
     },
     {
       "pattern_id": "12610900",
@@ -5920,7 +6339,10 @@
         "12610910",
         "12611790",
         "12611810"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Beer hall."
+      }
     },
     {
       "pattern_id": "12610910",
@@ -5944,7 +6366,10 @@
         "12610950",
         "12611290",
         "12611860"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Congenial inns for travellers."
+      }
     },
     {
       "pattern_id": "12610920",
@@ -5965,7 +6390,10 @@
         "12611210",
         "12611500",
         "12610930"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Bus stop waiting environments."
+      }
     },
     {
       "pattern_id": "12610930",
@@ -5989,7 +6417,10 @@
         "12612440",
         "12611240",
         "12611440"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Food stands in the street."
+      }
     },
     {
       "pattern_id": "12610940",
@@ -6012,7 +6443,10 @@
         "12611500",
         "12611000",
         "12611600"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Sleeping in public places."
+      }
     },
     {
       "pattern_id": "12610950",
@@ -6060,7 +6494,10 @@
         "12611070",
         "12611040",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Building complex."
+      }
     },
     {
       "pattern_id": "12610960",
@@ -6085,7 +6522,10 @@
         "12611050",
         "12611040",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Number of building stories."
+      }
     },
     {
       "pattern_id": "12610970",
@@ -6116,7 +6556,10 @@
         "12611020",
         "12611660",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Shielded parking areas."
+      }
     },
     {
       "pattern_id": "12610980",
@@ -6146,7 +6589,10 @@
         "12611150",
         "12611000",
         "12611040"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Recognizable pathways through a building complex."
+      }
     },
     {
       "pattern_id": "12610990",
@@ -6164,7 +6610,10 @@
         "12611160",
         "12611290",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Main building as a point of focus."
+      }
     },
     {
       "pattern_id": "12611000",
@@ -6206,7 +6655,10 @@
         "12611020",
         "12611400",
         "12611660"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Pedestrian streets and concourses."
+      }
     },
     {
       "pattern_id": "12611010",
@@ -6241,7 +6693,10 @@
         "12611020",
         "12611650",
         "12611490"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Building thoroughfares and covered pedestrian concourses."
+      }
     },
     {
       "pattern_id": "12611020",
@@ -6274,7 +6729,10 @@
         "12611300",
         "12611120",
         "12611060"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Comprehensible family of entrances to a building complex."
+      }
     },
     {
       "pattern_id": "12611030",
@@ -6303,7 +6761,10 @@
         "12611710",
         "12611730",
         "12611060"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Small parking lots."
+      }
     },
     {
       "pattern_id": "12611040",
@@ -6329,7 +6790,10 @@
         "12611050",
         "12611070",
         "12611060"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Construction on sites in need of enhancement."
+      }
     },
     {
       "pattern_id": "12611050",
@@ -6354,7 +6818,10 @@
         "12611070",
         "12611060",
         "12611620"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Buildings with sheltered sunny spaces."
+      }
     },
     {
       "pattern_id": "12611060",
@@ -6392,7 +6859,10 @@
         "12611220",
         "12611590",
         "12611070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Enhancing outdoor space."
+      }
     },
     {
       "pattern_id": "12611070",
@@ -6429,7 +6899,10 @@
         "12611220",
         "12611590",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Building wings receiving natural light."
+      }
     },
     {
       "pattern_id": "12611080",
@@ -6447,7 +6920,10 @@
         "12611190",
         "12611630",
         "12611150"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Connected buildings and connections between buildings."
+      }
     },
     {
       "pattern_id": "12611090",
@@ -6467,7 +6943,10 @@
         "12611160",
         "12611290",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Long thin building to increase privacy."
+      }
     },
     {
       "pattern_id": "12611100",
@@ -6500,7 +6979,10 @@
         "12611120",
         "12611330",
         "12611130"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Prominent main entrance."
+      }
     },
     {
       "pattern_id": "12611110",
@@ -6530,7 +7012,10 @@
         "12611180",
         "12611120",
         "12611400"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Partially concealed garden."
+      }
     },
     {
       "pattern_id": "12611120",
@@ -6554,7 +7039,10 @@
         "12611300",
         "12611530",
         "12611130"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Graceful entranceways from the street."
+      }
     },
     {
       "pattern_id": "12611130",
@@ -6578,7 +7066,10 @@
         "12611300",
         "12611620",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Connection to the car port."
+      }
     },
     {
       "pattern_id": "12611140",
@@ -6606,7 +7097,10 @@
         "12611150",
         "12611730",
         "12611400"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Hierarchy of open space with a view of a larger space."
+      }
     },
     {
       "pattern_id": "12611150",
@@ -6634,7 +7128,10 @@
         "12611630",
         "12611730",
         "12611660"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Lively courtyards."
+      }
     },
     {
       "pattern_id": "12611160",
@@ -6660,7 +7157,10 @@
         "12611180",
         "12611590",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Cascade of roofs to integrate a building complex."
+      }
     },
     {
       "pattern_id": "12611170",
@@ -6682,7 +7182,10 @@
         "12611450",
         "12611180",
         "12611660"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Sheltering roof."
+      }
     },
     {
       "pattern_id": "12611180",
@@ -6713,7 +7216,10 @@
         "12611770",
         "12611400",
         "12611660"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Roof garden."
+      }
     },
     {
       "pattern_id": "12611190",
@@ -6757,7 +7263,10 @@
         "12611220",
         "12611660",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Arcades and covered walkways."
+      }
     },
     {
       "pattern_id": "12611200",
@@ -6790,7 +7299,10 @@
         "12611740",
         "12611260",
         "12611710"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Paths and points of attraction."
+      }
     },
     {
       "pattern_id": "12611210",
@@ -6823,7 +7335,10 @@
         "12611250",
         "12611650",
         "12611220"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Path shape to encourage loitering and hanging out."
+      }
     },
     {
       "pattern_id": "12611220",
@@ -6851,7 +7366,10 @@
         "12611600",
         "12611400",
         "12611660"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Building fronts adapted to the shape of the street."
+      }
     },
     {
       "pattern_id": "12611230",
@@ -6878,7 +7396,10 @@
         "12611650",
         "12611400",
         "12611660"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Adjusting public spaces for a lively pedestrian density."
+      }
     },
     {
       "pattern_id": "12611240",
@@ -6910,7 +7431,10 @@
         "12611260",
         "12611740",
         "12611630"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Pockets of activity around public spaces."
+      }
     },
     {
       "pattern_id": "12611250",
@@ -6942,7 +7466,10 @@
         "12611260",
         "12611950",
         "12611600"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Seats on stairways in public places."
+      }
     },
     {
       "pattern_id": "12611260",
@@ -6968,7 +7495,10 @@
       "narrower_patterns": [
         "12612430",
         "12611710"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Something attractive roughly in the middle of a public square."
+      }
     },
     {
       "pattern_id": "12611270",
@@ -6999,7 +7529,10 @@
         "12611850",
         "12611300",
         "12611440"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Intimacy gradient of spaces in a building."
+      }
     },
     {
       "pattern_id": "12611280",
@@ -7022,7 +7555,10 @@
         "12611630",
         "12611990",
         "12611620"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Orienting principal rooms for indoor sunlight."
+      }
     },
     {
       "pattern_id": "12611290",
@@ -7065,7 +7601,10 @@
         "12611590",
         "12611400",
         "12611810"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Common areas at the heart of any building complex."
+      }
     },
     {
       "pattern_id": "12611300",
@@ -7099,7 +7638,10 @@
         "12611590",
         "12611400",
         "12611660"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Entrance room at the main entrance."
+      }
     },
     {
       "pattern_id": "12611310",
@@ -7123,7 +7665,10 @@
         "12611350",
         "12611330",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Arrangement of rooms to encourage flow and movement."
+      }
     },
     {
       "pattern_id": "12611320",
@@ -7155,7 +7700,10 @@
         "12611330",
         "12611590",
         "12611660"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Short room-like passages."
+      }
     },
     {
       "pattern_id": "12611330",
@@ -7176,7 +7724,10 @@
         "12611350",
         "12611250",
         "12612280"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Prominent key staircase as a place of significance."
+      }
     },
     {
       "pattern_id": "12611340",
@@ -7204,7 +7755,10 @@
         "12611420",
         "12611350",
         "12611730"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Tantalizing glimpses of a beautiful view."
+      }
     },
     {
       "pattern_id": "12611350",
@@ -7231,7 +7785,10 @@
         "12611960",
         "12611800",
         "12611490"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Alternating areas of contrasting light and dark throughout a building."
+      }
     },
     {
       "pattern_id": "12611360",
@@ -7259,7 +7816,10 @@
         "12611440",
         "12611590",
         "12611870"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Distinct part of the house for the adult couple."
+      }
     },
     {
       "pattern_id": "12611370",
@@ -7284,7 +7844,10 @@
         "12611860",
         "12611430",
         "12611440"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Continuous playspace for children in the home."
+      }
     },
     {
       "pattern_id": "12611380",
@@ -7308,7 +7871,10 @@
         "12611430",
         "12611440",
         "12611870"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Orienting bedrooms towards the rising sun."
+      }
     },
     {
       "pattern_id": "12611390",
@@ -7335,7 +7901,10 @@
         "12611790",
         "12611990",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Kitchen as a family room."
+      }
     },
     {
       "pattern_id": "12611400",
@@ -7370,7 +7939,10 @@
         "12611730",
         "12611660",
         "12611550"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Private terrace linking the house to the street."
+      }
     },
     {
       "pattern_id": "12611410",
@@ -7400,7 +7972,10 @@
         "12611790",
         "12611550",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "One private room for each adult in the home."
+      }
     },
     {
       "pattern_id": "12611420",
@@ -7432,7 +8007,10 @@
         "12611790",
         "12611850",
         "12611810"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Sequence of sitting spaces in a building graded by comfort and degree of enclosure."
+      }
     },
     {
       "pattern_id": "12611430",
@@ -7455,7 +8033,10 @@
         "12611860",
         "12611440",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Clustering childrens beds."
+      }
     },
     {
       "pattern_id": "12611440",
@@ -7484,7 +8065,10 @@
         "12611770",
         "12611730",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Shared bathing facilities in the home."
+      }
     },
     {
       "pattern_id": "12611450",
@@ -7507,7 +8091,10 @@
         "12611750",
         "12611530",
         "12611620"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Bulk storage areas."
+      }
     },
     {
       "pattern_id": "12611460",
@@ -7536,7 +8123,10 @@
         "12611490",
         "12611530",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Flexible office space adjustable according to need."
+      }
     },
     {
       "pattern_id": "12611470",
@@ -7560,7 +8150,10 @@
         "12611480",
         "12611510",
         "12611820"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Communal eating places for homes and workgroups."
+      }
     },
     {
       "pattern_id": "12611480",
@@ -7582,7 +8175,10 @@
         "12611830",
         "12611580",
         "12611510"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Shared facilities for small work groups."
+      }
     },
     {
       "pattern_id": "12611490",
@@ -7608,7 +8204,10 @@
         "12611790",
         "12611590",
         "12611810"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Welcoming reception areas in institutions."
+      }
     },
     {
       "pattern_id": "12611500",
@@ -7638,7 +8237,10 @@
         "12611790",
         "12611650",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Facilities to make waiting a positive experience."
+      }
     },
     {
       "pattern_id": "12611510",
@@ -7662,7 +8264,10 @@
         "12611790",
         "12611850",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Small meeting rooms."
+      }
     },
     {
       "pattern_id": "12611520",
@@ -7685,7 +8290,10 @@
         "12611910",
         "12611850",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Offices partially open to other workgroups."
+      }
     },
     {
       "pattern_id": "12611530",
@@ -7710,7 +8318,10 @@
         "12611540",
         "12611550",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Organizing buildings to allow rooms to be rented out whenever not required."
+      }
     },
     {
       "pattern_id": "12611540",
@@ -7735,7 +8346,10 @@
         "12611850",
         "12611550",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Distinct cottage for teenagers associated with the main house."
+      }
     },
     {
       "pattern_id": "12611550",
@@ -7760,7 +8374,10 @@
         "12611640",
         "12611560",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Small cottages for the elderly close to neighbourhood services."
+      }
     },
     {
       "pattern_id": "12611560",
@@ -7781,7 +8398,10 @@
         "12611580",
         "12611570",
         "12611650"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Settled productive workplaces, especially for the elderly."
+      }
     },
     {
       "pattern_id": "12611570",
@@ -7813,7 +8433,10 @@
         "12611910",
         "12611650",
         "12611590"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Home workshop."
+      }
     },
     {
       "pattern_id": "12611580",
@@ -7846,7 +8469,10 @@
       "narrower_patterns": [
         "12611610",
         "12611950"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "External staircases for institutions."
+      }
     },
     {
       "pattern_id": "12611590",
@@ -7887,7 +8513,10 @@
         "12611800",
         "12611600",
         "12611620"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Light on two sides of every room."
+      }
     },
     {
       "pattern_id": "12611600",
@@ -7921,7 +8550,10 @@
         "12611630",
         "12611620",
         "12611660"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Inviting spots at the edge of buildings."
+      }
     },
     {
       "pattern_id": "12611610",
@@ -7951,7 +8583,10 @@
         "12611760",
         "12611630",
         "12611620"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Place for basking in the sun."
+      }
     },
     {
       "pattern_id": "12611620",
@@ -7973,7 +8608,10 @@
         "12611980",
         "12611780",
         "12611730"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Limiting building shadow."
+      }
     },
     {
       "pattern_id": "12611630",
@@ -8016,7 +8654,10 @@
         "12611730",
         "12611660",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Outdoor garden room."
+      }
     },
     {
       "pattern_id": "12611640",
@@ -8044,7 +8685,10 @@
         "12612360",
         "12612460",
         "12611800"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Window seats and street windows."
+      }
     },
     {
       "pattern_id": "12611650",
@@ -8075,7 +8719,10 @@
       ],
       "narrower_patterns": [
         "12612430"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Opening public places to the street."
+      }
     },
     {
       "pattern_id": "12611660",
@@ -8107,7 +8754,10 @@
         "12612270",
         "12611930",
         "12611670"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Galleries and terraces around buildings."
+      }
     },
     {
       "pattern_id": "12611670",
@@ -8133,7 +8783,10 @@
         "12612270",
         "12611930",
         "12611910"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Partially-recessed balconies and porches of adequate size."
+      }
     },
     {
       "pattern_id": "12611680",
@@ -8160,7 +8813,10 @@
         "12612410",
         "12612470",
         "12611690"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Blurring the boundary between the building and the surrounding earth."
+      }
     },
     {
       "pattern_id": "12611690",
@@ -8183,7 +8839,10 @@
         "12612450",
         "12611720",
         "12611770"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Terraced slopes following contour lines."
+      }
     },
     {
       "pattern_id": "12611700",
@@ -8206,7 +8865,10 @@
         "12611780",
         "12611770",
         "12611710"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Fruit trees and orchards on common land."
+      }
     },
     {
       "pattern_id": "12611710",
@@ -8234,7 +8896,10 @@
         "12611720",
         "12611740",
         "12611760"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Interrelating trees and buildings."
+      }
     },
     {
       "pattern_id": "12611720",
@@ -8258,7 +8923,10 @@
         "12612450",
         "12611760",
         "12611750"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Garden growing wild."
+      }
     },
     {
       "pattern_id": "12611730",
@@ -8289,7 +8957,10 @@
         "12611930",
         "12612450",
         "12611740"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Protective garden wall."
+      }
     },
     {
       "pattern_id": "12611740",
@@ -8319,7 +8990,10 @@
         "12612410",
         "12612470",
         "12611750"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Trellised walk."
+      }
     },
     {
       "pattern_id": "12611750",
@@ -8342,7 +9016,10 @@
         "12611760",
         "12611780",
         "12611770"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Greenhouse as an extension of home or office."
+      }
     },
     {
       "pattern_id": "12611760",
@@ -8364,7 +9041,10 @@
       "narrower_patterns": [
         "12612380",
         "12612410"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Quiet garden seat."
+      }
     },
     {
       "pattern_id": "12611770",
@@ -8387,7 +9067,10 @@
       ],
       "narrower_patterns": [
         "12611780"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Vegetable garden on private or fenced common land."
+      }
     },
     {
       "pattern_id": "12611780",
@@ -8407,7 +9090,10 @@
       ],
       "narrower_patterns": [
         "12611810"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Recycling organic garbage and sewage for compost."
+      }
     },
     {
       "pattern_id": "12611790",
@@ -8442,7 +9128,10 @@
         "12612110",
         "12611860",
         "12612280"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Alcoves at the edge of any common room."
+      }
     },
     {
       "pattern_id": "12611800",
@@ -8480,7 +9169,10 @@
         "12611850",
         "12611810",
         "12612490"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Window seats."
+      }
     },
     {
       "pattern_id": "12611810",
@@ -8499,7 +9191,10 @@
       ],
       "narrower_patterns": [
         "12611850"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Fireplace in a common room."
+      }
     },
     {
       "pattern_id": "12611820",
@@ -8519,7 +9214,10 @@
         "12612000",
         "12612010",
         "12612510"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Attractive space for communal eating."
+      }
     },
     {
       "pattern_id": "12611830",
@@ -8550,7 +9248,10 @@
         "12612010",
         "12611910",
         "12611850"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Workspace enclosure and connectedness."
+      }
     },
     {
       "pattern_id": "12611840",
@@ -8566,7 +9267,10 @@
         "12612000",
         "12611970",
         "12611990"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Appropriate kitchen layout."
+      }
     },
     {
       "pattern_id": "12611850",
@@ -8592,7 +9296,10 @@
         "12612520",
         "12611930",
         "12611910"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Protected communal seating arrangement."
+      }
     },
     {
       "pattern_id": "12611860",
@@ -8613,7 +9320,10 @@
         "12611880",
         "12611890",
         "12611870"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Communal sleeping area for adults and children."
+      }
     },
     {
       "pattern_id": "12611870",
@@ -8634,7 +9344,10 @@
         "12611880",
         "12611890",
         "12611910"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Partially enclosed marriage bed."
+      }
     },
     {
       "pattern_id": "12611880",
@@ -8661,7 +9374,10 @@
         "12611970",
         "12611890",
         "12611910"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Bed alcove off rooms with other functions."
+      }
     },
     {
       "pattern_id": "12611890",
@@ -8687,7 +9403,10 @@
         "12612010",
         "12611980",
         "12611910"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Dressing rooms with clothing storage facilities. tj M b Context for forms of pespective presentation"
+      }
     },
     {
       "pattern_id": "12611900",
@@ -8716,7 +9435,10 @@
         "12611910",
         "12612130",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Ceiling height variety throughout a building."
+      }
     },
     {
       "pattern_id": "12611910",
@@ -8765,7 +9487,10 @@
         "12611980",
         "12612120",
         "12612050"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Roughly rectangular indoor spaces."
+      }
     },
     {
       "pattern_id": "12611920",
@@ -8789,7 +9514,10 @@
         "12612390",
         "12612230",
         "12611990"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Rooms with a view overlooking neighbourhood activity."
+      }
     },
     {
       "pattern_id": "12611930",
@@ -8820,7 +9548,10 @@
         "12612390",
         "12611940",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Rooms partially opening into each other."
+      }
     },
     {
       "pattern_id": "12611940",
@@ -8841,7 +9572,10 @@
       "narrower_patterns": [
         "12612390",
         "12612370"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Connecting windows between interior rooms."
+      }
     },
     {
       "pattern_id": "12611950",
@@ -8859,7 +9593,10 @@
         "12612030",
         "12612280",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Staircase space requirement."
+      }
     },
     {
       "pattern_id": "12611960",
@@ -8880,7 +9617,10 @@
         "12612370",
         "12612240",
         "12611980"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Corner doorways to protect integrity of activities in the room. TJ M b Excentric access to perspective contexts"
+      }
     },
     {
       "pattern_id": "12611970",
@@ -8914,7 +9654,10 @@
         "12612110",
         "12611990",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Thick walls to permit adaptations for alcoves and shelving."
+      }
     },
     {
       "pattern_id": "12611980",
@@ -8937,7 +9680,10 @@
       "narrower_patterns": [
         "12612040",
         "12612280"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Storage closets on interior walls between rooms."
+      }
     },
     {
       "pattern_id": "12611990",
@@ -8957,7 +9703,10 @@
         "12612500",
         "12612000",
         "12612110"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Kitchen oriented toward the sun."
+      }
     },
     {
       "pattern_id": "12612000",
@@ -8981,7 +9730,10 @@
       "narrower_patterns": [
         "12612010",
         "12612110"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Open shelving on walls."
+      }
     },
     {
       "pattern_id": "12612010",
@@ -9004,7 +9756,10 @@
         "12612220",
         "12612530",
         "12612110"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Waist-high shelving in working and living rooms."
+      }
     },
     {
       "pattern_id": "12612020",
@@ -9025,7 +9780,10 @@
         "12612510",
         "12612300",
         "12612110"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Seats built into walls."
+      }
     },
     {
       "pattern_id": "12612030",
@@ -9045,7 +9803,10 @@
         "12612240",
         "12612110",
         "12612280"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Cave-like places for children."
+      }
     },
     {
       "pattern_id": "12612040",
@@ -9062,7 +9823,10 @@
       "narrower_patterns": [
         "12612190",
         "12612110"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Secret places for storage of valuables."
+      }
     },
     {
       "pattern_id": "12612050",
@@ -9154,7 +9918,10 @@
         "12612190",
         "12612060",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "No building ever feels right to the people in it unless the physical spaces (defined by columns, walls and ceilings) are congruent with the social spaces (defined by activities and human groups). The social spaces should never be modified to conform to the engineering structure."
+      }
     },
     {
       "pattern_id": "12612060",
@@ -9249,7 +10016,10 @@
         "12612290",
         "12612280",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The most efficient way of distributing materials throughout a building, so as to enclose space, strongly and well, with the least amount of expensive, non-depletable material, is to conceive of the building as made from one continuous body of compressive material. In its geometry, conceive it as a three-dimensional system of individually vaulted spaces, most of them roughly rectangular; with thin load-bearing walls, each stiffened by columns at intervals along its length, thickened where walls meet walls, vaults, or openings. tj M b Efficient enclosure of spaces with minimal structural distinctions"
+      }
     },
     {
       "pattern_id": "12612070",
@@ -9335,7 +10105,10 @@
         "12612080",
         "12612190",
         "12612280"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Mass-produced construction materials tend to destroy the organic quality of natural buildings and to make any such quality impossible. Appropriate materials are required which are small in scale, easy to cut on site, easy to work without sophisticated machinery, easy to vary and adapt, heavy enough to be solid, long-lasting or easy to maintain, and yet easy to build, not needing specialized labour, not expensive in labour, and universally obtainable and cheap. Such materials should be ecologically sound, namely biodegradable, low in energy consumption, and not based on depletable resources."
+      }
     },
     {
       "pattern_id": "12612080",
@@ -9422,7 +10195,10 @@
         "12612190",
         "12612310",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Buildings should be uniquely adapted to individual needs and sites. The plans should therefore be rather loose and fluid in order to accommodate those subtleties as the need for them emerges. The building should not be thought of as assembled from components but rather as being woven from a structure which starts out globally complete, but flimsy. It is gradually made stiffer, whilst still somewhat flimsy, until it is made completely stiff and strong in the final construction phase. Although the building goes from flimsy to strong, the actual materials added go from the strongest and stiffest to the less stiff, until finally fluid materials are added. In this way each new material is more adaptable, more flexible, more capable of coping with variations (and earlier mistakes) than the last. This can be achieved by constructing a soft skin framework and filling it with a compressive fill."
+      }
     },
     {
       "pattern_id": "12612090",
@@ -9505,7 +10281,10 @@
         "12612100",
         "12612110",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Arrange the roofs of a building so that each distinct roof corresponds to an identifiable social span in the building. Place the largest roofs - those which are the highest and have the largest span - over the most important and most communal spaces; build the lesser roofs off these largest and highest roofs; and build the smallest roofs of all off these lesser roofs, in the form of half-vaults and sheds over alcoves and thick walls. The overall arrangement should form a self- buttressing cascade in which each lower roof helps to take up the horizontal thrust generated by the higher roofs."
+      }
     },
     {
       "pattern_id": "12612100",
@@ -9589,7 +10368,10 @@
         "12612130",
         "12612110",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The floor and ceiling layout must correspond to the important social spaces which will vary from floor to floor. If the spaces are vaulted to permit uses of compression materials only, vaults on different floors do not have to be aligned. To maintain reasonable structural integrity in the system of vaults as a whole, it is sufficient if a vault is placed so that its loads come down in a position from which the forces can spread out downward in a 45 degree cone and be supported by columns of the next vault down."
+      }
     },
     {
       "pattern_id": "12612110",
@@ -9679,7 +10461,10 @@
         "12612200",
         "12612190",
         "12612120"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In a sensibly made building every floor is surrounded, at various places, by small alcoves, window-seats, niches, and counters which thus form low-ceilinged \"thick walls\" around the outside edge of rooms. In a natural building these thick walls, defined by columns, can work as buttresses to counteract horizontal outward thrust generated by the presence of ceilings or higher floors. In order for such an alcove to work as a buttress, its roof must be built as nearly as possible as a continuation of the curve of the floor vault immediately inside."
+      }
     },
     {
       "pattern_id": "12612120",
@@ -9775,7 +10560,10 @@
         "12612190",
         "12612310",
         "12612130"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The common practice of specifying complex building plans in perfect detail cripples the buildings that are generated in this way. The necessities of the drawing itself change the plan, make it more rigid, and limit it to the kind of plan which can be drawn and measured. The rich range of possibilities can only be preserved if the builder is able to generate a living building, with all its slightly uneven lines and imperfect angles. In order to achieve this aim, the building must be generated in an entirely different manner. What must be done, essentially, is to fix those points (representing columns) which generate the space - as few as possible - and then let those points generate the walls, right out on the building site, during the very process of construction."
+      }
     },
     {
       "pattern_id": "12612130",
@@ -9858,7 +10646,10 @@
         "12612140",
         "12612180",
         "12612190"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Once spaces have been defined by corner columns, columns are required to stiffen the walls between them. They should be furthest apart on the ground floor (higher walls) and progressively closer together on higher floors (lower walls). On any one floor they should be equally spaced, but closer together along the walls of small rooms and further apart along the walls of large rooms."
+      }
     },
     {
       "pattern_id": "12612140",
@@ -9939,7 +10730,10 @@
         "12612160",
         "12612150",
         "12612190"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The best foundations are like those of a tree where the entire structure of the tree simply continues below ground level, creating a system entirely integral with the ground so as to resist tension and horizontal shear as well as compression."
+      }
     },
     {
       "pattern_id": "12612150",
@@ -10021,7 +10815,10 @@
         "12612480",
         "12612330",
         "12612190"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The slab is the easiest, cheapest, and most natural way to lay a ground floor. It is constructed by first building a low perimeter wall around the building, tying it with the column foundations, and then filling it with rubble, gravel and concrete."
+      }
     },
     {
       "pattern_id": "12612160",
@@ -10110,7 +10907,10 @@
         "12612180",
         "12612190",
         "12612310"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In all the world's traditional and historic buildings, the columns are expressive, beautiful, and treasured elements. In modern buildings they have become ugly and meaningless because no one knows how to make a column which is at the same time beautiful and structurally efficient. This requires: solidity, especially when using ecologically sound materials of lower strength; inexpensive materials; pleasant surface finish, permitting heavy decoration; concentration of strength towards centre; easy connectibility to other elements; on-site modifiability and subsequent repairability."
+      }
     },
     {
       "pattern_id": "12612170",
@@ -10195,7 +10995,10 @@
         "12612400",
         "12612190",
         "12612310"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "If a room is conceived and built by first placing columns at the corners, and then gradually weaving the walls and ceiling around them, the room needs a perimeter beam around its upper edge. This resists the horizontal thrust of the vault above, spreading the loads from upper stories onto columns, tying the columns together, and functioning as a lintel over openings in the wall."
+      }
     },
     {
       "pattern_id": "12612180",
@@ -10283,7 +11086,10 @@
         "12612310",
         "12612340",
         "12612250"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In organic construction, walls, acting as structural membranes, take their share of loads. They work continuously with the structure on all four of their sides; and act to resist shear and bending, and take loads in compression. Such walls are built as a membrane which connects the columns and door frames and window frames and is, at least in part, continuous with them."
+      }
     },
     {
       "pattern_id": "12612190",
@@ -10380,7 +11186,10 @@
         "12612290",
         "12612280",
         "12612200"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Elliptical vaults will support a live load on the floor above, whilst forming the ceiling of the room below, and generating minimum bending and tension so that inexpensive compressive materials can be relied on. They can be fitted to rooms of any shape."
+      }
     },
     {
       "pattern_id": "12612200",
@@ -10464,7 +11273,10 @@
         "12612320",
         "12612310",
         "12612340"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Requirements governing the shape of a roof are: shelter; provision of habitable space within it; roughly rectangular layout; uncontrived, relaxed shape; reduction of bending (unless expensive tension materials are available); and of a steepness appropriate to the nature of any precipitation. Within these constraints a vaulted roof is the most appropriate."
+      }
     },
     {
       "pattern_id": "12612210",
@@ -10555,7 +11367,10 @@
         "12612230",
         "12612240",
         "12612250"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Finding the right position for a window or a door is a subtle matter. Minor changes in size or placement make an immense difference. Rather than using standard sizes and pre-planned positions, exact positions and sizes should be determined on site once the framework has been built."
+      }
     },
     {
       "pattern_id": "12612220",
@@ -10640,7 +11455,10 @@
         "12612360",
         "12612360",
         "12612450"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "One of the window's most important functions is to give contact with the outdoors. Low sills provide the most meaningful links because they offer a view of the ground under the window. They should not be too low or the window feels unsafe. Higher sills are desirable on higher floors."
+      }
     },
     {
       "pattern_id": "12612230",
@@ -10723,7 +11541,10 @@
         "12612460",
         "12612400",
         "12612400"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Windows with a sharp edge where the frame meets the wall create harsh, blinding glare, and make the rooms they serve uncomfortable. By making the frame a deep, splayed edge, angled to the plane of the window, a gentle gradient of daylight gives a smooth transition between the light of the window and of the dark inner wall."
+      }
     },
     {
       "pattern_id": "12612240",
@@ -10807,7 +11628,10 @@
         "12612490",
         "12612370",
         "12612250"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Some of the doors in a building play a special role in creating transitions and maintaining privacy. Whilst a high doorway may be simple and convenient, a lower door is often more profound. The act of going through it is a deliberate thoughtful passage from one space to another."
+      }
     },
     {
       "pattern_id": "12612250",
@@ -10826,7 +11650,13 @@
         "12612260",
         "12612430",
         "12612370"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Window and door frames, being thick enough that they are places in themselves - places where you can sit, lean, and feel the transition between inside and outside.",
+        "social": "Boundary roles or positions that have their own identity and function, not just dividing two groups but serving as a meaningful space of their own.",
+        "conceptual": "Transition concepts or bridging ideas that are substantial enough to be areas of study in themselves, not just thin dividers between fields.",
+        "psychic": "Threshold states of awareness that are rich and meaningful in themselves, not just quick transitions between mental states."
+      }
     },
     {
       "pattern_id": "12612260",
@@ -10921,7 +11751,10 @@
         "12612270",
         "12612490",
         "12612450"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Free-standing columns play a role in shaping human space. Each marks a point. Two or more define an enclosure. A column thus creates a space for human activity if it permits places to be established around it where people can sit and lean comfortably. A thin column, only fulfilling its structural requirements, does not engender a comfortable environment."
+      }
     },
     {
       "pattern_id": "12612270",
@@ -11009,7 +11842,10 @@
       ],
       "narrower_patterns": [
         "12612490"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The strength of a structural framework depends on the strength of its connections. These connections are most critical of all at corners, especially at the corners where the columns meet the beams. Such connections may either be seen as a source of rigidity, which can be strengthened by triangulation using a brace, or as a source of continuity, which helps the forces to flow easily in the process of transferring loads by changing the direction of the force, as in the use of a capital."
+      }
     },
     {
       "pattern_id": "12612280",
@@ -11031,7 +11867,10 @@
       "narrower_patterns": [
         "12612480",
         "12612330"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Stair vault."
+      }
     },
     {
       "pattern_id": "12612290",
@@ -11047,7 +11886,10 @@
       "narrower_patterns": [
         "12612520",
         "12612300"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Duct space for pipes and conduits."
+      }
     },
     {
       "pattern_id": "12612300",
@@ -11062,7 +11904,10 @@
         "12612020",
         "12612290"
       ],
-      "narrower_patterns": []
+      "narrower_patterns": [],
+      "domain_specific_content": {
+        "physical": "Radiant heating systems."
+      }
     },
     {
       "pattern_id": "12612310",
@@ -11087,7 +11932,10 @@
       "narrower_patterns": [
         "12612360",
         "12612390"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Dormer windows in the roof."
+      }
     },
     {
       "pattern_id": "12612320",
@@ -11166,7 +12014,10 @@
       ],
       "narrower_patterns": [
         "12612490"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "There are few cases in traditional architecture where builders have not used some roof detail to cap the building with an ornament. The cap may be structural, but its main function is decorative. It marks the top, the place where the roof penetrates the sky. (\"Topping out\" ceremonies continue to be a feature of major modern buildings.)"
+      }
     },
     {
       "pattern_id": "12612330",
@@ -11250,7 +12101,10 @@
         "12612480",
         "12612500",
         "12612490"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Zones may be established in a house or building with harder floor materials in the public areas and softer materials in the private or more intimate zones. This avoids the problem arising from the exposure of comfortable but difficult-to-clean materials to foot traffic from the external environment. The distinction between the zones may be emphasized by a step, with different footwear rules on each side of the step."
+      }
     },
     {
       "pattern_id": "12612340",
@@ -11331,7 +12185,10 @@
         "12612490",
         "12612400",
         "12612070"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The main function of the outside wall of a building is to keep the weather out. This can best be done with construction elements that lap together but can be repaired individually in patches as necessary. This is not possible with sheets of impervious material which can only be joined together with difficulty."
+      }
     },
     {
       "pattern_id": "12612350",
@@ -11410,7 +12267,10 @@
         "12612500",
         "12612490",
         "12612400"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Make inside surfaces warm to the touch with a slight \"give\" as with soft plaster, or organic materials. A wall which is too hard or too cold or too solid is unpleasant to touch; it makes decoration impossible and creates hollow echoes."
+      }
     },
     {
       "pattern_id": "12612360",
@@ -11496,7 +12356,10 @@
       ],
       "narrower_patterns": [
         "12612390"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Windows which open wide permit personal contact with the outside environment. They are a place to linger, through which to talk to others outside. Modern buildings tend to be constructed with fixed or partially opening windows which inhibit this degree of contact."
+      }
     },
     {
       "pattern_id": "12612370",
@@ -11582,7 +12445,13 @@
       ],
       "narrower_patterns": [
         "12612390"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In a small building with small rooms, doors with glazing give a sense of visual connection together with the possibility of acoustic isolation. People then feel less isolated.",
+        "social": "In a small organization made up of small working units, each unit should receive sufficient general information on the activities of the others without needing to expose the others to the full details of its internal operations. The units then feel connected but appropriately isolated in dealing with their particular responsibilities.",
+        "conceptual": "Within a small conceptual framework with narrow domains of specialization, each specialized framework should be exposed to only some kinds of information from the others in order to maintain the sense of coherence within the larger framework. Other kinds of information, corresponding to the internal preoccupations characterizing each domain, should not need to be exchanged.",
+        "psychic": "When further articulating a particular mode of awareness, there should be sufficient interaction between the sub-modes to avoid total fragmentation of the more general mode."
+      }
     },
     {
       "pattern_id": "12612380",
@@ -11669,7 +12538,13 @@
         "12612500",
         "12612390",
         "12612460"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Light filtered through a window partially covered by leaves or tracery enhances a sense of well-being in contrast to the dullness associated with uniform lighting. Glare around the window is also reduced by softening the light in this way.",
+        "social": "Diffusing the underlying intention of an organization through spontaneously occurring events enhances the organic well-being of the group in contrast to the over-programmed dullness associated with an omnipresent objective. Unnecessary tension is also reduced by indirection of the trend.",
+        "conceptual": "Diluting a fundamental insight by representing it through random phenomena of apparently superficial significance enhances appreciation of its value. Presentation of an insight in undiluted form results in harsh contrasts which make if difficult to accept.",
+        "psychic": "(as for conceptual environment)"
+      }
     },
     {
       "pattern_id": "12612390",
@@ -11753,7 +12628,13 @@
       ],
       "narrower_patterns": [
         "12612400"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "The smaller the windows are, and the smaller the panes are, the more intensely windows help connect us with what is on the other side. Paradoxically large plate glass windows inhibit the relationship to the nature they reveal compared to smaller windows, or smaller-paned windows, which create far more frames through which contact is rendered more intimate. Smaller panes establish a psychologically more acceptable balance between exposure and enclosure.",
+        "social": "The smaller the frameworks through which an organization surveys its environment, the more intense the connection with that environment. The greater the number of such frameworks, the greater the variety of connections to the environment. Because of the sense of excessive exposure, larger \"windows\" on the environment inhibit the organization's sense of contact with it.",
+        "conceptual": "The more specialized the tools with which a conceptual framework maintains contact with its environment, and the more of them, the more adequate its apprehension of that environment is felt to be. Contact maintained through an unspecialized framework of great generality creates uncertainty as to whether an appropriate conceptual distance from the environment has been achieved.",
+        "psychic": "The more specialized the modes of awareness through which contact is maintained with the psychic environment, and the more of them, the more intense and intimate that contact is felt to be. Contact maintained through an unspecialized, holistic mode of awareness creates uncertainty as to whether an appropriate distinction is being made between perceiver and perceived."
+      }
     },
     {
       "pattern_id": "12612400",
@@ -11840,7 +12721,13 @@
       "narrower_patterns": [
         "12612500",
         "12612490"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "A free and natural building cannot be conceived without the possibility of using trim to cover minor variations and mistakes during the construction process. In modern system building the necessary tolerances are reduced by eliminating any possibility of freedom in the building plan. Trim serves the vital additional function of ensuring adequate perceptual continuity between the fine structure of natural materials and the dimensions of the smallest constructional elements. Without such continuity the building is experienced as alienating.",
+        "social": "In the natural development of an organization allowances must be made for minor inconsistencies in the working relationships between its constituent groups, especially those at different hierarchical levels. Such inconsistencies can only be avoided by detailed pre-planning intolerant of any spontaneously instituted variations during the organization's development. The manner in which such inconsistencies are integrated into the life of the organization may well contribute to its qualifications as a human organization rather than as an inhuman one.",
+        "conceptual": "In the natural development of a conceptual framework, allowance must be made for minor inconsistencies in the relationships between its constituent modules, especially those at different levels of abstraction. Such inconsistencies can only be avoided by absolute adherence to an all-embracing framework intolerant of any variations which may emerge as desirable during its implementation. The manner in which such inconsistencies are integrated into the conceptual framework may well contribute to its qualifications as realistic rather than as unrealistic.",
+        "psychic": "In the natural development of a mode of awareness allowance must be made for minor inconsistencies in the relationships between its various aspects, especially those at different levels. Such inconsistencies can only be avoided by adherence to a single overriding intention intolerant of any variation which may emerge as desirable in practice. The manner in which such inconsistencies are integrated into the mode of awareness may well contribute to its acceptance as acceptable rather than as unacceptable."
+      }
     },
     {
       "pattern_id": "12612410",
@@ -11934,7 +12821,13 @@
       "narrower_patterns": [
         "12612430",
         "12612420"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Outdoor seats, whether public or private, are useless unless they are positioned with due regard for view and climate.",
+        "social": "Organizations can usefully permit the emergence of temporary roles which offer participants the opportunity of withdrawing from formal activity, whether to cultivate a sense of perspective, or as a safety valve through which the tensions of organization life may be reduced.",
+        "conceptual": "Conceptual frameworks can usefully recognize the value of temporary viewpoints, not necessarily associated with any particular framework, from which a sense of perspective may be obtained concerning ongoing conceptual activity. Such viewpoints will not however be taken up unless their inherent interest is recognized.",
+        "psychic": "Temporary modes of awareness may be usefully adopted as a means of acquiring a sense of perspective on those adopted on a more frequent and regular basis."
+      }
     },
     {
       "pattern_id": "12612420",
@@ -12019,7 +12912,10 @@
       "narrower_patterns": [
         "12612430",
         "12612450"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Front door benches encourage people to linger around the entrance to a building. People, especially the young and the old, like to watch street activity from them because they want to be able to control their degree of involvement, encouraging interaction with passers-by or withdrawing from it."
+      }
     },
     {
       "pattern_id": "12612430",
@@ -12121,7 +13017,13 @@
         "12612480",
         "12612490",
         "12612450"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "In many places, walls and fences between outdoor spaces are too high, even though some separating boundary is required. In such situations, very low walls may be built so that when sat upon in various ways, or stepped over, the connection between the spaces is emphasized.",
+        "social": "In the relationships between groups there are situations in which the boundary between them should be highly permeable, such that participants feel free to shift between actions within one group to those in another, or that there should be an acceptable ambiguity as to which group they are acting for at any one time.",
+        "conceptual": "In the relationship between conceptual frameworks, there are situations in which it is advantageous to be able to shift easily between conceptualization in terms of one to that in terms of the other, accepting a certain ambiguity as to which is appropriate at any one time.",
+        "psychic": "In the relationship between different modes of awareness there are situations in which it is advantageous for the person to be able to shift freely between distinct modes such that there is some ambiguity as to which is valid in a given set of circumstances."
+      }
     },
     {
       "pattern_id": "12612440",
@@ -12216,7 +13118,13 @@
       "narrower_patterns": [
         "12612500",
         "12612490"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "A building using canvas awnings or temporary roofing touches the elements more nearly than when constructed with hard conventional materials only. Canvas has a softness, a suppleness, which is in harmony with wind, light and sun.",
+        "social": "A group permitting varying degrees of informal participation responds more naturally to its context than one based on formal membership only. Such flexible informality is in harmony with the shifting currents of opinion in the social environment.",
+        "conceptual": "A conceptual framework able to incorporate informal methods of interacting with its environment is accepted as more realistic than one based on formal methods alone. Such flexibility is more responsive to the problems of representing complex, ill-defined phenomena.",
+        "psychic": "A condition of awareness incorporating some subjective modes of understanding can provide a more appropriate interface with the psychic environment than one based on objective modes alone. An interface of such flexibility is more adapted to conditions in which the psychic boundary is ill-defined."
+      }
     },
     {
       "pattern_id": "12612450",
@@ -12302,7 +13210,13 @@
         "12611600",
         "12611130"
       ],
-      "narrower_patterns": []
+      "narrower_patterns": [],
+      "domain_specific_content": {
+        "physical": "Flowers are beautiful along the edges of paths, buildings, and outdoor rooms where they soften edges. But unless they are protected within a raised bed, they cannot easily survive and are inaccessible to those who would appreciate them.",
+        "social": "Spontaneous creativity (and humour) relieves the tedium of organizational rules and procedures thus helping to make them more acceptable. But unless accessible protective contexts are provided for such spontaneity, it cannot easily thrive under normal organizational pressures.",
+        "conceptual": "Imaginative and speculative thinking enlivens intellectual discourses governed by well-defined theories and methods, thus encouraging creative advances. But unless a recognized respectable place is given to such unconstrained speculation it cannot easily survive in disciplined discourse.",
+        "psychic": "Imaginative musings and adventures in awareness and modes of being contribute to psychic well-being. But unless they are given an accepted role, it may be difficult for them to fulfil their function adequately."
+      }
     },
     {
       "pattern_id": "12612460",
@@ -12380,7 +13294,13 @@
         "12611640",
         "12611180"
       ],
-      "narrower_patterns": []
+      "narrower_patterns": [],
+      "domain_specific_content": {
+        "physical": "A building finally becomes part of its surroundings when plants grow over parts of it as freely as they grow over the ground. In so doing, they effect a smooth transition between the built and the natural, whether in terms of light quality or texture.",
+        "social": "An organization becomes a natural part of the community in which it is located when its boundary as a social group offers many points of contact to the informal processes occurring within the community.",
+        "conceptual": "A conceptual framework is successfully integrated into the conceptual domain to which it relates when it is accepted as offering support for the variety of informal creation processes associated with that domain.",
+        "psychic": "A psychological construct or mode of awareness is successfully integrated into a person's psychic framework when it supports and reinforces the person's other unstructured modes of awareness."
+      }
     },
     {
       "pattern_id": "12612470",
@@ -12465,7 +13385,13 @@
       ],
       "narrower_patterns": [
         "12612480"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Use of paving with ample cracks between the stones permits grasses and mosses to grow there, thus preserving a delicate ecology of insect life and allowing rainwater to drain directly into the earth. In contrast to continuous asphalt and concrete surfaces, such paving settles without cracking and is agreeable to walk on.",
+        "social": "Any set of rules, regulations, and procedures can usefully be organized in such a way that there is a certain amount of flexibility or \"play\" between them so as not to totally inhibit the informal life of the group. This is to be contrasted with an alienating set of rules which interlock so completely that everything is prohibited unless it is explicitly permitted. Such a set does not adjust well to the passage of time.",
+        "conceptual": "A set of conceptual tools functions most effectively when each can adapt to the circumstances for which it is most appropriate. This is to be contrasted with a totally integrated set of methods which fails to allow for more complex, unpredictable phenomena to which it is insensitive and for which it is inadequate.",
+        "psychic": "In formulating a set of personal rules it is useful to leave a certain amount of \"play\" between them. Any attempt to subject all processes to such a set of rules inhibits vital processes to which rules are insensitive, possibly to the detriment of psychic health or richness."
+      }
     },
     {
       "pattern_id": "12612480",
@@ -12550,7 +13476,13 @@
       "narrower_patterns": [
         "12612500",
         "12612490"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Soft tile and brick can be used on ground level surfaces in order that, through the natural processes of wear, they should record the activity of the building as a living entity. Such materials, intermediate in character between the building and the earth, emphasize the connectedness with the earth in a manner impossible for artificial materials that are perceived as impervious and alien.",
+        "social": "The transactions of the group, especially with the outside world, can be conducted in such a way that some meaningful and continuing trace is left of its connections with its historical context and with the manner of its own development. This is to be contrasted with groups who only maintain impersonal records, if any, and have little sense of their own historical continuity.",
+        "conceptual": "In the development of a conceptual space from its relatively unformed beginnings, a sense of continuity and connectedness with that original level of understanding can usefully be cultivated. This tends to correspond to that of the wider conceptual context within which the space is embedded and to which it must continue to relate if its development is not ultimately to be inhibited.",
+        "psychic": "In the process of individual development it is useful to maintain a sense of continuity with the earlier states of awareness from which the present forms have emerged. This is to be contrasted with efforts to cut-off or repress any recollection of the past in which present and future development is rooted."
+      }
     },
     {
       "pattern_id": "12612490",
@@ -12649,7 +13581,13 @@
       "narrower_patterns": [
         "12612500",
         "12612530"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Use of ornamental designs as decoration on buildings where materials meet as a means of providing a seam to knit together such edges to emphasize the space as a whole rather than its constituent parts. Ornamentation is frivolous when there is in fact no lack of connectivity.",
+        "social": "Use of logos, banners, totems, rituals, mottoes, or other devices to reinforce recognition of the group as a whole, particularly in contexts in which it is liable to split into factions.",
+        "conceptual": "Use of symbols whose structure or profound significance is congruent with the organization of the conceptual space and therefore serves to bind together the different aspects or dimensions of it.",
+        "psychic": "Reflection on symbols which are felt to be keys to the integration of the psyche and the sense of identity. These may emerge from the unconscious in the form of dreams or in certain forms of artistic creation (e.g. sand printing)."
+      }
     },
     {
       "pattern_id": "12612500",
@@ -12735,7 +13673,13 @@
       ],
       "narrower_patterns": [
         "12612520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Natural wood, sunlight, and bright colours are warm, in contrast to other colours which tend to be experienced as depressing and cold. In some way this makes a great deal of difference between the comfort and discomfort of a room.",
+        "social": "A group is experienced as congenial (or as having \"good vibrations\") when the sum total of communications and interactions, however contrasted, is felt to be in harmony with its natural development. Unintegrated, destructive communications create the opposite impression.",
+        "conceptual": "A conceptual space is experienced as excitingly meaningful when all the various interrelationships, however contrasted, combine together to suggest the possibility of their further development as an integrated whole. Unintegrated, incompatible sets of relationships are correspondingly unmeaningful and discouraging.",
+        "psychic": "An intra-psychic space is experienced as encouraging when all various impressions, however dramatically contrasted, combine together to imply natural possibilities for its further development. Unintegrated, antagonistic impressions are correspondingly depressing and discouraging."
+      }
     },
     {
       "pattern_id": "12612510",
@@ -12817,7 +13761,13 @@
       ],
       "narrower_patterns": [
         "12612520"
-      ]
+      ],
+      "domain_specific_content": {
+        "physical": "Provision of a variety of chairs in a space, as opposed to chairs of a single design conceived for an \"average person\". The latter approach is insensitive to the variety of people, to their sitting habits and to the different needs of any one individual at different times.",
+        "social": "Recognition of a variety of roles in a social space, in contrast to trends towards achieving a degree of role uniformity.",
+        "conceptual": "Recognition of a variety of viewpoints in a conceptual domain, in contrast to trends towards achieving a single acceptable viewpoint.",
+        "psychic": "Acceptance of a variety of modes of awareness, in contrast to any trend towards achieving a single unvariegated mode."
+      }
     },
     {
       "pattern_id": "12612520",
@@ -12902,7 +13852,13 @@
         "12611350",
         "12611300"
       ],
-      "narrower_patterns": []
+      "narrower_patterns": [],
+      "domain_specific_content": {
+        "physical": "Pools of light defining a dappled environment, in contrast to unnatural uniform illumination as typified by many modern offices.",
+        "social": "Domains of shared preoccupation, in contrast to a single general concern which undermines the cohesiveness of distinct groups and prevents them from coming into any meaningful form of existence.",
+        "conceptual": "Domains of special insights or foci of attention, in contrast to an overriding general awareness which inhibits the development of a variety of specialized conceptual skills.",
+        "psychic": "Modes of personal insights, in contrast to an overriding general awareness or monopolarization such as to inhibit the development of a variety of particular conditions of awareness."
+      }
     },
     {
       "pattern_id": "12612530",
@@ -12978,7 +13934,13 @@
         "12612010",
         "12611410"
       ],
-      "narrower_patterns": []
+      "narrower_patterns": [],
+      "domain_specific_content": {
+        "physical": "Things from one's own life (e.g. pictures, objects), as opposed to the recommendations of interior decorators.",
+        "social": "Special rituals and behaviour patterns embodying meaningful moments in the history of the integration of the group, as opposed to rituals recommended or imposed by well-intentioned outsiders.",
+        "conceptual": "Special concepts or code words which have helped to define the unique flavour of the particular language or mode of communication used.",
+        "psychic": "Personal memories and associations, as opposed to those obtained or imposed via the media."
+      }
     }
   ],
   "placeholder_definitions": [

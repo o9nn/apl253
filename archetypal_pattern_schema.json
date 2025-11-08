@@ -48,6 +48,42 @@
         "source_file": {
           "type": "string",
           "description": "Source markdown file name"
+        },
+        "domain_specific_content": {
+          "type": "object",
+          "description": "Full domain-specific implementations of the pattern from UIA",
+          "properties": {
+            "physical": {
+              "type": "string",
+              "description": "Physical domain implementation (spatial, material, architectural)"
+            },
+            "social": {
+              "type": "string",
+              "description": "Social domain implementation (organizational, community, institutional)"
+            },
+            "conceptual": {
+              "type": "string",
+              "description": "Conceptual domain implementation (knowledge, theoretical, paradigmatic)"
+            },
+            "psychic": {
+              "type": "string",
+              "description": "Psychic domain implementation (awareness, consciousness, mental)"
+            }
+          }
+        },
+        "broader_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Pattern IDs of broader (more general) patterns"
+        },
+        "narrower_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Pattern IDs of narrower (more specific) patterns"
         }
       },
       "required": [
@@ -55,8 +91,7 @@
         "name",
         "archetypal_pattern",
         "placeholders"
-      ],
-      "additionalProperties": false
+      ]
     },
     "DomainMapping": {
       "type": "object",
@@ -113,6 +148,14 @@
             },
             "format": {
               "type": "string"
+            },
+            "includes_domain_content": {
+              "type": "boolean",
+              "description": "Whether patterns include full domain-specific content"
+            },
+            "patterns_with_domain_content": {
+              "type": "integer",
+              "description": "Number of patterns that have domain-specific content"
             }
           }
         },
