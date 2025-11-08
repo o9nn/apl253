@@ -1,8 +1,17 @@
 # p235
 
-This repository contains collections of design patterns and organizational metaphors:
+This repository contains collections of design patterns and organizational metaphors with formal specifications.
 
-## Original Collections
+## 📖 Documentation
+
+### Formal Specifications
+- **[Formal Specification Summary](FORMAL_SPECIFICATION_SUMMARY.md)** - Complete overview of architecture and Z++ specifications
+- **[docs/](docs/)** - Comprehensive technical documentation (2,328 lines)
+  - Architecture overview with Mermaid diagrams
+  - Z++ formal specifications (data model, system state, operations, integrations)
+  - Usage guide for specifications
+
+### Pattern Collections
 
 - **APL**: Christopher Alexander's "A Pattern Language" (253 patterns) - architectural and urban design patterns
 - **UIA**: Union of International Associations "Patterns & Metaphors" (253 patterns) - organizational and conceptual patterns
