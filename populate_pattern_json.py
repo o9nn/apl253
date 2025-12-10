@@ -152,6 +152,53 @@ def link_pattern_relationships(patterns: List[Dict[str, Any]]):
         pattern["following_patterns"].sort()
 
 
+def populate_category_files(patterns: List[Dict[str, Any]]):
+    """Populate individual category files with their patterns."""
+    
+    # Define category ranges
+    categories = [
+        {
+            "name": "Towns",
+            "range": (1, 94),
+            "description": "Patterns that define towns and communities. These patterns can never be designed or built in one fell swoop - but patient piecemeal growth, designed in such a way that every individual act is always helping to create or generate these larger global patterns, will, slowly and surely, over the months and years, make a community that has these global patterns in it."
+        },
+        {
+            "name": "Buildings", 
+            "range": (95, 204),
+            "description": "Patterns that give shape to groups of buildings and individual buildings in three dimensions."
+        },
+        {
+            "name": "Construction",
+            "range": (205, 253),
+            "description": "Patterns that create buildable buildings directly from rough schemes of spaces. These patterns give you the exact geometry of the built up elements which define the spaces."
+        }
+    ]
+    
+    for category in categories:
+        # Filter patterns in this category's range
+        category_patterns = [
+            p for p in patterns 
+            if category["range"][0] <= p["number"] <= category["range"][1]
+        ]
+        
+        category_data = {
+            "name": category["name"],
+            "description": category["description"],
+            "pattern_range": {
+                "start": category["range"][0],
+                "end": category["range"][1]
+            },
+            "patterns": category_patterns
+        }
+        
+        # Save category file
+        filename = Path(f"category_{category['name'].lower()}.json")
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(category_data, f, indent=2)
+        
+        print(f"  ✓ Generated {filename} with {len(category_patterns)} patterns")
+
+
 def populate_pattern_json():
     """Populate pattern_language_generated.json with all 253 patterns."""
     print("Populating pattern_language_generated.json...")
@@ -198,6 +245,10 @@ def populate_pattern_json():
     print(f"\n✓ Successfully populated {len(patterns)} patterns!")
     print(f"✓ JSON file saved: {json_file}")
     
+    # Generate category files
+    print("\nGenerating category files...")
+    populate_category_files(patterns)
+    
     # Validation
     print("\nValidation:")
     print(f"  - Total patterns: {len(patterns)}")
@@ -213,6 +264,10 @@ def populate_pattern_json():
     print(f"  - Patterns with problem: {with_problem}/{len(patterns)}")
     print(f"  - Patterns with solution: {with_solution}/{len(patterns)}")
     print(f"  - Patterns with context: {with_context}/{len(patterns)}")
+    
+    print("\n" + "=" * 70)
+    print("✅ Pattern population complete!")
+    print("=" * 70)
 
 
 def main():
