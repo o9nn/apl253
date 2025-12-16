@@ -1,6 +1,46 @@
 # p235
 
-This repository contains collections of design patterns and organizational metaphors with formal specifications.
+This repository contains collections of design patterns and organizational metaphors with formal specifications, including a **virtual hardware implementation (NPU-253)** for accelerated pattern operations.
+
+## 🚀 NPU-253: Neural Processing Unit / Natural Patterning Unit
+
+**NEW:** Virtual hardware device implementing the 253-pattern language as a memory-mapped coprocessor!
+
+```python
+from npu253 import PatternCoprocessorDriver, NPUConfig
+
+npu = PatternCoprocessorDriver(NPUConfig())
+npu.load()
+
+# Query patterns
+pattern = npu.query_by_id(1)
+print(f"{pattern.name}: {pattern.solution}")
+
+# Domain transformation
+social = npu.transform_pattern("12610010", "social")
+```
+
+**Features:**
+- 🔧 Hardware-style MMIO register interface
+- 🎯 253 APL patterns + 253 archetypal patterns
+- 🔄 Domain transformation (physical/social/conceptual/psychic)
+- ⚡ LRU caching for performance
+- 📊 Telemetry and diagnostics
+- ✅ 34 passing tests
+
+**Documentation:**
+- [NPU-253 Blueprint](NPU253_BLUEPRINT.md) - Architecture and design
+- [NPU-253 API](NPU253_API.md) - Complete API reference
+- [npu253/README.md](npu253/README.md) - Package documentation
+- [Demo](demo_npu253.py) | [Tests](test_npu253.py)
+
+```bash
+# Run demo
+python3 demo_npu253.py
+
+# Run tests
+python3 test_npu253.py
+```
 
 ## 📖 Documentation
 
