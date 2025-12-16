@@ -67,6 +67,76 @@ The simulation successfully demonstrates:
 - The staggered 5-step cycle of the Particular Sets.
 - Complex, non-trivial state changes in the Particular Sets due to the nested concurrency logic.
 
+### State Transition Table
+
+| Time | U1 | U2 | U3 | P1 | P2 | P3 | P4 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **0** | U-P | U-P | U-P | 0 | 0 | 0 | 0 |
+| **1** | U-P | U-S | U-P | 0 | 0 | 0 | 0 |
+| **2** | U-P | U-S | U-S | 0 | 0 | 1 | 0 |
+| **3** | U-S | U-S | U-S | 0 | 0 | 1 | 3 |
+| **4** | U-S | U-T | U-S | 0 | 0 | 1 | 3 |
+| **5** | U-S | U-T | U-T | 1 | 0 | 1 | 3 |
+| **6** | U-T | U-T | U-T | 1 | 3 | 1 | 3 |
+| **7** | U-T | U-P | U-T | 1 | 3 | 0 | 3 |
+| **8** | U-T | U-P | U-P | 1 | 3 | 0 | 0 |
+| **9** | U-P | U-P | U-P | 1 | 3 | 0 | 0 |
+| **10** | U-P | U-S | U-P | 0 | 3 | 0 | 0 |
+| **11** | U-P | U-S | U-S | 0 | 0 | 0 | 0 |
+| **12** | U-S | U-S | U-S | 0 | 0 | 2 | 0 |
+| **13** | U-S | U-T | U-S | 0 | 0 | 2 | 2 |
+| **14** | U-S | U-T | U-T | 0 | 0 | 2 | 2 |
+| **15** | U-T | U-T | U-T | 2 | 0 | 2 | 2 |
+| **16** | U-T | U-P | U-T | 2 | 2 | 2 | 2 |
+| **17** | U-T | U-P | U-P | 2 | 2 | 1 | 2 |
+| **18** | U-P | U-P | U-P | 2 | 2 | 1 | 1 |
+| **19** | U-P | U-S | U-P | 2 | 2 | 1 | 1 |
+| **20** | U-P | U-S | U-S | 3 | 2 | 1 | 1 |
+| **21** | U-S | U-S | U-S | 3 | 1 | 1 | 1 |
+| **22** | U-S | U-T | U-S | 3 | 1 | 2 | 1 |
+| **23** | U-S | U-T | U-T | 3 | 1 | 2 | 0 |
+| **24** | U-T | U-T | U-T | 3 | 1 | 2 | 0 |
+| **25** | U-T | U-P | U-T | 2 | 1 | 2 | 0 |
+| **26** | U-T | U-P | U-P | 2 | 2 | 2 | 0 |
+| **27** | U-P | U-P | U-P | 2 | 2 | 0 | 0 |
+| **28** | U-P | U-S | U-P | 2 | 2 | 0 | 0 |
+| **29** | U-P | U-S | U-S | 2 | 2 | 0 | 0 |
+| **30** | U-S | U-S | U-S | 2 | 2 | 0 | 0 |
+| **31** | U-S | U-T | U-S | 2 | 0 | 0 | 0 |
+| **32** | U-S | U-T | U-T | 2 | 0 | 3 | 0 |
+| **33** | U-T | U-T | U-T | 2 | 0 | 3 | 3 |
+| **34** | U-T | U-P | U-T | 2 | 0 | 3 | 3 |
+| **35** | U-T | U-P | U-P | 1 | 0 | 3 | 3 |
+| **36** | U-P | U-P | U-P | 1 | 1 | 3 | 3 |
+| **37** | U-P | U-S | U-P | 1 | 1 | 0 | 3 |
+| **38** | U-P | U-S | U-S | 1 | 1 | 0 | 2 |
+| **39** | U-S | U-S | U-S | 1 | 1 | 0 | 2 |
+| **40** | U-S | U-T | U-S | 0 | 1 | 0 | 2 |
+| **41** | U-S | U-T | U-T | 0 | 0 | 0 | 2 |
+| **42** | U-T | U-T | U-T | 0 | 0 | 0 | 2 |
+| **43** | U-T | U-P | U-T | 0 | 0 | 0 | 2 |
+| **44** | U-T | U-P | U-P | 0 | 0 | 0 | 2 |
+| **45** | U-P | U-P | U-P | 0 | 0 | 0 | 2 |
+| **46** | U-P | U-S | U-P | 0 | 2 | 0 | 2 |
+| **47** | U-P | U-S | U-S | 0 | 2 | 1 | 2 |
+| **48** | U-S | U-S | U-S | 0 | 2 | 1 | 3 |
+| **49** | U-S | U-T | U-S | 0 | 2 | 1 | 3 |
+| **50** | U-S | U-T | U-T | 3 | 2 | 1 | 3 |
+| **51** | U-T | U-T | U-T | 3 | 3 | 1 | 3 |
+| **52** | U-T | U-P | U-T | 3 | 3 | 2 | 3 |
+| **53** | U-T | U-P | U-P | 3 | 3 | 2 | 0 |
+| **54** | U-P | U-P | U-P | 3 | 3 | 2 | 0 |
+| **55** | U-P | U-S | U-P | 0 | 3 | 2 | 0 |
+| **56** | U-P | U-S | U-S | 0 | 2 | 2 | 0 |
+| **57** | U-S | U-S | U-S | 0 | 2 | 2 | 0 |
+| **58** | U-S | U-T | U-S | 0 | 2 | 2 | 0 |
+| **59** | U-S | U-T | U-T | 0 | 2 | 2 | 0 |
+
+The table above demonstrates the full 60-step interaction cycle, showing:
+- **Universal Sets**: Clear 3-step cycling (U-P → U-S → U-T), with U1, U2, and U3 transitioning sequentially
+- **Particular Sets**: Complex nested concurrency patterns with staggered 5-step transitions
+- **Interaction Effects**: The Particular states evolve based on the convolution formula: S_i(t+1) = (S_i(t) + Σ_{j≠i} S_j(t) + U_idx(t)) mod 4
+
 ## Visualization
 
 The generated image, `system5_deterministic_timeline.png`, visually represents the 60-step state transitions.
