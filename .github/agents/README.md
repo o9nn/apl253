@@ -12,10 +12,10 @@ The structure implements a comprehensive organization of 253 patterns across 6 d
 /apl253/.github/agents/
 ├── apl0.md                          # Meta-pattern 0 definition - main language
 ├── apl0/                            # Meta-pattern 0 folder
-│   ├── archetypal.md                # Archetypal dimension (A)
-│   ├── archetypal/                  # Archetypal folder
-│   │   ├── towns.md                 # Towns category
-│   │   ├── towns/                   # Towns folder
+│   ├── dim0.md                      # Dimension 0 (Archetypal)
+│   ├── dim0/                        # Dimension 0 folder
+│   │   ├── cat1.md                  # Category 1
+│   │   ├── cat1/                    # Category 1 folder
 │   │   │   ├── seq01.md             # Sequence 01
 │   │   │   ├── seq01/               # Sequence 01 folder
 │   │   │   │   ├── apl001.md        # Pattern 001
@@ -25,24 +25,24 @@ The structure implements a comprehensive organization of 253 patterns across 6 d
 │   │   │   ├── seq02.md             # Sequence 02
 │   │   │   ├── seq02/               # Sequence 02 folder
 │   │   │   └── ...                  # (sequences 01-15)
-│   │   ├── buildings.md             # Buildings category
-│   │   ├── buildings/               # Buildings folder
+│   │   ├── cat2.md                  # Category 2
+│   │   ├── cat2/                    # Category 2 folder
 │   │   │   ├── seq16.md             # Sequence 16
 │   │   │   └── ...                  # (sequences 16-28)
-│   │   ├── construction.md          # Construction category
-│   │   ├── construction/            # Construction folder
+│   │   ├── cat3.md                  # Category 3
+│   │   ├── cat3/                    # Category 3 folder
 │   │   │   ├── seq29.md             # Sequence 29
 │   │   │   └── ...                  # (sequences 29-36)
-│   ├── template.md                  # Template dimension (T)
-│   ├── template/                    # Template folder (same structure)
-│   ├── physical.md                  # Physical dimension (P)
-│   ├── physical/                    # Physical folder (same structure)
-│   ├── social.md                    # Social dimension (S)
-│   ├── social/                      # Social folder (same structure)
-│   ├── conceptual.md                # Conceptual dimension (C)
-│   ├── conceptual/                  # Conceptual folder (same structure)
-│   ├── interpersonal.md             # Interpersonal dimension (I)
-│   ├── interpersonal/               # Interpersonal folder (same structure)
+│   ├── dim1.md                      # Dimension 1 (Template)
+│   ├── dim1/                        # Dimension 1 folder (same structure)
+│   ├── dim2.md                      # Dimension 2 (Physical)
+│   ├── dim2/                        # Dimension 2 folder (same structure)
+│   ├── dim3.md                      # Dimension 3 (Social)
+│   ├── dim3/                        # Dimension 3 folder (same structure)
+│   ├── dim4.md                      # Dimension 4 (Conceptual)
+│   ├── dim4/                        # Dimension 4 folder (same structure)
+│   ├── dim5.md                      # Dimension 5 (Interpersonal)
+│   ├── dim5/                        # Dimension 5 folder (same structure)
 ```
 
 ## Structural Components
@@ -54,19 +54,22 @@ The structure implements a comprehensive organization of 253 patterns across 6 d
 ### Dimensions (Level 1)
 Six dimensional perspectives, each containing the full pattern hierarchy:
 
-1. **Archetypal (A)**: Abstract patterns with domain-specific placeholders ({{domains}}, {{frameworks}}, etc.)
-2. **Template (T)**: Generic template patterns serving as basis for variations
-3. **Physical (P)**: Spatial, material, architectural manifestations
-4. **Social (S)**: Organizational, community, institutional expressions
-5. **Conceptual (C)**: Knowledge, theoretical, paradigmatic realizations
-6. **Interpersonal (I)**: Awareness, consciousness, mental structures
+1. **dim0 - Archetypal (A)**: Abstract patterns with domain-specific placeholders ({{domains}}, {{frameworks}}, etc.)
+2. **dim1 - Template (T)**: Generic template patterns serving as basis for variations
+3. **dim2 - Physical (P)**: Spatial, material, architectural manifestations
+4. **dim3 - Social (S)**: Organizational, community, institutional expressions
+5. **dim4 - Conceptual (C)**: Knowledge, theoretical, paradigmatic realizations
+6. **dim5 - Interpersonal (I)**: Awareness, consciousness, mental structures
 
 ### Categories (Level 2)
-Three scale-based categories within each dimension:
+Three categories within each dimension (numbered cat1-cat3, meaning varies by dimension):
 
-1. **Towns** (Patterns 1-94): Large-scale patterns - regions, cities, communities, neighborhoods
-2. **Buildings** (Patterns 95-204): Medium-scale patterns - structures, spaces, layouts
-3. **Construction** (Patterns 205-253): Small-scale patterns - details, materials, techniques
+For **dim2 (Physical)**:
+1. **cat1**: Towns (Patterns 1-94) - Large-scale patterns - regions, cities, communities, neighborhoods
+2. **cat2**: Buildings (Patterns 95-204) - Medium-scale patterns - structures, spaces, layouts
+3. **cat3**: Construction (Patterns 205-253) - Small-scale patterns - details, materials, techniques
+
+For **other dimensions**: Categories take on dimension-appropriate meanings
 
 ### Sequences (Level 3)
 36 thematic sequences organizing related patterns:
@@ -112,23 +115,23 @@ Three scale-based categories within each dimension:
 
 ### View Pattern 1 in Archetypal Dimension:
 ```
-.github/agents/apl0/archetypal/towns/seq01/apl001.md
+.github/agents/apl0/dim0/cat1/seq01/apl001.md
 ```
 
 ### View Pattern 132 in Physical Dimension:
 ```
-.github/agents/apl0/physical/buildings/seq20/apl132.md
+.github/agents/apl0/dim2/cat2/seq20/apl132.md
 ```
 
 ### View Pattern 253 in Social Dimension:
 ```
-.github/agents/apl0/social/construction/seq36/apl253.md
+.github/agents/apl0/dim3/cat3/seq36/apl253.md
 ```
 
 ### View Relations for Pattern 1:
 ```
-.github/agents/apl0/archetypal/towns/seq01/apl001/broader.md
-.github/agents/apl0/archetypal/towns/seq01/apl001/narrower.md
+.github/agents/apl0/dim0/cat1/seq01/apl001/broader.md
+.github/agents/apl0/dim0/cat1/seq01/apl001/narrower.md
 ```
 
 ## Usage
