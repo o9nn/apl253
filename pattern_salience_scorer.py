@@ -103,8 +103,8 @@ class PatternSalienceScorer:
         if not self.centrality_cache:
             try:
                 self.centrality_cache = nx.pagerank(self.graph)
-            except:
-                # Fallback to degree centrality if graph has issues
+            except (nx.NetworkXException, nx.NetworkXError, ZeroDivisionError) as e:
+                # Fallback to degree centrality if PageRank fails
                 self.centrality_cache = nx.degree_centrality(self.graph)
         
         return self.centrality_cache
@@ -115,7 +115,8 @@ class PatternSalienceScorer:
         """
         try:
             return nx.betweenness_centrality(self.graph)
-        except:
+        except (nx.NetworkXException, nx.NetworkXError, MemoryError) as e:
+            # Return empty dict if computation fails
             return {}
     
     def compute_context_relevance(
@@ -361,8 +362,8 @@ class PatternSalienceScorer:
             import networkx.algorithms.community as nx_comm
             communities = nx_comm.greedy_modularity_communities(undirected)
             clusters = [set(c) for c in communities if len(c) >= min_size]
-        except:
-            # Fallback: use connected components
+        except (ImportError, AttributeError, nx.NetworkXException) as e:
+            # Fallback: use connected components if community detection fails
             clusters = [set(c) for c in nx.connected_components(undirected) 
                        if len(c) >= min_size]
         

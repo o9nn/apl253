@@ -80,11 +80,16 @@ class PatternQuerySystem:
             
         Returns:
             Number of patterns loaded
+            
+        Note:
+            This method calls pyDatalog.clear() which clears ALL facts from the
+            global Datalog context. This may affect other PatternQuerySystem
+            instances if used concurrently.
         """
         with open(json_path, 'r') as f:
             data = json.load(f)
         
-        # Clear existing facts
+        # Clear existing facts (affects global Datalog context)
         pyDatalog.clear()
         self._define_inference_rules()
         
