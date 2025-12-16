@@ -104,6 +104,31 @@ The Atomese format enables:
 
 See `opencog_atomese/README.md` for usage examples and `opencog_atomese/ENHANCEMENTS.md` for enhanced features documentation.
 
+## Paradigm & Language Analysis
+
+Comprehensive analysis of optimal implementation approaches for achieving cognitive "optimal grip" on the gestalt salience landscape:
+
+- **[PARADIGM_LANGUAGE_ANALYSIS.md](PARADIGM_LANGUAGE_ANALYSIS.md)** - Complete paradigm and language evaluation
+  - Analysis of 6 programming paradigms (hypergraph, functional, logic, OOP, constraint, agent-based)
+  - Evaluation of 6+ languages (Scheme, Datalog, Python, Haskell, JavaScript, Prolog)
+  - Cognitive affordances mapping
+  - Recommended multi-layer architecture
+  
+- **[IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md)** - Practical implementation guide
+  - Concrete code examples for each layer
+  - Datalog query system integration
+  - Haskell domain transformation engine
+  - Python salience computation
+  - D3.js visualization framework
+  
+- **[PARADIGM_COMPARISON_MATRIX.md](PARADIGM_COMPARISON_MATRIX.md)** - Detailed comparison matrices
+  - Cognitive requirements vs paradigms matrix
+  - Implementation tasks vs languages matrix
+  - Paradigm synergy analysis
+  - Use-case specific recommendations
+
+**Key Finding**: Multi-paradigm approach required - Hypergraph (Scheme/OpenCog) foundation + Datalog queries + Functional transformations (Haskell) + Python integration + JavaScript visualization provides optimal cognitive affordances.
+
 ### Generating Atomese Files
 
 ```bash
@@ -128,4 +153,12 @@ python3 test_enhanced_atomese.py
 
 ```bash
 python3 demo_enhanced_atomese.py
+```
+
+### Demo Query System
+
+```bash
+# Demo Datalog query integration (requires pyDatalog)
+pip install pyDatalog
+python3 demo_datalog_queries.py
 ```
